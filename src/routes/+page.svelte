@@ -12,7 +12,7 @@
       <h1 class="text-5xl sm:text-6xl md:text-5xl lg:text-6xl xl:text-7xl font-hightower text-navyblue max-w-2xl mt-4">
         Readings of the Psalms, in nature.
       </h1>
-      <div class="mt-8 xl:mt-12">
+      <div class="flex mt-8 xl:mt-12">
         <a class="text-base font-charter font-semibold text-white bg-navyblue rounded-full px-10 py-4 duration-300 hover:bg-navybluedark" href="/#theproject">
           About the project
         </a>
