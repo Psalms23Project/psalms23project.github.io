@@ -1,9 +1,9 @@
 # The Psalms 23 Project
 
-This is the source for the [website](https://psalms23project.github.io) of The Psalms 23 Project, created with Svelte and Tailwindcss. 
+This is the source for the The Psalms 23 Project [website](https://psalms23project.github.io), built with Svelte js and Tailwindcss. 
 
 
-## Developing
+## Development
 
 First time run `npm install`
 
