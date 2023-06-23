@@ -1,3 +1,8 @@
+<svelte:head>
+  <title>The Psalms 23 Project</title>
+  <meta name="description" content="The Psalms 23 Project aims to record readings of the Psalms in nature with the peaceful atmosphere and sounds of creation." />
+</svelte:head>
+
 <div class="relative flex flex-col md:flex-row items-center">
   <div class="w-full md:w-2/5 xl:w-1/2 order-1 md:order-0">
     <img class="w-auto h-auto" src="images/hero.jpg" alt="Grassy field on a cloudy day"/>
