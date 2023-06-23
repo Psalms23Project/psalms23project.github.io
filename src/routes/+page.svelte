@@ -3,13 +3,13 @@
   <meta name="description" content="The Psalms 23 Project aims to record readings of the Psalms in nature with the peaceful atmosphere and sounds of creation." />
 </svelte:head>
 
-<div class="relative flex flex-col md:flex-row items-center">
-  <div class="w-full md:w-2/5 xl:w-1/2 order-1 md:order-0">
-    <img class="w-auto h-auto" src="images/hero.jpg" alt="Grassy field on a cloudy day"/>
+<div class="flex flex-col md:flex-row items-center">
+  <div class="w-full md:w-2/5 xl:w-1/2 order-1 md:order-0 mt-10 md:mt-0">
+    <img class="w-auto" src="images/hero.jpg" alt="Grassy field on a cloudy day"/>
   </div>
   <div class="w-full md:w-3/5 xl:w-1/2 flex px-6 md:px-10 items-center order-0 md:order-1">
-    <div class="relative mt-10 md:mt-0">
-      <h1 class="text-6xl md:text-5xl lg:text-6xl xl:text-7xl font-hightower text-navyblue max-w-2xl mt-4">
+    <div class="mt-10 md:mt-0">
+      <h1 class="text-5xl sm:text-6xl md:text-5xl lg:text-6xl xl:text-7xl font-hightower text-navyblue max-w-2xl mt-4">
         Readings of the Psalms, in nature.
       </h1>
       <div class="mt-8 xl:mt-12">

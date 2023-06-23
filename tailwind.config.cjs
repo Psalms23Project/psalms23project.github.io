@@ -4,7 +4,7 @@ const config = {
   theme: {
     fontFamily: {
       charter: ['Charter', 'Bitstream Charter', 'Sitka Text', 'Cambria', 'serif'],
-      hightower: ['High Tower text', 'Sitka Text', 'Cambria', 'serif'],
+      hightower: ['High Tower text', 'Charter', 'Sitka Text', 'Cambria', 'serif'],
       karla: ['Karla', 'sans-serif'],
     },
     extend: {
