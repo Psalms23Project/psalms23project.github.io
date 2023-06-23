@@ -22,4 +22,7 @@ npm run build
 
 Preview the production build with `npm run preview`.
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+
+## License
+
+Source code is licensed under the GPL-3.0 license. All images are my own and copyright 2023 Noah Rahm, All rights reserved.
