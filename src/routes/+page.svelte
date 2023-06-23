@@ -8,7 +8,7 @@
         Readings of the Psalms, in nature.
       </h1>
       <div class="mt-8 xl:mt-12">
-        <a class="text-base font-charter font-semibold text-white bg-navyblue rounded-full px-10 py-4 duration-300 hover:bg-navybluedark" href="#theproject">
+        <a class="text-base font-charter font-semibold text-white bg-navyblue rounded-full px-10 py-4 duration-300 hover:bg-navybluedark" href="/#theproject">
           About the project
         </a>
       </div>
