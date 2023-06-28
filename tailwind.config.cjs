@@ -14,6 +14,7 @@ const config = {
         violet: {
           100: "#EEEEF7",
           200: "#E3E3F2",
+          300: "#BCBCCD",
         }
       },
     },
