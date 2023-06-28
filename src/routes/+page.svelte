@@ -28,7 +28,7 @@
           </div>
         </form>
         <div class="flex justify-end">
-          <p class="font-charter text-navyblue text-xs mt-2 opacity-75">Get project updates and a notification when we publish a video.</p>
+          <p class="font-charter text-navyblue text-xs mt-2 opacity-75">Get project updates and notifications whenever we publish a video.</p>
         </div>
       </div>
     </div>
