@@ -24,7 +24,7 @@ function getIconStr(icon) {
   <div class="w-full md:w-3/5 xl:w-1/2 flex px-4 md:px-10 items-center order-0 md:order-1">
     <div class="mt-10 md:mt-0">
       <h1 class="text-5xl sm:text-6xl md:text-5xl lg:text-6xl xl:text-7xl font-hightower text-navyblue max-w-xl mt-4">
-        Creating high-quality readings of the Psalms, out in natural locations
+        A vision to create high-quality videos of the Psalms read on location, in nature.
       </h1>
       <div class="flex flex-col mt-8 xl:mt-12 max-w-md">
         <!-- <a class="text-base font-charter font-semibold text-white bg-navyblue rounded-full px-10 py-4 duration-300 hover:bg-navybluedark" href="/#theproject">
@@ -64,7 +64,7 @@ function getIconStr(icon) {
   <div id="roadmap" class="w-full md:w-2/3 max-w-2xl font-charter text-navyblue">
     <span class="text-base bg-violet-100 px-3 py-1 rounded-full">Roadmap</span>
     <h3 class="text-4xl sm:text-5xl font-hightower mt-4">The Plan.</h3>
-    <p class="text-lg mt-5">We feel led to place an emphasis on capturing the peaceful atmosphere of Yahweh's awesome creation. Therefore, the audio will only be recorded on location, with no voice-over, to preserve the full range of natural and atmospheric sounds. We will be filming from different angles to present a better picture of each location.</p>
+    <p class="text-lg mt-5">We believe Yahweh is leading us to capture the peaceful atmosphere of His awesome creation as a backdrop for the readings. Therefore, the audio will only be recorded on location, with no voice-over, to preserve the full range of natural and atmospheric sounds. We will be filming the videos from different angles to present a full picture of each location.</p>
     <ol class="mt-5 border-l-2 border-navyblue">
       <li>
         <div class="flex-start flex items-center pt-3">
