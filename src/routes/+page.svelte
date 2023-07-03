@@ -24,7 +24,7 @@ function getIconStr(icon) {
   <div class="w-full md:w-3/5 xl:w-1/2 flex px-4 md:px-10 items-center order-0 md:order-1">
     <div class="mt-10 md:mt-0">
       <h1 class="text-5xl sm:text-6xl md:text-5xl lg:text-6xl xl:text-7xl font-hightower text-navyblue max-w-xl mt-4">
-        We're creating high-quality readings of the Psalms in nature
+        Creating high-quality readings of the Psalms, out in natural locations
       </h1>
       <div class="flex flex-col mt-8 xl:mt-12 max-w-md">
         <!-- <a class="text-base font-charter font-semibold text-white bg-navyblue rounded-full px-10 py-4 duration-300 hover:bg-navybluedark" href="/#theproject">
@@ -57,7 +57,7 @@ function getIconStr(icon) {
     <p class="text-lg mt-4">This collection of readings will restore the name of our Heavenly Father, Yahweh, to where it appears in the original Hebrew Scriptures. We want to declare his name: "Give praise to Yahweh, proclaim his name; make known among the nations what he has done." (Psalm 105:1)</p>
   </div>
 </div>
-<div id="roadmap" class="flex flex-col md:flex-row max-w-6xl mx-auto px-4 mt-20 mb-32">
+<div id="roadmap" class="flex flex-col md:flex-row max-w-6xl mx-auto px-4 my-28">
   <div class="w-full md:w-1/3 mb-10 md:mb-0 mr-0 md:mr-14">
     <img class="w-auto h-auto" src="images/tree.jpg" alt="" />
   </div>
@@ -157,18 +157,21 @@ function getIconStr(icon) {
   </div>
 </div>
 
-<div id="signup" class="flex flex-col px-4 pt-20 pb-32 text-center bg-navybluedark rounded-lg mx-4 md:mx-8">
+<div id="signup" class="flex flex-col px-1 md:px-4 pt-24 pb-32 text-center bg-navybluedark rounded-none sm:rounded-lg mx-0 sm:mx-8">
   <h5 class="text-4xl md:text-5xl font-hightower text-white mt-4 px-4 mx-auto">
     Stay updated on our progress.
   </h5>
   <div class="flex flex-col mt-5 md:mt-12 mx-auto">
     <form action="https://send.pageclip.co/Gq76Ux4sMztghTxLvSSLBNZKKtkXEJbz/Subscribe" class="pageclip-form flex" method="post">
       <div class="flex grow items-center bg-violet-100 rounded-full duration-200 border-2 border-violet-200">
-        <input type="email" name="email" placeholder="Email address" class="flex grow h-10 sm:h-12 w-100 pl-4 sm:pl-7 pr-5 m-1 appearance-none text-lg font-charter bg-transparent placeholder:text-navyblue focus:ring-0 focus:outline-none border-none"> 
-        <button type="submit" class="pageclip-form__submit inline-flex items-center text-sm sm:text-base font-charter font-semibold text-white bg-navyblue rounded-full px-5 sm:px-8 py-3 sm:py-4 duration-300 hover:bg-navybluedark space-x-1">
-          <span>Submit</span>
-          <svg class="w-4 h-4 fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="arrow-forward"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M5 13h11.86l-3.63 4.36a1 1 0 0 0 1.54 1.28l5-6a1.19 1.19 0 0 0 .09-.15c0-.05.05-.08.07-.13A1 1 0 0 0 20 12a1 1 0 0 0-.07-.36c0-.05-.05-.08-.07-.13a1.19 1.19 0 0 0-.09-.15l-5-6A1 1 0 0 0 14 5a1 1 0 0 0-.64.23 1 1 0 0 0-.13 1.41L16.86 11H5a1 1 0 0 0 0 2z"/></g></g></svg>
-        </button>
+        <div class="flex grow justify-between md:flex-row">
+          <input type="email" name="email" placeholder="Email address" class="flex grow h-10 sm:h-12 w-100 pl-4 sm:pl-7 pr-5 m-1 appearance-none text-lg font-charter bg-transparent placeholder:text-navyblue focus:ring-0 focus:outline-none border-none"> 
+          <button type="submit" class="pageclip-form__submit inline-flex items-center text-sm sm:text-base font-charter font-semibold text-white bg-navyblue rounded-full px-5 sm:px-8 py-3 sm:py-4 duration-300 hover:bg-navybluedark space-x-1">
+            <span>Submit</span>
+            <svg class="w-4 h-4 fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="arrow-forward"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M5 13h11.86l-3.63 4.36a1 1 0 0 0 1.54 1.28l5-6a1.19 1.19 0 0 0 .09-.15c0-.05.05-.08.07-.13A1 1 0 0 0 20 12a1 1 0 0 0-.07-.36c0-.05-.05-.08-.07-.13a1.19 1.19 0 0 0-.09-.15l-5-6A1 1 0 0 0 14 5a1 1 0 0 0-.64.23 1 1 0 0 0-.13 1.41L16.86 11H5a1 1 0 0 0 0 2z"/></g></g></svg>
+          </button>
+        </div>
+
       </div>
     </form>
   </div>
