@@ -57,14 +57,14 @@ function getIconStr(icon) {
     <p class="text-lg mt-4">This collection of readings will restore the name of our Heavenly Father, Yahweh, to where it appears in the original Hebrew Scriptures. We want to declare his name: "Give praise to Yahweh, proclaim his name; make known among the nations what he has done." (Psalm 105:1)</p>
   </div>
 </div>
-<div id="roadmap" class="flex flex-col md:flex-row max-w-6xl mx-auto px-4 my-28">
+<div class="flex flex-col md:flex-row max-w-6xl mx-auto px-4 my-28">
   <div class="w-full md:w-1/3 mb-10 md:mb-0 mr-0 md:mr-14">
     <img class="w-auto h-auto" src="images/tree.jpg" alt="" />
   </div>
-  <div class="w-full md:w-2/3 max-w-2xl font-charter text-navyblue">
+  <div id="roadmap" class="w-full md:w-2/3 max-w-2xl font-charter text-navyblue">
     <span class="text-base bg-violet-100 px-3 py-1 rounded-full">Roadmap</span>
     <h3 class="text-4xl sm:text-5xl font-hightower mt-4">The Plan.</h3>
-    <p class="text-lg mt-5">We feel led to place an emphasis on capturing the peaceful atmosphere of Yahweh's awesome creation. Therefore, the audio will only be recorded on location, with no voice-over, to preserve the full range of natural and atmospheric sounds. We will be including cuts and different angles in filming, but with minimal editing with the intent that the full feeling of the location is presented in the final videos.</p>
+    <p class="text-lg mt-5">We feel led to place an emphasis on capturing the peaceful atmosphere of Yahweh's awesome creation. Therefore, the audio will only be recorded on location, with no voice-over, to preserve the full range of natural and atmospheric sounds. We will be filming from different angles to present a better picture of each location.</p>
     <ol class="mt-5 border-l-2 border-navyblue">
       <li>
         <div class="flex-start flex items-center pt-3">
