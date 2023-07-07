@@ -23,7 +23,7 @@ function getIconStr(icon) {
   </div>
   <div class="w-full md:w-3/5 xl:w-1/2 flex px-4 md:px-10 items-center order-0 md:order-1">
     <div class="mt-10 md:mt-0">
-      <h1 class="text-5xl sm:text-6xl md:text-5xl lg:text-6xl xl:text-7xl font-hightower text-navyblue max-w-xl mt-4">
+      <h1 class="text-5xl sm:text-6xl md:text-5xl lg:text-6xl font-hightower text-navyblue max-w-xl mt-4">
         A vision to create high-quality videos of the Psalms read on location, in nature.
       </h1>
       <div class="flex flex-col mt-8 xl:mt-12 max-w-md">
@@ -131,7 +131,7 @@ function getIconStr(icon) {
     <div class="max-w-3xl">
       <span class="text-base bg-violet-100 px-3 py-1 rounded-full">Locations</span>
       <h3 class="text-4xl sm:text-5xl font-hightower mt-4">Planned Psalm Readings &amp; Locations.</h3>
-      <p class="text-lg mt-5">The table below shows how we are planning to align the location, weather, and time of day of each reading with the theme and feeling of the Psalm. This is subject to change as Yahweh leads.</p>
+      <p class="text-lg mt-5">The table below shows how we are planning to align the location, weather, and time of day of each reading with the theme and feeling of the Psalm. This is subject to change as Yahweh leads. We plan to divide the sections of Psalm 119 into different locations.</p>
     </div>
     <div class="flex flex-col border border-violet-200 px-6 py-4 mt-6 rounded-md">
       <div class="flex flex-row flex-wrap">
