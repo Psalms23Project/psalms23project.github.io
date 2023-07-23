@@ -88,8 +88,8 @@ function getIconStr(icon) {
           </p>
         </div>
         <div class="mb-6 ml-4 mt-2">
-          <h4 class="mb-1.5 text-xl font-semibold">Trial video</h4>
-          <p class="mb-3">
+          <h4 class="mb-1.5 text-xl font-semibold line-through">Trial video</h4>
+          <p class="mb-3 line-through">
             Record a trial video to ensure we have what we need for camera and audio equipment, and fine-tune our planning.
           </p>
         </div>
@@ -98,13 +98,13 @@ function getIconStr(icon) {
         <div class="flex-start flex items-center pt-3">
           <div class="-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-navyblue"></div>
           <p class="text-sm">
-            2023
+            7/2023
           </p>
         </div>
         <div class="mb-6 ml-4 mt-2">
           <h4 class="mb-1.5 text-xl font-semibold">Camera, audio equipment & gear</h4>
           <p class="mb-3">
-            If you'd like to help make this project the best it can be, please consider helping us to purchase a camera and professional-quality microphone. <a class="underline" href="mailto:hi@noahrahm.com">Contact us</a>.
+            We now have a professional-quality audio setup. If you'd like to help make this project the best it can be, please consider helping us to purchase a DLSR camera. <a class="underline" href="mailto:hi@noahrahm.com">Contact us</a>.
           </p>
         </div>
       </li>
