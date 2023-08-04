@@ -75,8 +75,8 @@ function getIconStr(icon) {
         </div>
         <div class="mb-6 ml-4 mt-2">
           <h4 class="mb-1.5 text-xl font-semibold line-through">Website</h4>
-          <p class="mb-3 line-through">
-            Create this website
+          <p class="mb-3">
+            Created this website
           </p>
         </div>
       </li>
@@ -89,8 +89,8 @@ function getIconStr(icon) {
         </div>
         <div class="mb-6 ml-4 mt-2">
           <h4 class="mb-1.5 text-xl font-semibold line-through">Trial video</h4>
-          <p class="mb-3 line-through">
-            Record a trial video to ensure we have what we need for camera and audio equipment, and fine-tune our planning.
+          <p class="mb-3">
+            We recorded a trial video to ensure we have what we need for camera and audio equipment, and fine-tune our planning.
           </p>
         </div>
       </li>
@@ -102,9 +102,9 @@ function getIconStr(icon) {
           </p>
         </div>
         <div class="mb-6 ml-4 mt-2">
-          <h4 class="mb-1.5 text-xl font-semibold">Camera, audio equipment & gear</h4>
+          <h4 class="mb-1.5 text-xl font-semibold line-through">Camera, audio equipment & gear</h4>
           <p class="mb-3">
-            We now have a professional-quality audio setup. If you'd like to help make this project the best it can be, please consider helping us to purchase a DLSR camera. <a class="underline" href="mailto:hi@noahrahm.com">Contact us</a>.
+            Praise Yahweh! We now have a professional-quality audio setup and a camera.
           </p>
         </div>
       </li>
@@ -112,13 +112,13 @@ function getIconStr(icon) {
         <div class="flex-start flex items-center pt-3">
           <div class="-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-navyblue"></div>
           <p class="text-sm">
-            2023
+            8/2023
           </p>
         </div>
         <div class="mb-6 ml-4 mt-2">
           <h4 class="mb-1.5 text-xl font-semibold">The first Psalm reading video</h4>
           <p class="mb-3">
-            The exact Psalm and location is yet to be decided.
+            The exact Psalm and location is yet to be announced.
           </p>
         </div>
       </li>
