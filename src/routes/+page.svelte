@@ -70,20 +70,6 @@ function getIconStr(icon) {
         <div class="flex-start flex items-center pt-3">
           <div class="-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-navyblue"></div>
           <p class="text-sm">
-            6/2023
-          </p>
-        </div>
-        <div class="mb-6 ml-4 mt-2">
-          <h4 class="mb-1.5 text-xl font-semibold line-through">Website</h4>
-          <p class="mb-3">
-            Created this website
-          </p>
-        </div>
-      </li>
-      <li>
-        <div class="flex-start flex items-center pt-3">
-          <div class="-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-navyblue"></div>
-          <p class="text-sm">
             7/2023
           </p>
         </div>
@@ -116,6 +102,20 @@ function getIconStr(icon) {
           </p>
         </div>
         <div class="mb-6 ml-4 mt-2">
+          <h4 class="mb-1.5 text-xl font-semibold line-through">Test videos</h4>
+          <p class="mb-3 line-through">
+            We've recorded a number of videos to get a feel for the equipment and to allow practice reading the Psalms.
+          </p>
+        </div>
+      </li>
+      <li>
+        <div class="flex-start flex items-center pt-3">
+          <div class="-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-navyblue"></div>
+          <p class="text-sm">
+            9/2023
+          </p>
+        </div>
+        <div class="mb-6 ml-4 mt-2">
           <h4 class="mb-1.5 text-xl font-semibold">The first Psalm reading video</h4>
           <p class="mb-3">
             The exact Psalm and location is yet to be announced.
@@ -124,6 +124,10 @@ function getIconStr(icon) {
       </li>
     </ol>
   </div>
+</div>
+
+<div id="video" class="max-w-6xl flex mx-auto">
+  <iframe class="mx-auto" width="930" height="523" src="https://www.youtube.com/embed/u8tb-G6BiQc" title="Update on our progress | Test videos | Psalms 23 | Vlog 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 <div id="locations" class="max-w-6xl flex mx-auto px-4 my-20">
