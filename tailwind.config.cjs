@@ -17,6 +17,9 @@ const config = {
           300: "#BCBCCD",
         }
       },
+      backgroundImage: {
+        'birch-tree': "url('/images/birch-tree.jpg')",
+      }
     },
   },
   plugins: [],
