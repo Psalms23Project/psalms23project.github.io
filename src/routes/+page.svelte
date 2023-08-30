@@ -23,7 +23,7 @@ function getIconStr(icon) {
   </div>
   <div class="w-full md:w-3/5 xl:w-1/2 flex px-4 md:px-10 items-center order-0 md:order-1">
     <div class="mt-10 md:mt-0">
-      <h1 class="text-5xl sm:text-6xl md:text-5xl lg:text-6xl font-hightower text-navyblue max-w-xl mt-4">
+      <h1 class="text-5xl sm:text-6xl md:text-5xl lg:text-5xl font-hightower text-navyblue max-w-xl mt-4">
         A vision to create high-quality videos of the Psalms read on location, in nature.
       </h1>
       <div class="flex flex-col mt-8 xl:mt-12 max-w-md">
@@ -161,24 +161,24 @@ function getIconStr(icon) {
   </div>
 </div>
 
-<div id="signup" class="flex flex-col px-1 md:px-4 pt-24 pb-32 text-center bg-navybluedark rounded-none sm:rounded-lg mx-0 sm:mx-8">
-  <h5 class="text-4xl md:text-5xl font-hightower text-white mt-4 px-4 mx-auto">
-    Stay updated on our progress.
-  </h5>
-  <div class="flex flex-col mt-5 md:mt-12 mx-auto">
-    <form action="https://send.pageclip.co/Gq76Ux4sMztghTxLvSSLBNZKKtkXEJbz/Subscribe" class="pageclip-form flex" method="post">
-      <div class="flex grow items-center bg-violet-100 rounded-full duration-200 border-2 border-violet-200">
-        <div class="flex grow justify-between md:flex-row">
-          <input type="email" name="email" placeholder="Email address" class="flex grow h-10 sm:h-12 w-100 pl-4 sm:pl-7 pr-5 m-1 appearance-none text-lg font-charter bg-transparent placeholder:text-navyblue focus:ring-0 focus:outline-none border-none"> 
-          <button type="submit" class="pageclip-form__submit inline-flex items-center text-sm sm:text-base font-charter font-semibold text-white bg-navyblue rounded-full px-5 sm:px-8 py-3 sm:py-4 duration-300 hover:bg-navybluedark space-x-1">
-            <span>Submit</span>
-            <svg class="w-4 h-4 fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="arrow-forward"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M5 13h11.86l-3.63 4.36a1 1 0 0 0 1.54 1.28l5-6a1.19 1.19 0 0 0 .09-.15c0-.05.05-.08.07-.13A1 1 0 0 0 20 12a1 1 0 0 0-.07-.36c0-.05-.05-.08-.07-.13a1.19 1.19 0 0 0-.09-.15l-5-6A1 1 0 0 0 14 5a1 1 0 0 0-.64.23 1 1 0 0 0-.13 1.41L16.86 11H5a1 1 0 0 0 0 2z"/></g></g></svg>
-          </button>
+<div id="signup" class="flex flex-col text-center bg-birch-tree rounded-none sm:rounded-lg mx-0 sm:mx-8">
+  <div class="flex flex-col bg-cover px-1 md:px-4 pt-32 pb-32 rounded-none sm:rounded-lg bg-navybluedark/70">
+    <h5 class="text-4xl md:text-5xl font-hightower text-white mt-4 px-4 mx-auto">
+      Stay updated on our progress.
+    </h5>
+    <p class="text-white font-charter text-lg mt-4 max-w-xl mx-auto">Signup for our newsletter to get project updates and notifications emails whenever we publish a video or have an announcement.</p>
+    <div class="flex flex-col mt-5 md:mt-10 mx-auto">
+      <form action="https://send.pageclip.co/Gq76Ux4sMztghTxLvSSLBNZKKtkXEJbz/Subscribe" class="pageclip-form flex" method="post">
+        <div class="flex grow items-center bg-violet-100 rounded-full duration-200 border-2 border-violet-200">
+          <div class="flex grow justify-between md:flex-row">
+            <input type="email" name="email" placeholder="Email address" class="flex grow h-10 sm:h-12 w-100 pl-4 sm:pl-7 pr-5 m-1 appearance-none text-lg font-charter bg-transparent placeholder:text-navyblue focus:ring-0 focus:outline-none border-none"> 
+            <button type="submit" class="pageclip-form__submit inline-flex items-center text-sm sm:text-base font-charter font-semibold text-white bg-navyblue rounded-full px-5 sm:px-8 py-3 sm:py-4 duration-300 hover:bg-navybluedark space-x-1">
+              <span>Submit</span>
+              <svg class="w-4 h-4 fill-white" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><g data-name="Layer 2"><g data-name="arrow-forward"><rect width="24" height="24" transform="rotate(-90 12 12)" opacity="0"/><path d="M5 13h11.86l-3.63 4.36a1 1 0 0 0 1.54 1.28l5-6a1.19 1.19 0 0 0 .09-.15c0-.05.05-.08.07-.13A1 1 0 0 0 20 12a1 1 0 0 0-.07-.36c0-.05-.05-.08-.07-.13a1.19 1.19 0 0 0-.09-.15l-5-6A1 1 0 0 0 14 5a1 1 0 0 0-.64.23 1 1 0 0 0-.13 1.41L16.86 11H5a1 1 0 0 0 0 2z"/></g></g></svg>
+            </button>
+          </div>
         </div>
-
-      </div>
-    </form>
+      </form>
+    </div>
   </div>
 </div>
-
-<!-- <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script> -->
