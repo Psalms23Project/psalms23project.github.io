@@ -2,6 +2,11 @@
 
 </script>
 
+<svelte:head>
+  <title>The Quest for Quiet | The Psalms 23 Project</title>
+  <meta name="description" content="The Psalms 23 Project aims to create high-quality videos of Psalm readings on location, in nature with the peaceful atmosphere and sounds of creation." />
+</svelte:head>
+
 <div class="max-w-6xl mx-auto px-4 my-20">
   <div class="max-w-3xl font-charter text-navyblue">
     <h2 class="text-4xl sm:text-5xl font-hightower mt-4">The Quest for Quiet</h2>
