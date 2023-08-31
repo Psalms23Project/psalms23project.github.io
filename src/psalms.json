@@ -1,4 +1,28 @@
 {
+    "psalm_videos" : [
+        {
+            "index": 0,
+            "psalm": "Psalm 1",
+            "title": "",
+            "date": "Aug. 31, 2023",
+            "location": "Minnesota",
+            "image": "images/birch-tree.jpg",
+            "url": "https://www.youtube.com/embed/jrSCpzRzez0",
+            "length": "12:20",
+            "description": "1 Blessed is the man that walketh not in the counsel of the unrighteous, nor standeth in the way of sinners, nor sitteth in the seat of the scornful.<br> 2 But his delight is in the law of Yahweh; and in his law doth he meditate day and night.<br> 3 And he shall be like a tree planted by the rivers of water, that bringeth forth his fruit in his season; his leaf also shall not wither; and whatsoever he doeth shall prosper.<br> 4 The unrighteous are not so: but are like the chaff which the wind driveth away.<br> 5 Therefore the unrighteous shall not stand in the judgment, nor sinners in the congregation of the righteous.<br> 6 For Yahweh knoweth the way of the righteous: but the way of the unrighteous shall perish."
+        },
+        {
+            "index": 1,
+            "psalm": "Psalm 2",
+            "title": "",
+            "date": "Sep. 1, 2023",
+            "location": "Minnesota",
+            "image": "images/birch-tree.jpg",
+            "url": "https://www.youtube.com/embed/u8tb-G6BiQc",
+            "length": "3:40",
+            "description": ""
+        }
+    ],
     "psalms_location_table": [
         {
             "label": "Mountain",

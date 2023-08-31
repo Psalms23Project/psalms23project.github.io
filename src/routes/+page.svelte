@@ -24,7 +24,7 @@ function getIconStr(icon) {
   <div class="w-full md:w-3/5 xl:w-1/2 flex px-4 md:px-10 items-center order-0 md:order-1">
     <div class="mt-10 md:mt-0">
       <h1 class="text-5xl sm:text-6xl md:text-5xl lg:text-5xl font-hightower text-navyblue max-w-xl mt-4">
-        A vision to create high-quality videos of the Psalms read on location, in nature.
+        We're creating high-quality videos of the Psalms read on location, in nature.
       </h1>
       <div class="flex flex-col mt-8 xl:mt-12 max-w-md">
         <!-- <a class="text-base font-charter font-semibold text-white bg-navyblue rounded-full px-10 py-4 duration-300 hover:bg-navybluedark" href="/#theproject">
