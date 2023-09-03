@@ -52,7 +52,7 @@
     <p class="text-lg mt-4"></p>
     <p class="text-2xl font-hightower mt-4">How to submit your potential location</p>
     <p class="text-lg mt-2">
-      Please email us with your hello and pictures/videos of places that you think could possibly be used on your property at <a class="underline" href="mailto:contact@psalms23project.com">contact@psalms23project.com</a>
+      Please email us with your hello and pictures/videos of places that you think could possibly be used on your property at <a class="underline" href="mailto:contact@familyfortruth.com">contact@familyfortruth.com</a>
     </p>
     <p class="text-lg mt-2">Once you email us, we'll get back to you whether or not we think it would be suitable and quiet enough for filming Psalm readings.</p>
     <p class="text-lg mt-2">We look forward to hearing from you!</p>
