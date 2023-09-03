@@ -1,6 +1,6 @@
 <script>
   import "../app.postcss";
-  import Hamburger from "./Hamburger.svelte";
+  import Hamburger from "../components/Hamburger.svelte";
 
   export let menuOpen = false;
 </script>

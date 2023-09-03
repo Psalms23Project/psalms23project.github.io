@@ -1,6 +1,6 @@
 <script>
   import json from '../../psalms.json';
-  import Player from "../player.svelte";
+  import Player from "../../components/Player.svelte";
 
   /**
      * @param {number} selected
