@@ -33,7 +33,7 @@
     <p class="text-2xl font-hightower mt-4">Location requirements / The ideal location</p>
     <p class="text-lg mt-2">The ideal location is private country property with suitable places to film at least a good distance away from a highway, busy road, train, or airport. Must be in the continental United States.</p> 
     <p class="text-lg mt-2">
-      We want to be dilligent to know whether a location is suitable ahead of time so we don't waste anyone's time. So, when submitting your location, please include pictures and videos of places on your property that you think could possibly be used. If you're not sure if your location is quiet enough for what we need, you can still feel free to contact us.
+      We want to be dilligent to know whether a location is suitable ahead of time so we don't waste anyone's time. So, when submitting your location, please include pictures and videos of places on your property that you think could possibly be used. If you're not sure if your location is quiet enough for what we need, you can still feel free to submit.
     </p>
     <p class="text-2xl font-hightower mt-4">What locations are we in need of?</p>
     <ul class="list-disc list-inside text-lg mt-2">
