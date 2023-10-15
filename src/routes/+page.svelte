@@ -103,7 +103,7 @@ function getIconStr(icon) {
         </div>
         <div class="mb-6 ml-4 mt-2">
           <h4 class="mb-1.5 text-xl font-semibold line-through">Test videos</h4>
-          <p class="mb-3 line-through">
+          <p class="mb-3">
             We've recorded a number of videos to get a feel for the equipment and to allow practice reading the Psalms.
           </p>
         </div>
