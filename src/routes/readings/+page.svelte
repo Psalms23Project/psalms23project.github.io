@@ -45,16 +45,16 @@
 </svelte:head>
   
 <div class="max-w-6xl flex flex-col mx-auto px-4 mt-5 mb-10">
-  <div class="flex flex-row">
+  <div class="flex flex-col md:flex-row">
     <!-- Player -->
-    <figure class="w-3/4 flex flex-grow" id="videoContainer">
+    <figure class="w-full md:w-2/3 lg:w-3/4 flex flex-grow" id="videoContainer">
       <Player 
       videoTitle={videoData.title}
       videoUrl={videoData.url}
       />
     </figure>
     <!-- Playlist -->
-    <div class="w-1/4 ml-2">
+    <div class="w-full md:w-1/3 lg:w-1/4 ml-0 md:ml-2 mt-4 md:mt-0">
       <div class="relative text-navyblue bg-violet-100 rounded-lg py-3 px-2 h-full">
         <p class="font-charter text-lg mx-2">Psalms</p>
         <div class="flex flex-col mt-3">
@@ -72,9 +72,9 @@
     </div>
   </div>
   <!-- Video info -->
-  <div class="relative text-navyblue bg-violet-100 rounded-lg py-5 px-8 mt-3">
+  <div class="relative text-navyblue bg-violet-100 rounded-lg py-5 px-4 md:px-8 mt-3">
     <div class="flex flex-row justify-between">
-      <h1 class="text-5xl font-hightower">{ videoData.psalm } (This is a test. The actual Psalm readings are coming soon)</h1>
+      <h1 class="text-5xl font-hightower">{ videoData.psalm }</h1>
       <div class="my-auto space-x-2">
         <!-- <button class="inline-flex items-center font-karla text-base bg-violet-200 fill-navyblue px-3 sm:px-4 py-3 sm:py-2 rounded-full duration-300 hover:bg-navyblue hover:fill-white hover:text-white">
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-download w-4 h-4 mr-0 sm:mr-2" viewBox="0 0 16 16">
@@ -94,7 +94,7 @@
     <div class="flex flex-row space-x-3 font-charter">
       <p>{ videoData.location }</p><p>{ videoData.date }</p>
     </div>
-    <p class="text-lg mt-5 font-charter">
+    <p class="text-lg mt-5 font-charter max-w-3xl">
       {@html videoData.description }
     </p>
   </div>
