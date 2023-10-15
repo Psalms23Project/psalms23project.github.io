@@ -112,13 +112,13 @@ function getIconStr(icon) {
         <div class="flex-start flex items-center pt-3">
           <div class="-ml-[5px] mr-3 h-[9px] w-[9px] rounded-full bg-navyblue"></div>
           <p class="text-sm">
-            9/2023
+            10/2023
           </p>
         </div>
         <div class="mb-6 ml-4 mt-2">
           <h4 class="mb-1.5 text-xl font-semibold">The first Psalm reading video</h4>
           <p class="mb-3">
-            The exact Psalm and location is yet to be announced.
+            The first Psalm reading is available, Psalm 117.
           </p>
         </div>
       </li>
@@ -127,7 +127,7 @@ function getIconStr(icon) {
 </div>
 
 <div id="video" class="max-w-6xl flex mx-auto">
-  <iframe class="mx-auto" width="930" height="523" src="https://www.youtube.com/embed/u8tb-G6BiQc" title="Update on our progress | Test videos | Psalms 23 | Vlog 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowfullscreen></iframe>
+  <iframe class="mx-auto youtube-video" src="https://www.youtube.com/embed/s8vmXgcJUXQ" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 <div id="locations" class="max-w-6xl flex mx-auto px-4 my-20">
