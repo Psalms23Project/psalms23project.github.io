@@ -118,7 +118,7 @@ function getIconStr(icon) {
         <div class="mb-6 ml-4 mt-2">
           <h4 class="mb-1.5 text-xl font-semibold">The first Psalm reading video</h4>
           <p class="mb-3">
-            The first Psalm reading is available, Psalm 117.
+            The first Psalm reading is available, <a class="underline" href="/readings/">Psalm 117</a>.
           </p>
         </div>
       </li>
