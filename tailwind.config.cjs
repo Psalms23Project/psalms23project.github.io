@@ -3,9 +3,8 @@ const config = {
   content: ["./src/**/*.{html,js,svelte,ts}"],
   theme: {
     fontFamily: {
-      charter: ['Charter', 'Bitstream Charter', 'Sitka Text', 'Cambria', 'serif'],
-      hightower: ['High Tower text', 'Charter', 'Sitka Text', 'Cambria', 'serif'],
-      karla: ['Karla', 'sans-serif'],
+      serif: ['High Tower text', 'Charter', 'Sitka Text', 'Cambria', 'serif'],
+      sans: ['Work Sans', 'sans-serif'],
     },
     extend: {
       colors: {
@@ -15,10 +14,12 @@ const config = {
           100: "#EEEEF7",
           200: "#E3E3F2",
           300: "#BCBCCD",
-        }
+        },
+        b: '#1C88D0'
       },
       backgroundImage: {
         'birch-tree': "url('/images/birch-tree.jpg')",
+        'featured-psalm': "url('/images/psalm-116.jpg')"
       }
     },
   },

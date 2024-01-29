@@ -26,5 +26,5 @@ Preview the production build with `npm run preview`.
 ## Licenses
 
 - Source code for this website is licensed under the GPL-3.0 license. 
-- All images are my own. Copyright 2023 Noah Rahm. All rights reserved. (Please ask permission before using them for your own projects).
-- Icons are from the Bootstrap icons. Licensed under the The MIT License (MIT) Copyright (c) 2019-2023 The Bootstrap Authors
+- All photographs are my own. Copyright 2023-2024 Noah Rahm. All rights reserved. (Please ask permission before using them for your own projects).
+- Icons are from the Bootstrap and Phosphor icons sets (both MIT-licensed).

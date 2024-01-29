@@ -56,15 +56,15 @@
     <!-- Playlist -->
     <div class="w-full md:w-1/3 lg:w-1/4 ml-0 md:ml-2 mt-4 md:mt-0">
       <div class="relative text-navyblue bg-violet-100 rounded-lg py-3 px-2 h-full">
-        <p class="font-charter text-lg mx-2">Psalms</p>
+        <p class="text-base mx-2 font-semibold tracking-tighter text-navyblue/90 uppercase">Psalm Readings</p>
         <div class="flex flex-col mt-3">
           {#each Object.values(json.psalm_videos) as video}
           <button on:click={() => setCurrentVideo(video.index)} class="flex flex-row items-center justify-between px-3 py-2 rounded-lg" class:bg-violet-200={video.index == selected}>
             <div class="flex flex-row items-center">
               <img class="w-20 h-auto" src={video.image} alt={video.psalm}/>
-              <p class="font-charter text-md ml-2">{video.psalm}</p>
+              <p class="text-md ml-2 tracking-tight" class:font-medium={video.index == selected}>{video.psalm}</p>
             </div>
-            <p class="font-karla text-sm">{video.length}</p>
+            <p class="text-sm">{video.length}</p>
           </button>
           {/each}
         </div>
@@ -74,7 +74,7 @@
   <!-- Video info -->
   <div class="relative text-navyblue bg-violet-100 rounded-lg py-5 px-4 md:px-8 mt-3">
     <div class="flex flex-row justify-between">
-      <h1 class="text-4xl md:text-5xl font-hightower">{ videoData.psalm }</h1>
+      <h1 class="text-4xl md:text-5xl font-serif">{ videoData.psalm }</h1>
       <div class="my-auto space-x-2">
         <!-- <button class="inline-flex items-center font-karla text-base bg-violet-200 fill-navyblue px-3 sm:px-4 py-3 sm:py-2 rounded-full duration-300 hover:bg-navyblue hover:fill-white hover:text-white">
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-download w-4 h-4 mr-0 sm:mr-2" viewBox="0 0 16 16">
@@ -91,10 +91,10 @@
         </button> -->
       </div>
     </div>
-    <div class="flex flex-row space-x-3 font-charter">
+    <div class="flex flex-row space-x-3">
       <p>{ videoData.location }</p><p>{ videoData.date }</p>
     </div>
-    <p class="text-lg mt-5 font-charter max-w-3xl">
+    <p class="text-lg mt-5 tracking-tight max-w-3xl">
       {@html videoData.description }
     </p>
   </div>
