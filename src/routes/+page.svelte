@@ -52,18 +52,18 @@
     <div class="w-full md:w-2/3 lg:w-2/5 max-w-2xl text-navyblue">
       <h3 class="text-5xl font-serif text-navyblue mt-4">Progress Log</h3>
       <p class="text-lg mt-3 text-navyblue/80 tracking-tight">Follow along with our progress filming readings of the Psalms in nature!</p>
-      <ol class="relative mt-10 border-l-2 border-navyblue h-96 overflow-y-auto">
+      <ol class="flex flex-col-reverse mt-10 border-l-2 border-navyblue h-96 overflow-y-auto">
         <li>
           <div class="flex-start flex items-center pt-3">
             <div class="-ml-[6px] mr-3 h-[10px] w-[10px] rounded-full bg-navyblue"></div>
             <p class="text-sm tracking-tight">
-              7/2023
+              1/2024
             </p>
           </div>
           <div class="mb-6 ml-4 mt-2">
-            <h4 class="mb-1.5 text-xl tracking-tight font-medium">Trial video &amp; planning</h4>
+            <h4 class="mb-1.5 text-xl tracking-tight font-medium">Psalm 116</h4>
             <p class="mb-3 tracking-tight">
-              We recorded a trial video to ensure we have what we need for camera and audio equipment. Lots of planning.
+              Another Psalm reading is now posted, <a class="underline" href="/readings/">Psalm 116</a>. This is the first video to have the words of the Psalm appear near the bottom to help follow along with the Psalm reading.
             </p>
           </div>
         </li>
@@ -71,13 +71,27 @@
           <div class="flex-start flex items-center pt-3">
             <div class="-ml-[6px] mr-3 h-[10px] w-[10px] rounded-full bg-navyblue"></div>
             <p class="text-sm tracking-tight">
-              7/2023
+              12/2023
             </p>
           </div>
           <div class="mb-6 ml-4 mt-2">
-            <h4 class="mb-1.5 text-xl tracking-tight font-medium">Camera, audio equipment & gear</h4>
+            <h4 class="mb-1.5 text-xl tracking-tight font-medium">Psalm 26</h4>
             <p class="mb-3 tracking-tight">
-              Praise Yahweh! We now have a professional-quality audio setup and a camera.
+              The second Psalm reading is now posted, <a class="underline" href="https://youtu.be/EeaPLLWrnDQ">Psalm 26</a>. This was a test video we had filmed before we had a good quality camera, but it turned out so nice that we decided to post it anyway.
+            </p>
+          </div>
+        </li>
+        <li>
+          <div class="flex-start flex items-center pt-3">
+            <div class="-ml-[6px] mr-3 h-[10px] w-[10px] rounded-full bg-navyblue"></div>
+            <p class="text-sm tracking-tight">
+              10/2023
+            </p>
+          </div>
+          <div class="mb-6 ml-4 mt-2">
+            <h4 class="mb-1.5 text-xl tracking-tight font-medium">The first Psalm reading video!</h4>
+            <p class="mb-3 tracking-tight">
+              The first Psalm reading, <a class="underline" href="https://youtu.be/s8vmXgcJUXQ">Psalm 117</a>, is now posted!
             </p>
           </div>
         </li>
@@ -99,13 +113,13 @@
           <div class="flex-start flex items-center pt-3">
             <div class="-ml-[6px] mr-3 h-[10px] w-[10px] rounded-full bg-navyblue"></div>
             <p class="text-sm tracking-tight">
-              10/2023
+              7/2023
             </p>
           </div>
           <div class="mb-6 ml-4 mt-2">
-            <h4 class="mb-1.5 text-xl tracking-tight font-medium">The first Psalm reading video!</h4>
+            <h4 class="mb-1.5 text-xl tracking-tight font-medium">Camera, audio equipment & gear</h4>
             <p class="mb-3 tracking-tight">
-              The first Psalm reading, <a class="underline" href="/readings/">Psalm 117</a>, is now posted!
+              Praise Yahweh! We now have a professional-quality audio setup and a camera.
             </p>
           </div>
         </li>
@@ -113,13 +127,13 @@
           <div class="flex-start flex items-center pt-3">
             <div class="-ml-[6px] mr-3 h-[10px] w-[10px] rounded-full bg-navyblue"></div>
             <p class="text-sm tracking-tight">
-              12/2023
+              7/2023
             </p>
           </div>
           <div class="mb-6 ml-4 mt-2">
-            <h4 class="mb-1.5 text-xl tracking-tight font-medium">Psalm 26</h4>
+            <h4 class="mb-1.5 text-xl tracking-tight font-medium">Trial video &amp; planning</h4>
             <p class="mb-3 tracking-tight">
-              The second Psalm reading is now posted, <a class="underline" href="/readings/">Psalm 26</a>. This was a test video we had filmed before we had a good quality camera, but it turned out so nice that we decided to post it anyway.
+              We recorded a trial video to ensure we have what we need for camera and audio equipment. Did a lot of planning.
             </p>
           </div>
         </li>
