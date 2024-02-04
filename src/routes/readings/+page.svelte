@@ -1,6 +1,12 @@
 <script>
   import json from '../../psalms.json';
-  import Player from "../../components/Player.svelte";
+  import EmbedPlayer from "../../components/EmbedPlayer.svelte";
+  import AudioPlayer from "../../components/AudioPlayer.svelte";
+
+  /**
+   * @param {string} selectedTab
+   */
+  let selectedTab = 'videos';
 
   /**
      * @param {number} selected
@@ -8,30 +14,44 @@
   let selected = 0;
 
   /**
-     * @type {{ index: number; psalm: string; title: string; date: string; location: string; image: string; url: string; length: string; description: string; } | undefined}
+     * @type {{ index: number; psalm: string; title: string; date: string; location: string; image: string; videoUrl: string; audioUrl: string; length: string; description: string; } | undefined}
      */
-  let videoData = {
+  let data = {
     index: 0,
     psalm: "",
     title: "",
     date: "",
     location: "",
     image: "",
-    url: "",
+    videoUrl: "",
+    audioUrl: "",
     length: "",
     description: ""
   };
+
+  /**
+     * @type {AudioPlayer}
+     */
+  let audioPlayer;
+
+  /**
+     * @param {string} tab
+     */
+  function setTab(tab) {
+    selectedTab = tab;
+    audioPlayer.pause();
+  }
 
   /**
      * @param {number} index
      */
   function setCurrentVideo(index) {
     selected = index;
-    let data = Object.values(json.psalm_videos).find((item) => item.index == index);
-    if (videoData !== undefined) {
-      videoData = data;
+    let jsonData = Object.values(json.psalm_videos).find((item) => item.index == index);
+    if (jsonData !== undefined) {
+      data = jsonData;
     } else {
-      console.log("undefined videoData");
+      console.log("Error: undefined data");
     }
   }
 
@@ -44,19 +64,36 @@
   <meta name="description" content="The Psalms 23 Project aims to create high-quality videos of Psalm readings on location, in nature with the peaceful atmosphere and sounds of creation." />
 </svelte:head>
   
-<div class="max-w-6xl flex flex-col mx-auto px-4 mt-5 mb-10">
+<div class="max-w-7xl flex flex-col mx-auto px-4 mt-5 mb-10">
   <div class="flex flex-col md:flex-row">
-    <!-- Player -->
-    <figure class="w-full md:w-2/3 lg:w-3/4 flex flex-grow" id="videoContainer">
-      <Player 
-      videoTitle={videoData.title}
-      videoUrl={videoData.url}
+    <!-- Video player -->
+    <figure class="w-full md:w-2/3 lg:w-3/4 flex flex-grow" class:hidden={selectedTab == 'audio'}>
+      <EmbedPlayer 
+        src={data.videoUrl}
+        title={data.title}
+      />
+    </figure>
+    <!-- Audio player -->
+    <figure class="w-full md:w-2/3 lg:w-3/4 flex flex-grow" class:hidden={selectedTab == 'videos'}>
+      <AudioPlayer
+        bind:this={audioPlayer}
+        src={data.audioUrl}
+        title={data.title}
+        thumbnail={data.image}
       />
     </figure>
     <!-- Playlist -->
-    <div class="w-full md:w-1/3 lg:w-1/4 ml-0 md:ml-2 mt-4 md:mt-0">
-      <div class="relative text-navyblue bg-violet-100 rounded-lg py-3 px-2 h-full">
+    <div class="w-full md:w-1/3 lg:w-1/4 ml-0 md:ml-2 mt-4 md:mt-0 h-120 overflow-y-auto">
+      <div class="relative text-navybluedark bg-violet-100 rounded-lg py-3 px-2 h-full">
         <p class="text-base mx-2 font-semibold tracking-tighter text-navyblue/90 uppercase">Psalm Readings</p>
+        <div class="flex flex-row text-sm mt-4">
+          <button class="px-3 py-1 rounded-lg" on:click={() => setTab('videos')} class:bg-violet-200={selectedTab =='videos'}>
+            Videos
+          </button>
+          <button class="px-3 py-1 rounded-lg" on:click={() => setTab('audio')} class:bg-violet-200={selectedTab =='audio'}>
+            Audio
+          </button>
+        </div>
         <div class="flex flex-col mt-3">
           {#each Object.values(json.psalm_videos) as video}
           <button on:click={() => setCurrentVideo(video.index)} class="flex flex-row items-center justify-between px-3 py-2 rounded-lg" class:bg-violet-200={video.index == selected}>
@@ -71,10 +108,10 @@
       </div>
     </div>
   </div>
-  <!-- Video info -->
-  <div class="relative text-navyblue bg-violet-100 rounded-lg py-5 px-4 md:px-8 mt-3">
+  <!-- Info -->
+  <div class="relative text-navyblue bg-violet-100 rounded-lg py-6 px-4 md:px-8 mt-3">
     <div class="flex flex-row justify-between">
-      <h1 class="text-4xl md:text-5xl font-serif">{ videoData.psalm }</h1>
+      <h1 class="text-4xl md:text-5xl font-serif">{ data.psalm }</h1>
       <div class="my-auto space-x-2">
         <!-- <button class="inline-flex items-center font-karla text-base bg-violet-200 fill-navyblue px-3 sm:px-4 py-3 sm:py-2 rounded-full duration-300 hover:bg-navyblue hover:fill-white hover:text-white">
           <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-download w-4 h-4 mr-0 sm:mr-2" viewBox="0 0 16 16">
@@ -91,11 +128,11 @@
         </button> -->
       </div>
     </div>
-    <div class="flex flex-row space-x-3">
-      <p>{ videoData.location }</p><p>{ videoData.date }</p>
+    <div class="flex flex-row tracking-tight space-x-3">
+      <p>{ data.location }</p><p>{ data.date }</p>
     </div>
-    <p class="text-lg mt-5 tracking-tight max-w-3xl">
-      {@html videoData.description }
+    <p class="text-lg mt-5 tracking-tight max-w-prose">
+      {@html data.description }
     </p>
   </div>
 </div>

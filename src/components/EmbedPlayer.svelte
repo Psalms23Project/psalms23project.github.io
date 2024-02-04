@@ -2,16 +2,16 @@
   /**
      * @type {string}
      */
-   export let videoUrl;
+   export let src;
 
    /**
      * @type {string}
      */
-  export let videoTitle;
+  export let title;
 </script>
 
-<div class="youtube-video-container w-full">
-  <iframe width="930" height="523" src={videoUrl} title={videoTitle} frameborder="0" allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<div class="youtube-video-container">
+  <iframe class="rounded-lg" width="930" height="523" src={src} title={title} frameborder="0" allow="autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 </div>
 
 <style>
