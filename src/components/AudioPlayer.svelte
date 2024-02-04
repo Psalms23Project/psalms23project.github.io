@@ -124,7 +124,7 @@
       on:click={seekAudio}
       class="flex flex-grow mx-2">
     </progress>
-    <div class="tracking-tighter text-sm text-navyblue mx-2">
+    <div class="tracking-tighter text-sm text-navyblue mx-2 hidden sm:block">
       {formatSeconds(currentTime)}/{formatSeconds(duration)}
     </div>
     <button class="py-0.5 px-2 ml-2" on:click={() => muted = !muted}>
