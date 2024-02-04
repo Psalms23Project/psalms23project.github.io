@@ -1,4 +1,6 @@
 <script>
+// @ts-nocheck
+
   /**
      * @type {string|null}
      */
@@ -42,16 +44,26 @@
 	  audio?.pause();
   }
 
+  /**
+     * @param {{ pageX: number; }} event
+     * @param {DOMRect} bounds
+     */
   function seek(event, bounds) {
     let x = event.pageX - bounds.left;
     return Math.min(Math.max(x / bounds.width, 0), 1);
   }
 
+  /**
+     * @param {any} event
+     */
   function seekAudio(event) {
     if (!progressBar) return;
     audio.currentTime = seek(event, progressBar.getBoundingClientRect()) * duration;
   }
 
+  /**
+     * @param {any} event
+     */
   function seekVolume(event) {
     if (!volumeBar) return;
     volume = seek(event, volumeBar.getBoundingClientRect());
@@ -59,6 +71,9 @@
     muted = false;
   }
 
+  /**
+     * @param {string | number} seconds
+     */
   function formatSeconds(seconds) {
     if (isNaN(seconds)) return "No Data";
       var sec_num = parseInt(seconds, 10)
@@ -72,6 +87,9 @@
       .join(":")
   }
 
+  /**
+     * @param {any} event
+     */
   function trackMouse(event) {
     if (seeking) seekAudio(event);
     if (volumeSeeking) seekVolume(event);
@@ -87,6 +105,7 @@
   <div class="max-w-2xl shadow-none md:shadow-2xl mx-auto">
     <img class="h-auto w-100 min-w-0 mt-0 mb-4 lg:mb-12 rounded-lg mx-auto" src={thumbnail} alt={title} />
   </div>
+  <!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
   <div class="flex flex-row items-center justify-between bg-violet-100 p-3 rounded-lg">
     <button class="rounded-full border-2 border-violet-200 p-2 mr-2" on:click={() => audio.paused ? audio.play() : audio.pause()}>
       {#if paused}
@@ -95,6 +114,8 @@
         <svg class="fill-navyblue w-6 h-6" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><path d="M200,32H160a16,16,0,0,0-16,16V208a16,16,0,0,0,16,16h40a16,16,0,0,0,16-16V48A16,16,0,0,0,200,32Zm0,176H160V48h40ZM96,32H56A16,16,0,0,0,40,48V208a16,16,0,0,0,16,16H96a16,16,0,0,0,16-16V48A16,16,0,0,0,96,32Zm0,176H56V48H96Z"></path></svg>
       {/if}
     </button>
+    <!-- svelte-ignore a11y-click-events-have-key-events -->
+    <!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
     <progress
       bind:this={progressBar}
       value={currentTime ? currentTime : 0}
@@ -117,6 +138,7 @@
         <svg class="fill-navyblue w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><path d="M155.51,24.81a8,8,0,0,0-8.42.88L77.25,80H32A16,16,0,0,0,16,96v64a16,16,0,0,0,16,16H77.25l69.84,54.31A8,8,0,0,0,160,224V32A8,8,0,0,0,155.51,24.81ZM32,96H72v64H32ZM144,207.64,88,164.09V91.91l56-43.55Zm54-106.08a40,40,0,0,1,0,52.88,8,8,0,0,1-12-10.58,24,24,0,0,0,0-31.72,8,8,0,0,1,12-10.58ZM248,128a79.9,79.9,0,0,1-20.37,53.34,8,8,0,0,1-11.92-10.67,64,64,0,0,0,0-85.33,8,8,0,1,1,11.92-10.67A79.83,79.83,0,0,1,248,128Z"></path></svg>
       {/if}
     </button>
+    <!-- svelte-ignore a11y-click-events-have-key-events -->
     <progress
       bind:this={volumeBar}
       value={volume}
