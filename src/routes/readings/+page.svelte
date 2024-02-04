@@ -39,15 +39,18 @@
      */
   function setTab(tab) {
     selectedTab = tab;
-    audioPlayer.pause();
+    if (tab == "videos") {
+      audioPlayer.pause();
+    }
+    setCurrentMedia(selected);
   }
 
   /**
      * @param {number} index
      */
-  function setCurrentVideo(index) {
+  function setCurrentMedia(index) {
     selected = index;
-    let jsonData = Object.values(json.psalm_videos).find((item) => item.index == index);
+    let jsonData = Object.values(json.psalms_media).find((item) => item.index == index);
     if (jsonData !== undefined) {
       data = jsonData;
     } else {
@@ -56,7 +59,7 @@
   }
 
   // Init
-  setCurrentVideo(selected);
+  setCurrentMedia(selected);
 </script>
 
 <svelte:head>
@@ -95,13 +98,13 @@
           </button>
         </div>
         <div class="flex flex-col mt-3">
-          {#each Object.values(json.psalm_videos) as video}
-          <button on:click={() => setCurrentVideo(video.index)} class="flex flex-row items-center justify-between px-3 py-2 rounded-lg" class:bg-violet-200={video.index == selected}>
+          {#each Object.values(json.psalms_media) as file}
+          <button on:click={() => setCurrentMedia(file.index)} class="flex flex-row items-center justify-between px-3 py-2 rounded-lg" class:bg-violet-200={file.index == selected}>
             <div class="flex flex-row items-center">
-              <img class="w-20 h-auto" src={video.image} alt={video.psalm}/>
-              <p class="text-md ml-2 tracking-tight" class:font-medium={video.index == selected}>{video.psalm}</p>
+              <img class="w-20 h-auto" src={file.image} alt={file.psalm}/>
+              <p class="text-md ml-2 tracking-tight" class:font-medium={file.index == selected}>{file.psalm}</p>
             </div>
-            <p class="text-sm">{video.length}</p>
+            <p class="text-sm">{file.length}</p>
           </button>
           {/each}
         </div>
