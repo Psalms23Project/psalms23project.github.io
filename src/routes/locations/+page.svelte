@@ -5,7 +5,7 @@
  * @param {string} icon
  */
 function getIconStr(icon) {
-  let basePath = "icons/";
+  let basePath = "/icons/";
   let iconExt = ".svg";
   return basePath + icon + iconExt;
 }
