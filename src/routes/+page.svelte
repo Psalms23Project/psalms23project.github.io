@@ -5,15 +5,15 @@
 
 <div class="mx-3">
   <!-- Latest video -->
-  <div class="flex flex-col bg-featured-psalm bg-cover bg-center rounded-2xl max-w-7xl mx-auto">
+  <div class="flex flex-col bg-featured-psalm bg-cover bg-start rounded-2xl max-w-7xl mx-auto">
     <div class="flex flex-col px-8 md:px-24 py-36 rounded-2xl bg-gradient-to-r from-navybluedark/70 to-transparent">
       <p class="text-white text-sm uppercase">Latest Video</p>
       <div class="mt-20">
-        <h5 class="text-5xl md:text-6xl font-serif font-medium text-white mt-5">
-          Psalm 116
-        </h5>
-        <p class="text-white text-xl mt-1">
-          Psalm 116, read in the northern United States.
+        <h1 class="text-5xl md:text-6xl font-serif font-medium text-white mt-5">
+          Psalm 13
+        </h1>
+        <p class="text-white text-xl mt-1 max-w-md">
+          Psalm 13, read on a foggy and frosty day in the northern United States.
         </p>
         <div class="flex mt-10">
           <a href="/readings" class=" text-navybluedark font-semibold rounded-lg px-5 py-3 bg-white hover:bg-white/80 duration-300">
@@ -57,13 +57,41 @@
           <div class="flex-start flex items-center pt-3">
             <div class="-ml-[6px] mr-3 h-[10px] w-[10px] rounded-full bg-navyblue"></div>
             <p class="text-sm tracking-tight">
+              2/2024
+            </p>
+          </div>
+          <div class="mb-6 ml-4 mt-2">
+            <h4 class="mb-1.5 text-xl tracking-tight font-medium">Psalm 13</h4>
+            <p class="mb-3 tracking-tight">
+              Our fourth Psalm reading is now posted, <a class="underline" href="/readings/">Psalm 13</a>. We filmed this reading on a foggy and frosty afternoon in the countryside of Minnesota. The combination of the thick fog, and frost on the grass had a unique feel.
+            </p>
+          </div>
+        </li>
+        <li>
+          <div class="flex-start flex items-center pt-3">
+            <div class="-ml-[6px] mr-3 h-[10px] w-[10px] rounded-full bg-navyblue"></div>
+            <p class="text-sm tracking-tight">
+              2/2024
+            </p>
+          </div>
+          <div class="mb-6 ml-4 mt-2">
+            <h4 class="mb-1.5 text-xl tracking-tight font-medium">Audio playlist</h4>
+            <p class="mb-3 tracking-tight">
+              The website now includes audio versions of each Psalm reading. Check it out <a class="underline" href="/readings/">here</a>.
+            </p>
+          </div>
+        </li>
+        <li>
+          <div class="flex-start flex items-center pt-3">
+            <div class="-ml-[6px] mr-3 h-[10px] w-[10px] rounded-full bg-navyblue"></div>
+            <p class="text-sm tracking-tight">
               1/2024
             </p>
           </div>
           <div class="mb-6 ml-4 mt-2">
             <h4 class="mb-1.5 text-xl tracking-tight font-medium">Psalm 116</h4>
             <p class="mb-3 tracking-tight">
-              Another Psalm reading is now posted, <a class="underline" href="/readings/">Psalm 116</a>. This is the first video to have the words of the Psalm appear near the bottom to help follow along with the Psalm reading.
+              Another Psalm reading is now posted, <a class="underline" href="https://youtu.be/O6-mBq8nG00">Psalm 116</a>. This is the first video to have the words of the Psalm appear near the bottom to help follow along with the Psalm reading.
             </p>
           </div>
         </li>
@@ -144,8 +172,8 @@
   <!-- Newsletter signup -->
   <div class="min-w-0 max-w-7xl mx-auto">
     <div id="signup" class="flex flex-col text-center bg-birch-tree rounded-2xl">
-      <div class="flex flex-col bg-cover px-1 pt-32 pb-32 rounded-2xl bg-navybluedark/70">
-        <h5 class="text-4xl md:text-5xl font-serif text-white mt-4 px-4 mx-auto">
+      <div class="flex flex-col bg-cover px-1 pt-32 pb-32 rounded-2xl bg-navybluedark/50">
+        <h5 class="text-4xl md:text-5xl font-serif text-white mt-4 px-4 mx-auto max-w-md">
           The Psalms 23 Project Newsletter
         </h5>
         <p class="text-white text-base mt-4 max-w-xl mx-auto px-3">Signup for our newsletter to get project updates and notifications emails whenever we publish a video or have an announcement.</p>
