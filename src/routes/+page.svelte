@@ -5,15 +5,15 @@
 
 <div class="mx-3">
   <!-- Latest video -->
-  <div class="flex flex-col bg-featured-psalm bg-cover bg-start rounded-2xl max-w-7xl mx-auto">
+  <div class="flex flex-col bg-featured-psalm bg-cover bg-center rounded-2xl max-w-7xl mx-auto">
     <div class="flex flex-col px-8 md:px-24 py-36 rounded-2xl bg-gradient-to-r from-navybluedark/70 to-transparent">
       <p class="text-white text-sm uppercase">Latest Video</p>
       <div class="mt-20">
-        <h1 class="text-5xl md:text-6xl font-serif font-medium text-white mt-5">
-          Psalm 13
+        <h1 class="text-5xl md:text-6xl lg:text-7xl font-serif font-medium text-white mt-5">
+          Psalm 90
         </h1>
-        <p class="text-white text-xl mt-1 max-w-md">
-          Psalm 13, read on a foggy and frosty day in the northern United States.
+        <p class="text-white/90 text-xl mt-2 max-w-sm leading-6">
+          Psalm 90, a prayer of Moses.
         </p>
         <div class="flex mt-10">
           <a href="/readings" class=" text-navybluedark font-semibold rounded-lg px-5 py-3 bg-white hover:bg-white/80 duration-300">
@@ -26,11 +26,11 @@
   <!-- The project -->
   <div id="theproject" class="max-w-6xl mx-auto text-navyblue px-4 my-20">
     <div class="flex flex-col">
-      <h2 class="text-5xl font-serif mt-4 max-w-3xl mx-auto text-center">
+      <h2 class="text-5xl font-serif mt-4 max-w-2xl mx-auto text-center tracking-tight">
         A project to create high-quality readings of the Psalms in nature.
       </h2>
       <h3 class="text-xl mt-3 mx-auto text-center text-navyblue/80 tracking-tight">Psalms of the Bible, read on location, in nature across the United States.</h3>
-      <div class="flex flex-col sm:flex-row text-lg tracking-tight space-x-0 sm:space-x-12 mt-8">
+      <div class="flex flex-col sm:flex-row tracking-tight space-x-0 sm:space-x-12 mt-8">
         <div class="w-full md:w-1/2">
           <p class="mt-3">The Psalms 23 project aims to film high-quality readings of the Psalms in nature.</p>
           <p class="mt-3">The Psalms are a collection of prayers and songs of praise written over centuries by authors including David, Moses, and the sons of Korah. Appropriately called Israel's prayer book, the book of Psalms is filled with words to express to our Heavenly Father. It contains words of praise, of thanksgiving, of awe, of cries for deliverance from enemies, and of comfort.</p>
@@ -47,12 +47,25 @@
   <!-- Progress log -->
   <div id="progress" class="flex flex-col md:flex-row max-w-6xl mx-auto px-4 my-28">
     <div class="w-full md:w-1/3 lg:w-3/5 mb-10 md:mb-0 mr-0 md:mr-14">
-      <img class="w-auto h-auto rounded-2xl" src="images/reading.jpg" alt="Reading the Psalms in nature" />
+      <img class="w-auto h-auto rounded-2xl" src="images/covers/psalm-116.jpg" alt="Reading the Psalms in nature" />
     </div>
     <div class="w-full md:w-2/3 lg:w-2/5 max-w-2xl text-navyblue">
-      <h3 class="text-5xl font-serif text-navyblue mt-4">Progress Log</h3>
-      <p class="text-lg mt-3 text-navyblue/80 tracking-tight">Follow along with our progress filming readings of the Psalms in nature!</p>
-      <ol class="flex flex-col-reverse mt-10 border-l-2 border-navyblue h-96 overflow-y-auto">
+      <h3 class="text-5xl font-serif text-navyblue">Progress Log</h3>
+      <ol class="flex flex-col-reverse mt-8 border-l-2 border-navyblue h-72 overflow-y-auto">
+        <li>
+          <div class="flex-start flex items-center pt-3">
+            <div class="-ml-[6px] mr-3 h-[10px] w-[10px] rounded-full bg-navyblue"></div>
+            <p class="text-sm tracking-tight">
+              2/2024
+            </p>
+          </div>
+          <div class="mb-6 ml-4 mt-2">
+            <h4 class="mb-1.5 text-xl tracking-tight font-medium">Psalm 90</h4>
+            <p class="mb-3 tracking-tight">
+              <a class="underline" href="/readings/">Psalm 90</a>, our fifth Psalm reading is now posted.
+            </p>
+          </div>
+        </li>
         <li>
           <div class="flex-start flex items-center pt-3">
             <div class="-ml-[6px] mr-3 h-[10px] w-[10px] rounded-full bg-navyblue"></div>
