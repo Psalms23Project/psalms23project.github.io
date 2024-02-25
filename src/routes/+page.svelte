@@ -76,7 +76,7 @@
           <div class="mb-6 ml-4 mt-2">
             <h4 class="mb-1.5 text-xl tracking-tight font-medium">Psalm 13</h4>
             <p class="mb-3 tracking-tight">
-              Our fourth Psalm reading is now posted, <a class="underline" href="/readings/">Psalm 13</a>. We filmed this reading on a foggy and frosty afternoon in the countryside of Minnesota. The combination of the thick fog, and frost on the grass had a unique feel.
+              Our fourth Psalm reading is now posted, <a class="underline" href="https://youtu.be/IMaHSiAI30Y">Psalm 13</a>. We filmed this reading on a foggy and frosty afternoon in the countryside of Minnesota. The combination of the thick fog, and frost on the grass had a unique feel.
             </p>
           </div>
         </li>
