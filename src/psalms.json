@@ -1,904 +1,899 @@
 {
-    "psalms_media" : [
-      {
-        "index": 0,
-        "psalm": "Psalm 90",
-        "title": "Psalm 90",
-        "date": "Feb. 25, 2024",
-        "location": "Minnesota",
-        "image": "/images/thumbs/Psalms-90-thumbnail.jpg",
-        "videoUrl": "https://www.youtube-nocookie.com/embed/ydr4qt-5emI",
-        "audioUrl": "/audio/Psalm-90.mp3",
-        "length": "3:06",
-        "description": "1 Yahweh, thou hast been our dwelling place in all generations.<br>2 Before the mountains were brought forth, or ever thou hadst formed the earth and the world, even from everlasting to everlasting, thou art Elohim.<br>3 Thou turnest man to destruction; and sayest, Return, ye children of men.<br>4 For a thousand years in thy sight are but as yesterday when it is past, and as a watch in the night.<br>5 Thou carriest them away as with a flood; they are as a sleep: in the morning they are like grass which groweth up.<br>6 In the morning it flourisheth, and groweth up; in the evening it is cut down, and withereth.<br>7 For we are consumed by thine anger, and by thy wrath are we troubled.<br>8 Thou hast set our iniquities before thee, our secret sins in the light of thy countenance.<br>9 For all our days are passed away in thy wrath: we spend our years as a tale that is told.<br>10 The days of our years are threescore years and ten; and if by reason of strength they be fourscore years, yet is their strength labour and sorrow; for it is soon cut off, and we fly away.<br>11 Who knoweth the power of thine anger? even according to thy fear, so is thy wrath.<br>12 So teach us to number our days, that we may apply our hearts unto wisdom.<br>13 Return, O Yahweh, how long? and let it repent thee concerning thy servants.<br>14 O satisfy us early with thy mercy; that we may rejoice and be glad all our days.<br>15 Make us glad according to the days wherein thou hast afflicted us, and the years wherein we have seen evil.<br>16 Let thy work appear unto thy servants, and thy glory unto their children.<br>17 And let the beauty of Yahweh our Elohim be upon us: and establish thou the work of our hands upon us; yea, the work of our hands establish thou it."
-      },
-      {
-        "index": 1,
-        "psalm": "Psalm 13",
-        "title": "Psalm 13",
-        "date": "Feb. 11, 2024",
-        "location": "Minnesota",
-        "image": "/images/thumbs/Psalms-13-thumbnail.jpg",
-        "videoUrl": "https://www.youtube-nocookie.com/embed/IMaHSiAI30Y",
-        "audioUrl": "/audio/Psalm-13.mp3",
-        "length": "1:18",
-        "description": "We filmed this reading on a foggy and frosty afternoon in the countryside of Minnesota. The combination of the thick fog and frost on the grass adds a unique feel. We hope you are blessed by this reading.<br><br>1 How long wilt thou forget me, O Yahweh? for ever?<br>how long wilt thou hide thy face from me?<br>2 How long shall I take counsel in my soul,<br>having sorrow in my heart daily?<br>how long shall mine enemy be exalted over me?<br>3 Consider and hear me, O Yahweh my Elohim:<br>lighten mine eyes, lest I sleep the sleep of death;<br>4 lest mine enemy say, I have prevailed against him;<br>and those that trouble me rejoice when I am moved.<br>5 But I have trusted in thy mercy;<br>my heart shall rejoice in thy salvation.<br>6 I will sing unto Yahweh,<br>because he hath dealt bountifully with me."
-      },
+  "psalms_media": [
+    {
+      "psalm": 13,
+      "title": "Psalm 13",
+      "date": "Feb. 11, 2024",
+      "location": "Minnesota",
+      "image": "/images/thumbs/Psalms-13-thumbnail.jpg",
+      "videoUrl": "https://www.youtube-nocookie.com/embed/IMaHSiAI30Y",
+      "audioUrl": "/audio/Psalm-13.mp3",
+      "length": "1:18",
+      "description": "We filmed this reading on a foggy and frosty afternoon in the countryside of Minnesota. The combination of the thick fog and frost on the grass adds a unique feel. We hope you are blessed by this reading.<br><br>1 How long wilt thou forget me, O Yahweh? for ever?<br>how long wilt thou hide thy face from me?<br>2 How long shall I take counsel in my soul,<br>having sorrow in my heart daily?<br>how long shall mine enemy be exalted over me?<br>3 Consider and hear me, O Yahweh my Elohim:<br>lighten mine eyes, lest I sleep the sleep of death;<br>4 lest mine enemy say, I have prevailed against him;<br>and those that trouble me rejoice when I am moved.<br>5 But I have trusted in thy mercy;<br>my heart shall rejoice in thy salvation.<br>6 I will sing unto Yahweh,<br>because he hath dealt bountifully with me."
+    },
+    {
+      "psalm": 26,
+      "title": "Psalm 26",
+      "date": "Dec. 3, 2023",
+      "location": "Minnesota",
+      "image": "/images/thumbs/Psalms-26-thumbnail.jpg",
+      "videoUrl": "https://www.youtube-nocookie.com/embed/EeaPLLWrnDQ",
+      "audioUrl": "/audio/Psalm-26.mp3",
+      "length": "2:37",
+      "description": "Psalms 26 read in nature. This Psalm reading was filmed just before sunset in the countryside of Minnesota.<br><br>1 Judge me, O Yahweh; for I have walked in mine integrity: I have trusted also in Yahweh; therefore I shall not slide.<br>2 Examine me, O Yahweh, and prove me; try my reins and my heart.<br>3 For thy lovingkindness is before mine eyes: and I have walked in thy truth.<br>4 I have not sat with vain persons, neither will I go in with dissemblers.<br>5 I have hated the congregation of evil doers; and will not sit with the wicked.<br>6 I will wash mine hands in innocency: so will I compass thine altar, O Yahweh:<br>7 That I may publish with the voice of thanksgiving, and tell of all thy wondrous works.<br>8 Yahweh, I have loved the habitation of thy house, and the place where thine honour dwelleth.<br>9 Gather not my soul with sinners, nor my life with bloody men:<br>10 In whose hands is mischief, and their right hand is full of bribes.<br>11 But as for me, I will walk in mine integrity: redeem me, and be merciful unto me.<br>12 My foot standeth in an even place: in the congregations will I bless Yahweh."
+    },
+    {
+      "psalm": 90,
+      "title": "Psalm 90",
+      "date": "Feb. 25, 2024",
+      "location": "Minnesota",
+      "image": "/images/thumbs/Psalms-90-thumbnail.jpg",
+      "videoUrl": "https://www.youtube-nocookie.com/embed/ydr4qt-5emI",
+      "audioUrl": "/audio/Psalm-90.mp3",
+      "length": "3:06",
+      "description": "1 Yahweh, thou hast been our dwelling place in all generations.<br>2 Before the mountains were brought forth, or ever thou hadst formed the earth and the world, even from everlasting to everlasting, thou art Elohim.<br>3 Thou turnest man to destruction; and sayest, Return, ye children of men.<br>4 For a thousand years in thy sight are but as yesterday when it is past, and as a watch in the night.<br>5 Thou carriest them away as with a flood; they are as a sleep: in the morning they are like grass which groweth up.<br>6 In the morning it flourisheth, and groweth up; in the evening it is cut down, and withereth.<br>7 For we are consumed by thine anger, and by thy wrath are we troubled.<br>8 Thou hast set our iniquities before thee, our secret sins in the light of thy countenance.<br>9 For all our days are passed away in thy wrath: we spend our years as a tale that is told.<br>10 The days of our years are threescore years and ten; and if by reason of strength they be fourscore years, yet is their strength labour and sorrow; for it is soon cut off, and we fly away.<br>11 Who knoweth the power of thine anger? even according to thy fear, so is thy wrath.<br>12 So teach us to number our days, that we may apply our hearts unto wisdom.<br>13 Return, O Yahweh, how long? and let it repent thee concerning thy servants.<br>14 O satisfy us early with thy mercy; that we may rejoice and be glad all our days.<br>15 Make us glad according to the days wherein thou hast afflicted us, and the years wherein we have seen evil.<br>16 Let thy work appear unto thy servants, and thy glory unto their children.<br>17 And let the beauty of Yahweh our Elohim be upon us: and establish thou the work of our hands upon us; yea, the work of our hands establish thou it."
+    },
+    {
+      "psalm": 116,
+      "title": "Psalm 116",
+      "date": "Jan. 28, 2024",
+      "location": "Minnesota",
+      "image": "/images/thumbs/Psalms-116-thumbnail.jpg",
+      "videoUrl": "https://www.youtube-nocookie.com/embed/O6-mBq8nG00",
+      "audioUrl": "/audio/Psalm-116.mp3",
+      "length": "3:00",
+      "description": "Psalms 116 read in nature. This Psalm reading was filmed in the countryside of Minnesota.<br><br>1 I love Yahweh, because he hath heard my voice and my supplications.<br>2 Because he hath inclined his ear unto me, therefore will I call upon him as long as I live.<br>3 The sorrows of death compassed me, and the pains of hell gat hold upon me: I found trouble and sorrow.<br>4 Then called I upon the name of Yahweh; O Yahweh, I beseech thee, deliver my soul.<br>5 Gracious is Yahweh, and righteous; yea, our Elohim is merciful.<br>6 Yahweh preserveth the simple: I was brought low, and he helped me.<br>7 Return unto thy rest, O my soul; for Yahweh hath dealt bountifully with thee.<br>8 For thou hast delivered my soul from death, mine eyes from tears, and my feet from falling.<br>9 I will walk before Yahweh in the land of the living.<br>10 I believed, therefore have I spoken: I was greatly afflicted:<br>11 I said in my haste, All men are liars.<br>12 What shall I render unto Yahweh for all his benefits toward me?<br>13 I will take the cup of salvation, and call upon the name of Yahweh.<br>14 I will pay my vows unto Yahweh now in the presence of all his people.<br>15 Precious in the sight of Yahweh is the death of his saints.<br>16 O Yahweh, truly I am thy servant; I am thy servant, and the son of thine handmaid: thou hast loosed my bonds.<br>17 I will offer to thee the sacrifice of thanksgiving, and will call upon the name of Yahweh.<br>18 I will pay my vows unto Yahweh now in the presence of all his people,<br>19 in the courts of Yahweh’s house, in the midst of thee, O Jerusalem."
+    },
+    {
+      "psalm": 117,
+      "title": "Psalm 117",
+      "date": "Oct. 15, 2023",
+      "location": "Wisconsin",
+      "image": "/images/thumbs/Psalms-117-thumbnail.jpg",
+      "videoUrl": "https://www.youtube-nocookie.com/embed/s8vmXgcJUXQ",
+      "audioUrl": "/audio/Psalm-117.mp3",
+      "length": "1:39",
+      "description": "Psalm 117, the shortest Psalm (and chapter) in the Bible, read in the natural atmosphere of the forested hills of northern United States.<br><br>1 O praise Yahweh, all ye nations: praise him, all ye people. <br> 2 For his merciful kindness is great toward us: and the truth of Yahweh endureth for ever. Praise ye Yahweh."
+    }
+  ],
+  "psalms_location_table": [
+    {
+      "label": "Mountain",
+      "items": [
         {
-          "index": 2,
-          "psalm": "Psalm 116",
-          "title": "Psalm 116",
-          "date": "Jan. 28, 2024",
-          "location": "Minnesota",
-          "image": "/images/thumbs/Psalms-116-thumbnail.jpg",
-          "videoUrl": "https://www.youtube-nocookie.com/embed/O6-mBq8nG00",
-          "audioUrl": "/audio/Psalm-116.mp3",
-          "length": "3:00",
-          "description": "Psalms 116 read in nature. This Psalm reading was filmed in the countryside of Minnesota.<br><br>1 I love Yahweh, because he hath heard my voice and my supplications.<br>2 Because he hath inclined his ear unto me, therefore will I call upon him as long as I live.<br>3 The sorrows of death compassed me, and the pains of hell gat hold upon me: I found trouble and sorrow.<br>4 Then called I upon the name of Yahweh; O Yahweh, I beseech thee, deliver my soul.<br>5 Gracious is Yahweh, and righteous; yea, our Elohim is merciful.<br>6 Yahweh preserveth the simple: I was brought low, and he helped me.<br>7 Return unto thy rest, O my soul; for Yahweh hath dealt bountifully with thee.<br>8 For thou hast delivered my soul from death, mine eyes from tears, and my feet from falling.<br>9 I will walk before Yahweh in the land of the living.<br>10 I believed, therefore have I spoken: I was greatly afflicted:<br>11 I said in my haste, All men are liars.<br>12 What shall I render unto Yahweh for all his benefits toward me?<br>13 I will take the cup of salvation, and call upon the name of Yahweh.<br>14 I will pay my vows unto Yahweh now in the presence of all his people.<br>15 Precious in the sight of Yahweh is the death of his saints.<br>16 O Yahweh, truly I am thy servant; I am thy servant, and the son of thine handmaid: thou hast loosed my bonds.<br>17 I will offer to thee the sacrifice of thanksgiving, and will call upon the name of Yahweh.<br>18 I will pay my vows unto Yahweh now in the presence of all his people,<br>19 in the courts of Yahweh’s house, in the midst of thee, O Jerusalem."
+          "label": "morning",
+          "psalms": [
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 2 (could be evening on mountain top)"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 31"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 36"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 69"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 78"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 105"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 106"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 134"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 136"
+            }
+          ]
         },
         {
-            "index": 3,
-            "psalm": "Psalm 26",
-            "title": "Psalm 26",
-            "date": "Dec. 3, 2023",
-            "location": "Minnesota",
-            "image": "/images/thumbs/Psalms-26-thumbnail.jpg",
-            "videoUrl": "https://www.youtube-nocookie.com/embed/EeaPLLWrnDQ",
-            "audioUrl": "/audio/Psalm-26.mp3",
-            "length": "2:37",
-            "description": "Psalms 26 read in nature. This Psalm reading was filmed just before sunset in the countryside of Minnesota.<br><br>1 Judge me, O Yahweh; for I have walked in mine integrity: I have trusted also in Yahweh; therefore I shall not slide.<br>2 Examine me, O Yahweh, and prove me; try my reins and my heart.<br>3 For thy lovingkindness is before mine eyes: and I have walked in thy truth.<br>4 I have not sat with vain persons, neither will I go in with dissemblers.<br>5 I have hated the congregation of evil doers; and will not sit with the wicked.<br>6 I will wash mine hands in innocency: so will I compass thine altar, O Yahweh:<br>7 That I may publish with the voice of thanksgiving, and tell of all thy wondrous works.<br>8 Yahweh, I have loved the habitation of thy house, and the place where thine honour dwelleth.<br>9 Gather not my soul with sinners, nor my life with bloody men:<br>10 In whose hands is mischief, and their right hand is full of bribes.<br>11 But as for me, I will walk in mine integrity: redeem me, and be merciful unto me.<br>12 My foot standeth in an even place: in the congregations will I bless Yahweh."
+          "label": "midday",
+          "psalms": [
+            {
+              "weather": "cloudy",
+              "chapter": "Psalm 77"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 81"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 89"
+            }
+          ]
         },
         {
-            "index": 4,
-            "psalm": "Psalm 117",
-            "title": "Psalm 117",
-            "date": "Oct. 15, 2023",
-            "location": "Wisconsin",
-            "image": "/images/thumbs/Psalms-117-thumbnail.jpg",
-            "videoUrl": "https://www.youtube-nocookie.com/embed/s8vmXgcJUXQ",
-            "audioUrl": "/audio/Psalm-117.mp3",
-            "length": "1:39",
-            "description": "Psalm 117, the shortest Psalm (and chapter) in the Bible, read in the natural atmosphere of the forested hills of northern United States.<br><br>1 O praise Yahweh, all ye nations: praise him, all ye people. <br> 2 For his merciful kindness is great toward us: and the truth of Yahweh endureth for ever. Praise ye Yahweh."
+          "label": "afternoon",
+          "psalms": [
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 14"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 53"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 60"
+            },
+            {
+              "weather": "cloudy",
+              "chapter": "Psalm 61"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 62"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 114"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 136"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 148"
+            }
+          ]
         }
-    ],
-    "psalms_location_table": [
+      ]
+    },
+    {
+      "label": "Mountain top",
+      "items": [
         {
-            "label": "Mountain",
-            "items": [
-                {
-                    "label": "morning",
-                    "psalms": [
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 2 (could be evening on mountain top)"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 31"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 36"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 69"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 78"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 105"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 106"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 134"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 136"
-                        }
-                    ]
-                },
-                {
-                    "label": "midday",
-                    "psalms": [
-                        {
-                            "weather": "cloudy",
-                            "chapter": "Psalm 77"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 81"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 89"
-                        }
-                    ]
-                },
-                {
-                    "label": "afternoon",
-                    "psalms": [
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 14"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 53"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 60"
-                        },
-                        {
-                            "weather": "cloudy",
-                            "chapter": "Psalm 61"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 62"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 114"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 136"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 148"
-                        }
-                    ]
-                }
-            ]
+          "label": "morning",
+          "psalms": [
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 28"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 48"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 65"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 125"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 143 (sunrise)"
+            }
+          ]
         },
         {
-            "label": "Mountain top",
-            "items": [
-                {
-                    "label": "morning",
-                    "psalms": [
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 28"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 48"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 65"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 125"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 143 (sunrise)"
-                        }
-                    ]
-                },
-                {
-                    "label": "midday",
-                    "psalms": [
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 131"
-                        }
-                    ]
-                },
-                {
-                    "label": "afternoon",
-                    "psalms": [
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 72"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 87"
-                        },
-                        {
-                            "weather": "cloudy",
-                            "chapter": "Psalm 90"
-                        },
-                        {
-                            "weather": "cloudy",
-                            "chapter": "Psalm 97"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 107"
-                        }
-                    ]
-                },
-                {
-                    "label": "evening",
-                    "psalms": [
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 17"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 36"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 64"
-                        }
-                    ]
-                }
-            ]
+          "label": "midday",
+          "psalms": [
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 131"
+            }
+          ]
         },
         {
-            "label": "Grassy Meadow/Plain",
-            "items": [
-                {
-                    "label": "morning",
-                    "psalms": [
-                        {
-                            "weather": "foggy",
-                            "chapter": "Psalm 13"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 20"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 39"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 66"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 80"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 95"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 100 (by a stream)"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 128"
-                        }
-                    ]
-                },
-                {
-                    "label": "midday",
-                    "psalms": [
-                        {
-                            "weather": "rainy",
-                            "chapter": "Psalm 12"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 74"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 84"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 108"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 129"
-                        }
-                    ]
-                },
-                {
-                    "label": "afternoon",
-                    "psalms": [
-                        {
-                            "weather": "rainy",
-                            "chapter": "Psalm 3"
-                        },
-                        {
-                            "weather": "rainy",
-                            "chapter": "Psalm 4"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 9"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 26"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 37"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 57"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 103"
-                        }
-                    ]
-                }
-            ]
+          "label": "afternoon",
+          "psalms": [
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 72"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 87"
+            },
+            {
+              "weather": "cloudy",
+              "chapter": "Psalm 90"
+            },
+            {
+              "weather": "cloudy",
+              "chapter": "Psalm 97"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 107"
+            }
+          ]
         },
         {
-            "label": "Stream",
-            "items": [
-                {
-                    "label": "morning",
-                    "psalms": [
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 71"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 73"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 101"
-                        }, 
-                        {                      
-                            "weather": "sunny",
-                            "chapter": "Psalm 124"
-                        }
-                    ]
-                },
-                {
-                    "label": "midday",
-                    "psalms": [
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 79"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 141"
-                        }      
-                    ]
-                },
-                {
-                    "label": "afternoon",
-                    "psalms": [
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 34"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 41"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 46"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 51"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 54"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 59"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "label": "River",
-            "items": [
-                {
-                    "label": "morning",
-                    "psalms": [
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 1"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 5 (sunrise)"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 47"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 109"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 120"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 123"
-                        }
-                    ]
-                },
-                {
-                    "label": "midday",
-                    "psalms": [
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 138"
-                        }
-                    ]
-                },
-                {
-                    "label": "afternoon",
-                    "psalms": [
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 75"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 86"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 88"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 94"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 126"
-                        }
-                    ]
-                },
-                {
-                    "label": "evening",
-                    "psalms": [
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 55"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "label": "Lake",
-            "items": [
-                {
-                    "label": "morning",
-                    "psalms": [
-                        {
-                            "weather": "foggy",
-                            "chapter": "Psalm 27 (with trees)"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 54"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 93"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 127"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 130"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 140"
-                        }
-                    ]
-                },
-                {
-                    "label": "midday",
-                    "psalms": [
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 76"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 85"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 145"
-                        }
-                    ]
-                },
-                {
-                    "label": "afternoon",
-                    "psalms": [
-                        {
-                            "weather": "cloudy",
-                            "chapter": "Psalm 6"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 24"
-                        },
-                        {
-                            "weather": "cloudy",
-                            "chapter": "Psalm 29"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 32"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 33 (with trees)"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 44"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 111"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "label": "Woods/Forest",
-            "items": [
-                {
-                    "label": "morning",
-                    "psalms": [
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 7"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 30"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 52"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 91"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 110"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 144"
-                        }
-                    ]
-                },
-                {
-                    "label": "midday",
-                    "psalms": [
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 42 (with stream nearby)"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 116"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 149"
-                        }
-                    ]
-                },
-                {
-                    "label": "afternoon",
-                    "psalms": [
-                        {
-                            "weather": "cloudy",
-                            "chapter": "Psalm 18"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 35"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 49"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 96"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 104"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "label": "Waterfall",
-            "items": [
-                {
-                    "label": "morning",
-                    "psalms": [
-                        {
-                            "weather": "foggy",
-                            "chapter": "Psalm 16"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 25"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 92"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 102"
-                        }
-                    ]
-                },
-                {
-                    "label": "midday",
-                    "psalms": [
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 50"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 115"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 118"
-                        }
-                    ]
-                },
-                {
-                    "label": "afternoon",
-                    "psalms": [
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 40"
-                        },                  
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 68"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 70"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 82"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 92"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 112"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 147"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 150"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "label": "Hill",
-            "items": [
-                {
-                    "label": "morning",
-                    "psalms": [
-                        {
-                            "weather": "cloudy",
-                            "chapter": "Psalm 10"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 22"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 38"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 43"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 113"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 117"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 134"
-                        }
-                    ]
-                },
-                {
-                    "label": "midday",
-                    "psalms": [
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 15"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 122"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 138"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 142"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 146"
-                        }
-                    ]
-                },
-                {
-                    "label": "afternoon",
-                    "psalms": [
-                        {
-                            "weather": "cloudy",
-                            "chapter": "Psalm 21"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 58"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 67"
-                        },
-                        {
-                            "weather": "cloudy",
-                            "chapter": "Psalm 83"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 99"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 121"
-                        }
-                    ]
-                },
-                {
-                    "label": "evening",
-                    "psalms": [
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 8 (stars and moon)"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 19 (stars and moon)"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 56"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 132"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "label": "Ocean",
-            "items": [
-                {
-                    "label": "morning",
-                    "psalms": [
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 42"
-                        }
-                    ]
-                },
-                {
-                    "label": "afternoon",
-                    "psalms": [
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 98"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 133"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "label": "Desert",
-            "items": [
-                {
-                    "label": "morning",
-                    "psalms": [
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 11"
-                        },
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 63"
-                        }
-                    ]
-                }
-            ]
-        },
-        {
-            "label": "Still water by a tree",
-            "items": [
-                {
-                    "label": "afternoon",
-                    "psalms": [
-                        {
-                            "weather": "sunny",
-                            "chapter": "Psalm 23 (sheep)"
-                        }
-                    ]
-                }
-            ]
+          "label": "evening",
+          "psalms": [
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 17"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 36"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 64"
+            }
+          ]
         }
-    ]
+      ]
+    },
+    {
+      "label": "Grassy Meadow/Plain",
+      "items": [
+        {
+          "label": "morning",
+          "psalms": [
+            {
+              "weather": "foggy",
+              "chapter": "Psalm 13"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 20"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 39"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 66"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 80"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 95"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 100 (by a stream)"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 128"
+            }
+          ]
+        },
+        {
+          "label": "midday",
+          "psalms": [
+            {
+              "weather": "rainy",
+              "chapter": "Psalm 12"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 74"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 84"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 108"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 129"
+            }
+          ]
+        },
+        {
+          "label": "afternoon",
+          "psalms": [
+            {
+              "weather": "rainy",
+              "chapter": "Psalm 3"
+            },
+            {
+              "weather": "rainy",
+              "chapter": "Psalm 4"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 9"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 26"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 37"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 57"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 103"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Stream",
+      "items": [
+        {
+          "label": "morning",
+          "psalms": [
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 71"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 73"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 101"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 124"
+            }
+          ]
+        },
+        {
+          "label": "midday",
+          "psalms": [
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 79"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 141"
+            }
+          ]
+        },
+        {
+          "label": "afternoon",
+          "psalms": [
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 34"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 41"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 46"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 51"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 54"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 59"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "River",
+      "items": [
+        {
+          "label": "morning",
+          "psalms": [
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 1"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 5 (sunrise)"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 47"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 109"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 120"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 123"
+            }
+          ]
+        },
+        {
+          "label": "midday",
+          "psalms": [
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 138"
+            }
+          ]
+        },
+        {
+          "label": "afternoon",
+          "psalms": [
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 75"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 86"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 88"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 94"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 126"
+            }
+          ]
+        },
+        {
+          "label": "evening",
+          "psalms": [
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 55"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Lake",
+      "items": [
+        {
+          "label": "morning",
+          "psalms": [
+            {
+              "weather": "foggy",
+              "chapter": "Psalm 27 (with trees)"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 54"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 93"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 127"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 130"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 140"
+            }
+          ]
+        },
+        {
+          "label": "midday",
+          "psalms": [
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 76"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 85"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 145"
+            }
+          ]
+        },
+        {
+          "label": "afternoon",
+          "psalms": [
+            {
+              "weather": "cloudy",
+              "chapter": "Psalm 6"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 24"
+            },
+            {
+              "weather": "cloudy",
+              "chapter": "Psalm 29"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 32"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 33 (with trees)"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 44"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 111"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Woods/Forest",
+      "items": [
+        {
+          "label": "morning",
+          "psalms": [
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 7"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 30"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 52"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 91"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 110"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 144"
+            }
+          ]
+        },
+        {
+          "label": "midday",
+          "psalms": [
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 42 (with stream nearby)"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 116"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 149"
+            }
+          ]
+        },
+        {
+          "label": "afternoon",
+          "psalms": [
+            {
+              "weather": "cloudy",
+              "chapter": "Psalm 18"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 35"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 49"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 96"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 104"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Waterfall",
+      "items": [
+        {
+          "label": "morning",
+          "psalms": [
+            {
+              "weather": "foggy",
+              "chapter": "Psalm 16"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 25"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 92"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 102"
+            }
+          ]
+        },
+        {
+          "label": "midday",
+          "psalms": [
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 50"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 115"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 118"
+            }
+          ]
+        },
+        {
+          "label": "afternoon",
+          "psalms": [
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 40"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 68"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 70"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 82"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 92"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 112"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 147"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 150"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Hill",
+      "items": [
+        {
+          "label": "morning",
+          "psalms": [
+            {
+              "weather": "cloudy",
+              "chapter": "Psalm 10"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 22"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 38"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 43"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 113"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 117"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 134"
+            }
+          ]
+        },
+        {
+          "label": "midday",
+          "psalms": [
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 15"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 122"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 138"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 142"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 146"
+            }
+          ]
+        },
+        {
+          "label": "afternoon",
+          "psalms": [
+            {
+              "weather": "cloudy",
+              "chapter": "Psalm 21"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 58"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 67"
+            },
+            {
+              "weather": "cloudy",
+              "chapter": "Psalm 83"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 99"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 121"
+            }
+          ]
+        },
+        {
+          "label": "evening",
+          "psalms": [
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 8 (stars and moon)"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 19 (stars and moon)"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 56"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 132"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Ocean",
+      "items": [
+        {
+          "label": "morning",
+          "psalms": [
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 42"
+            }
+          ]
+        },
+        {
+          "label": "afternoon",
+          "psalms": [
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 98"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 133"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Desert",
+      "items": [
+        {
+          "label": "morning",
+          "psalms": [
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 11"
+            },
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 63"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Still water by a tree",
+      "items": [
+        {
+          "label": "afternoon",
+          "psalms": [
+            {
+              "weather": "sunny",
+              "chapter": "Psalm 23 (sheep)"
+            }
+          ]
+        }
+      ]
+    }
+  ]
 }

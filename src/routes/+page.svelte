@@ -16,7 +16,7 @@
           Psalm 90, a prayer of Moses.
         </p>
         <div class="flex mt-10">
-          <a href="/readings" class=" text-navybluedark font-semibold rounded-lg px-5 py-3 bg-white hover:bg-white/80 duration-300">
+          <a href="/readings?psalm=90" class=" text-navybluedark font-semibold rounded-lg px-5 py-3 bg-white hover:bg-white/80 duration-300">
             Watch Video
           </a>
         </div>
