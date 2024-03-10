@@ -6,17 +6,17 @@
 <div class="mx-3">
   <!-- Latest video -->
   <div class="flex flex-col bg-featured-psalm bg-cover bg-center rounded-2xl max-w-7xl mx-auto">
-    <div class="flex flex-col px-8 md:px-24 py-36 rounded-2xl bg-gradient-to-r from-navybluedark/70 to-transparent">
+    <div class="flex flex-col px-8 md:px-24 py-36 rounded-2xl bg-gradient-to-r from-black/40 to-transparent">
       <p class="text-white text-sm uppercase">Latest Video</p>
       <div class="mt-20">
         <h1 class="text-5xl md:text-6xl lg:text-7xl font-serif font-medium text-white mt-5">
-          Psalm 90
+          Psalm 96
         </h1>
         <p class="text-white/90 text-xl mt-2 max-w-sm leading-6">
-          Psalm 90, a prayer of Moses.
+          A reading in the midst of cedars.
         </p>
         <div class="flex mt-10">
-          <a href="/readings?psalm=90" class=" text-navybluedark font-semibold rounded-lg px-5 py-3 bg-white hover:bg-white/80 duration-300">
+          <a href="/readings?psalm=96" class=" text-navybluedark font-semibold rounded-lg px-5 py-3 bg-white hover:bg-white/80 duration-300">
             Watch Video
           </a>
         </div>
@@ -26,11 +26,11 @@
   <!-- The project -->
   <div id="theproject" class="max-w-6xl mx-auto text-navyblue px-4 my-20">
     <div class="flex flex-col">
-      <h2 class="text-5xl font-serif mt-4 max-w-2xl mx-auto text-center tracking-tight">
+      <h2 class="text-4xl mt-4 max-w-2xl mx-auto text-navyblue/90 font-semibold text-center">
         A project to create high-quality readings of the Psalms in nature.
       </h2>
-      <h3 class="text-xl mt-3 mx-auto text-center text-navyblue/80 tracking-tight">Psalms of the Bible, read on location, in nature across the United States.</h3>
-      <div class="flex flex-col sm:flex-row tracking-tight space-x-0 sm:space-x-12 mt-8">
+      <h3 class="text-xl mt-3 mx-auto text-center text-navyblue/80">Psalms of the Bible, read on location, in nature across the United States.</h3>
+      <div class="flex flex-col sm:flex-row text-lg space-x-0 sm:space-x-12 mt-8">
         <div class="w-full md:w-1/2">
           <p class="mt-3">The Psalms 23 project aims to film high-quality readings of the Psalms in nature.</p>
           <p class="mt-3">The Psalms are a collection of prayers and songs of praise written over centuries by authors including David, Moses, and the sons of Korah. Appropriately called Israel's prayer book, the book of Psalms is filled with words to express to our Heavenly Father. It contains words of praise, of thanksgiving, of awe, of cries for deliverance from enemies, and of comfort.</p>
@@ -50,8 +50,22 @@
       <img class="w-auto h-auto rounded-2xl" src="images/covers/psalm-116.jpg" alt="Reading the Psalms in nature" />
     </div>
     <div class="w-full md:w-2/3 lg:w-2/5 max-w-2xl text-navyblue">
-      <h3 class="text-5xl font-serif text-navyblue">Progress Log</h3>
+      <h3 class="text-4xl font-semibold text-navyblue">Progress Log</h3>
       <ol class="flex flex-col-reverse mt-8 border-l-2 border-navyblue h-72 overflow-y-auto">
+        <li>
+          <div class="flex-start flex items-center pt-3">
+            <div class="-ml-[6px] mr-3 h-[10px] w-[10px] rounded-full bg-navyblue"></div>
+            <p class="text-sm tracking-tight">
+              3/2024
+            </p>
+          </div>
+          <div class="mb-6 ml-4 mt-2">
+            <h4 class="mb-1.5 text-xl tracking-tight font-medium">Psalm 96</h4>
+            <p class="mb-3 tracking-tight">
+              Our sixth Psalm reading, <a class="underline" href="/readings?psalm=96">Psalm 96</a>, set in the midst of cedar trees is now posted.
+            </p>
+          </div>
+        </li>
         <li>
           <div class="flex-start flex items-center pt-3">
             <div class="-ml-[6px] mr-3 h-[10px] w-[10px] rounded-full bg-navyblue"></div>
@@ -62,7 +76,7 @@
           <div class="mb-6 ml-4 mt-2">
             <h4 class="mb-1.5 text-xl tracking-tight font-medium">Psalm 90</h4>
             <p class="mb-3 tracking-tight">
-              <a class="underline" href="/readings/">Psalm 90</a>, our fifth Psalm reading is now posted.
+              <a class="underline" href="https://youtu.be/ydr4qt-5emI">Psalm 90</a>, our fifth Psalm reading is now posted.
             </p>
           </div>
         </li>
@@ -90,7 +104,7 @@
           <div class="mb-6 ml-4 mt-2">
             <h4 class="mb-1.5 text-xl tracking-tight font-medium">Audio playlist</h4>
             <p class="mb-3 tracking-tight">
-              The website now includes audio versions of each Psalm reading. Check it out <a class="underline" href="/readings/">here</a>.
+              The website now includes audio versions of each Psalm reading. See them <a class="underline" href="/readings/">here</a>.
             </p>
           </div>
         </li>
@@ -186,7 +200,7 @@
   <div class="min-w-0 max-w-7xl mx-auto">
     <div id="signup" class="flex flex-col text-center bg-birch-tree rounded-2xl">
       <div class="flex flex-col bg-cover px-1 pt-32 pb-32 rounded-2xl bg-navybluedark/50">
-        <h5 class="text-4xl md:text-5xl font-serif text-white mt-4 px-4 mx-auto max-w-md">
+        <h5 class="text-4xl font-semibold text-white mt-4 px-4 mx-auto">
           The Psalms 23 Project Newsletter
         </h5>
         <p class="text-white text-base mt-4 max-w-xl mx-auto px-3">Signup for our newsletter to get project updates and notifications emails whenever we publish a video or have an announcement.</p>

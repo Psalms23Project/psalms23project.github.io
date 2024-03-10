@@ -139,7 +139,7 @@
             <button on:click={() => setCurrentMedia(file.psalm)} class="flex flex-row items-center justify-between px-3 py-2 rounded-lg" class:bg-violet-200={file.psalm == selectedPsalm}>
               <div class="flex flex-row items-center">
                 <img class="w-20 h-auto" src={file.image} alt={file.title}/>
-                <p class="text-md ml-2 tracking-tight" class:font-medium={file.psalm == selectedPsalm}>{file.title}</p>
+                <p class="text-md ml-2" class:font-medium={file.psalm == selectedPsalm}>{file.title}</p>
               </div>
               <p class="text-sm">{file.length}</p>
             </button>
@@ -171,7 +171,7 @@
       <div class="flex flex-row tracking-tight space-x-3">
         <p>{ data.location }</p><p>{ data.date }</p>
       </div>
-      <p class="text-lg mt-5 tracking-tight max-w-prose">
+      <p class="text-lg mt-5 max-w-prose">
         {@html data.description }
       </p>
     </div>
