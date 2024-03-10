@@ -1,6 +1,6 @@
 <script>
   import "../app.postcss";
-  import { page, navigating } from '$app/stores';
+  import { navigating } from '$app/stores';
   import Hamburger from "../components/Hamburger.svelte";
 
   export let menuOpen = false;
@@ -10,15 +10,15 @@
 <nav class="relative max-w-7xl mx-auto py-3">
   <div class="flex flex-col md:flex-row justify-between items-center px-4">
     <div class="flex flex-row justify-between w-full md:w-auto">
-      <a class="mx-0 md:mx-auto" href="/"><img class="w-auto h-14" src="logo.svg" alt="The Psalms 23 Project logo"/></a>
+      <a class="mx-0 md:mx-auto" href="/"><img class="w-auto h-14" src="/logo.svg" alt="The Psalms 23 Project logo"/></a>
       <Hamburger bind:open={menuOpen} />
     </div>
     <div class="hidden md:flex text-lg md:text-base font-medium tracking-tight py-3.5 mx-auto md:mx-0" class:hidden={!menuOpen}>
       <div class="flex flex-col md:flex-row items-center rounded-full">
-        <a class="text-navyblue/80 hover:bg-violet-200 px-4 md:px-5 py-2 rounded-full duration-300" href="/readings">Readings</a>
+        <a class="text-navyblue/80 hover:bg-violet-200 px-4 md:px-5 py-2 rounded-full duration-300" href="/readings/">Readings</a>
         <a class="text-navyblue/80 hover:bg-violet-200 px-4 md:px-5 py-2 rounded-full duration-300" href="/#theproject">About</a>
         <a class="text-navyblue/80 hover:bg-violet-200 px-4 md:px-5 py-2 rounded-full duration-300" href="/#progress">Progress</a>
-        <a class="text-navyblue/80 hover:bg-violet-200 px-4 md:px-5 py-2 rounded-full duration-300" href="/locations">Locations</a>
+        <a class="text-navyblue/80 hover:bg-violet-200 px-4 md:px-5 py-2 rounded-full duration-300" href="/locations/">Locations</a>
       </div>
     </div>
     <div class="hidden md:flex flex-row items-center">
@@ -35,7 +35,7 @@
 </nav>
 <slot />
 <footer class="flex flex-col max-w-6xl text-center mx-auto pt-16 pb-12 px-8">
-  <a class="mx-auto" href="/"><img class="w-auto h-16" src="logo.svg" alt="The Psalms 23 Project logo"/></a>
+  <a class="mx-auto" href="/"><img class="w-auto h-16" src="/logo.svg" alt="The Psalms 23 Project logo"/></a>
   <div class="flex flex-row items-center mx-auto mt-8">
     <a class="duration-300 mr-4" href="mailto:contact@psalms23project.com">
       <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="bi bi-youtube h-7 w-7 fill-navyblue" viewBox="0 0 256 256"><path d="M224,48H32a8,8,0,0,0-8,8V192a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A8,8,0,0,0,224,48Zm-96,85.15L52.57,64H203.43ZM98.71,128,40,181.81V74.19Zm11.84,10.85,12,11.05a8,8,0,0,0,10.82,0l12-11.05,58,53.15H52.57ZM157.29,128,216,74.18V181.82Z"></path></svg>
@@ -47,5 +47,5 @@
     </a>
   </div>
 
-  <small class="text-navyblue text-sm tracking-tight mx-auto mt-8">&copy; 2023-2024. Photography and website by <a class="text-navyblue hover:bg-violet-100 rounded-md px-0.5 duration-300" href="https://noahrahm.com">Noah Rahm.</a> Website source code is <a class="text-navyblue hover:bg-violet-100 rounded-md px-0.5 duration-300" href="https://github.com/Psalms23Project/psalms23project.github.io">open source.</a></small>
+  <small class="text-navyblue mx-auto mt-8">&copy; 2023-2024. Photography and website by <a class="text-navyblue hover:bg-violet-100 rounded-md px-0.5 duration-300" href="https://noahrahm.com">Noah Rahm.</a> Website source code is <a class="text-navyblue hover:bg-violet-100 rounded-md px-0.5 duration-300" href="https://github.com/Psalms23Project/psalms23project.github.io">open source.</a></small>
 </footer>

@@ -4,7 +4,7 @@ const config = {
   theme: {
     fontFamily: {
       serif: ['High Tower text', 'Charter', 'Sitka Text', 'Cambria', 'serif'],
-      sans: ['Work Sans', 'sans-serif'],
+      sans: ['Figtree', 'sans-serif'],
     },
     extend: {
       colors: {
@@ -19,7 +19,7 @@ const config = {
       },
       backgroundImage: {
         'birch-tree': "url('/images/birch-tree.jpg')",
-        'featured-psalm': "url('/images/covers/psalm-90.jpg')"
+        'featured-psalm': "url('/images/covers/psalm-96.jpg')"
       }
     },
   },
