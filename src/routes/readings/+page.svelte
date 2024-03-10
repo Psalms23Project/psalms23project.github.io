@@ -14,13 +14,13 @@
   /**
      * @param {number} selectedPsalm
      */
-  let selectedPsalm = 90;
+  let selectedPsalm = 96;
 
   /**
      * @type {{ psalm: number; title: string; date: string; location: string; image: string; videoUrl: string; audioUrl: string; length: string; description: string; } | undefined}
      */
   let data = {
-    psalm: 90,
+    psalm: 96,
     title: "",
     date: "",
     location: "",
