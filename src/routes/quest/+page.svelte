@@ -10,16 +10,18 @@
 <div class="max-w-6xl mx-auto px-4 mt-10 mb-20">
   <div class="max-w-3xl text-navyblue">
     <img class="w-auto rounded-2xl" src="/images/sunset.jpg" alt=""/>
-    <h2 class="text-4xl sm:text-5xl font-serif mt-8">The Quest for Quiet</h2>
+    <h2 class="text-4xl sm:text-5xl font-serif mt-8">The Quest for Quiet Locations</h2>
     <h3 class="text-xl mt-2 text-navyblue/80 tracking-tight">A call for quiet locations to film readings of the Psalms in nature.</h3>
     <p class="text-2xl font-semibold tracking-tight mt-8">Why we need quiet locations</p>
     <p class="text-lg mt-2">The Psalms 23 project aims to film high-quality readings of the Psalms in nature, with the peaceful sounds of creation.</p>
     <p class="text-lg mt-2">Most Scripture and Psalm readings that you find online are recorded in a sound-proof studio. Nature soundtracks and foley (sound effects) are mixed in digitally after recording.</p>
-    <p class="text-lg mt-2">For the Psalms 23 project we are recording natural sounds and filming the reading in real time, on location, to preserve the authenticity of each place. Because of this, the locations where we film and record needs to be quiet, away from unnatural sounds. 
+    <p class="text-lg mt-2">For the Psalms 23 project we are recording natural sounds and filming the reading in real time, on location, to preserve the authenticity of each place. Because of this, the locations where we film and record should be quiet, away from unnatural sounds, as much as possible. 
     <p class="text-2xl font-semibold tracking-tight mt-8">Natural vs. Unnatural sounds</p>
-    <p class="text-lg mt-2">When we refer to "unnatural sounds", generally, we mean sounds in the background that would distract someone from listening to and enjoying the Psalm readings. This includes road noise, people talking, machinery, dogs barking, electronic buzz, and airplanes. Acceptable natural sounds would be: birds, normal insect noise, and farm animals (as long as they aren't too noisy).</p>
-    <p class="text-lg mt-2">This rules out recording most anywhere near busy roads, places with any kind of large groups of people, and even some private property with noisy neighbors. Lawnmowers, noises from neighbors, or vehicles running nearby would delay or prevent us from recording. </p>
-    <p class="text-lg mt-2">Finding truly quiet places where only natural sounds can be heard for even a few minutes (let alone a few hours) is a difficult order. It's not until you try to do a project like this that you realize just how difficult it is to get away from unnatural noise in general.</p>
+    <p class="text-lg mt-2">When we refer to "unnatural sounds", generally, we mean non-nature sounds in the background that would distract someone from listening to and enjoying the Psalm readings.</p>
+    <p class="text-lg mt-2">Unnatural sounds include: loud road noise, people talking, machinery, dogs barking, electronic buzz, and airplanes. Lawnmowers or vehicles running nearby would also delay or prevent us from recording.</p>
+    <p class="text-lg mt-2">Acceptable natural sounds would be: birds, normal insect noise, and farm animals (as long as they aren't too noisy).</p>
+    <p class="text-2xl font-semibold tracking-tight mt-8">How quiet?</p>
+    <p class="text-lg mt-2">Finding truly quiet places where only natural sounds can be heard for even a few minutes (let alone a few hours) is a very difficult order. It's not until you try to do a project like this that you realize just how difficult it is to find a quiet place.</p>
     <p class="text-lg mt-2">How do we find locations that are quiet enough and match the setting that we need for each particular Psalm?</p>
     <p class="text-lg mt-2">We need your help!</p>
     <p class="text-2xl font-semibold tracking-tight mt-8">Would you like to share your location for us to use?</p>
