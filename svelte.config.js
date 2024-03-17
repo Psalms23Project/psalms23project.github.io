@@ -1,6 +1,8 @@
 import preprocess from "svelte-preprocess";
 import adapter from "@sveltejs/adapter-static";
 
+import json from './src/psalms.json' assert { type: 'json' };
+
 const dev = process.argv.includes('dev');
 
 /** @type {import('@sveltejs/kit').Config} */
@@ -15,6 +17,15 @@ const config = {
     }),
     paths: {
       base:  dev ? '' : process.env.BASE_PATH,
+    },
+    prerender: {
+      crawl: true,
+      entries: [
+          '/',
+          '/quest',
+          '/locations',
+          ...json.psalms_media.map(psalm => `/readings/${psalm.psalm}`)
+      ]
     },
   },
 

@@ -36,13 +36,6 @@
      */
   let audioPlayer;
 
-
-  function updateQueryParams() {
-    const newUrl = new URL($page.url);
-    newUrl?.searchParams?.set('tab', selectedTab);
-    goto(newUrl);
-  }
-
   /**
      * @param {string} tab
      */
@@ -51,7 +44,6 @@
     if (tab == 'videos') {
       audioPlayer.pause();
     }
-    updateQueryParams();
   }
 
   /**
@@ -77,13 +69,6 @@
     } else {
       data = undefined;
       console.log('Error: undefined data');
-    }
-
-    let tabUrlParam = $page.url.searchParams.get('tab');
-    if (tabUrlParam == undefined || (tabUrlParam != 'videos' && tabUrlParam != 'audio')) {
-      selectedTab = 'videos';
-    } else {
-      selectedTab = tabUrlParam.toString();
     }
   }
 
