@@ -59,9 +59,16 @@
      */
   function setCurrentMedia(index, init=false) {
     selectedPsalm = index;
+    goto('/readings/' + selectedPsalm, {invalidateAll: true});
 
-    if (init == false) {
-      updateQueryParams();
+    updatePage();
+  }
+
+  function updatePage() {
+    if (selectedPsalm == undefined) {
+      selectedPsalm = 90;
+    } else {
+      selectedPsalm = Number(selectedPsalm);
     }
 
     let jsonData = Object.values(json.psalms_media).find((item) => item.psalm == selectedPsalm);
@@ -71,16 +78,6 @@
       data = undefined;
       console.log('Error: undefined data');
     }
-  }
-
-  function initPage() {
-    let psalmUrlParam = $page.params.psalm;
-    if (psalmUrlParam == undefined) {
-      selectedPsalm = 90;
-    } else {
-      selectedPsalm = Number(psalmUrlParam);
-    }
-    setCurrentMedia(selectedPsalm, true);
 
     let tabUrlParam = $page.url.searchParams.get('tab');
     if (tabUrlParam == undefined || (tabUrlParam != 'videos' && tabUrlParam != 'audio')) {
@@ -90,7 +87,13 @@
     }
   }
 
-  initPage();
+  function init() {
+    selectedPsalm = Number($page.params.psalm);
+    updatePage();
+  }
+
+  // Init
+  init();
 </script>
 
 <svelte:head>
