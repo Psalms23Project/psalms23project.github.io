@@ -15,7 +15,6 @@ const config = {
           200: "#E3E3F2",
           300: "#BCBCCD",
         },
-        b: '#1C88D0'
       },
       backgroundImage: {
         'birch-tree': "url('/images/birch-tree.jpg')",

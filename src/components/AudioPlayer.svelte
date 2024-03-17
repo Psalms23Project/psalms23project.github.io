@@ -101,9 +101,10 @@
   on:mousemove={trackMouse}
 />
 
-<div class="audio-player-container rounded-lg">
+<div class="audio-player-container flex flex-col justify-between rounded-lg">
+  <div></div>
   <div class="max-w-2xl shadow-none md:shadow-2xl mx-auto">
-    <img class="h-auto w-100 min-w-0 mt-0 mb-4 lg:mb-12 rounded-lg mx-auto" src={thumbnail} alt={title} />
+    <img class="h-auto w-100 min-w-0 mt-0 mb-4 md:mb-0 rounded-lg mx-auto" src={thumbnail} alt={title} />
   </div>
   <!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
   <div class="flex flex-row items-center justify-between bg-violet-100 p-3 rounded-lg">

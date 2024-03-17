@@ -104,17 +104,17 @@
     <p class="text-2xl mx-auto">Ooops..Invalid url. Click <button class="underline" on:click={() => location.replace('/readings')}>here</button> to find the readings</p>
   </div>
 {:else}
-  <div class="max-w-7xl flex flex-col mx-auto px-4 mt-5 mb-10">
+  <div class="max-w-7xl flex flex-col mx-auto px-4 mt-2 mb-10">
     <div class="flex flex-col md:flex-row">
       <!-- Video player -->
-      <figure class="w-full md:w-2/3 lg:w-3/4 flex flex-grow" class:hidden={selectedTab == 'audio'}>
+      <figure class="w-full flex flex-grow" class:hidden={selectedTab == 'audio'}>
         <EmbedPlayer 
           src={data.videoUrl}
           title={data.title}
         />
       </figure>
       <!-- Audio player -->
-      <figure class="w-full md:w-2/3 lg:w-3/4 flex flex-grow" class:hidden={selectedTab == 'videos'}>
+      <figure class="w-full flex flex-grow" class:hidden={selectedTab == 'videos'}>
         <AudioPlayer
           bind:this={audioPlayer}
           src={data.audioUrl}
@@ -123,8 +123,8 @@
         />
       </figure>
       <!-- Playlist -->
-      <div class="w-full md:w-1/3 lg:w-1/4 ml-0 md:ml-2 mt-4 md:mt-0 h-120 overflow-y-auto">
-        <div class="relative text-navybluedark bg-violet-100 rounded-lg py-3 px-2 h-full">
+      <div class="w-full min-w-72 sm:min-w-80 max-w-full md:max-w-80 ml-0 md:ml-2 mt-4 md:mt-0 bg-violet-100 rounded-lg" style="height: 33rem">
+        <div class="relative text-navybluedark py-3 px-2 h-full">
           <p class="text-base mx-2 font-semibold tracking-tighter text-navyblue/90 uppercase">Psalm Readings</p>
           <div class="flex flex-row text-sm mt-4">
             <button class="px-3 py-1 rounded-lg" on:click={() => setTab('videos')} class:bg-violet-200={selectedTab =='videos'}>
@@ -134,14 +134,17 @@
               Audio
             </button>
           </div>
-          <div class="flex flex-col mt-3">
+          <div class="flex flex-col mt-3 pr-2 overflow-y-auto" style="height: 26rem">
             {#each Object.values(json.psalms_media) as file}
             <button on:click={() => setCurrentMedia(file.psalm)} class="flex flex-row items-center justify-between px-3 py-2 rounded-lg" class:bg-violet-200={file.psalm == selectedPsalm}>
               <div class="flex flex-row items-center">
-                <img class="w-20 h-auto" src={file.image} alt={file.title}/>
-                <p class="text-md ml-2" class:font-medium={file.psalm == selectedPsalm}>{file.title}</p>
+                <img class="w-24 h-auto rounded-md" src={file.image} alt={file.title}/>
+                <div class="flex flex-col text-left ml-2">
+                  <p class="text-md font-medium" class:font-bold={file.psalm == selectedPsalm}>{file.title}</p>
+                  <small class="text-xs text-navyblue/70">{file.date}</small>
+                </div>
               </div>
-              <p class="text-sm">{file.length}</p>
+              <p class="text-sm text-navyblue">{file.length}</p>
             </button>
             {/each}
           </div>
@@ -171,7 +174,7 @@
       <div class="flex flex-row tracking-tight space-x-3">
         <p>{ data.location }</p><p>{ data.date }</p>
       </div>
-      <p class="text-lg mt-5 max-w-prose">
+      <p class="text-base mt-5 max-w-prose">
         {@html data.description }
       </p>
     </div>
