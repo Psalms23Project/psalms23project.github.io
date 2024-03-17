@@ -19,7 +19,7 @@ function getIconStr(icon) {
 <div id="locations" class="max-w-6xl flex mx-auto px-4 my-20">
   <div class="text-navyblue">
     <div class="max-w-4xl">
-      <h3 class="text-4xl sm:text-5xl font-serif mt-4">Planned Locations</h3>
+      <h3 class="text-4xl sm:text-5xl text-navyblue font-serif mt-4">Planned Locations</h3>
       <p class="text-lg mt-5">This page shows how we are planning to align the location, weather, and time of day of each reading with the overal theme and mood of each Psalm. This is subject to change as Yahweh leads. We plan to divide the sections of Psalm 119 into different locations.</p>
     </div>
     <div class="flex flex-col border border-violet-200 px-6 py-4 mt-6 rounded-md">

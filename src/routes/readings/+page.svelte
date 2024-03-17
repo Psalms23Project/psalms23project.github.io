@@ -10,7 +10,7 @@
 </svelte:head>
 
 <div class="max-w-7xl flex flex-col mx-auto px-4 mt-2 mb-10">
-  <p class="text-base mx-2 font-semibold tracking-tighter text-navyblue/90 uppercase">Psalm Readings</p>
+  <h3 class="text-4xl sm:text-5xl text-navyblue font-serif mt-4 mb-10">Psalm Readings</h3>
   <div class="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-6 gap-x-4">
     {#each Object.values(json.psalms_media) as file}
     <button on:click={() => goto('/readings/' + file.psalm)} class="flex flex-col items-start text-left mb-4">
