@@ -14,7 +14,7 @@
       <Hamburger bind:open={menuOpen} />
     </div>
     <div class="hidden md:flex text-lg md:text-base font-medium tracking-tight py-3.5 mx-auto md:mx-0" class:hidden={!menuOpen}>
-      <div class="flex flex-col md:flex-row items-center rounded-full">
+      <div class="flex flex-col md:flex-row items-center space-y-5 sm:space-y-0 rounded-full">
         <a class="text-navyblue/80 hover:bg-violet-200 px-4 md:px-5 py-2 rounded-full duration-300" href="/readings/">Readings</a>
         <a class="text-navyblue/80 hover:bg-violet-200 px-4 md:px-5 py-2 rounded-full duration-300" href="/#theproject">About</a>
         <a class="text-navyblue/80 hover:bg-violet-200 px-4 md:px-5 py-2 rounded-full duration-300" href="/#progress">Progress</a>
