@@ -23,6 +23,17 @@
       "description": "Psalms 26 read in nature. This Psalm reading was filmed just before sunset in the countryside of Minnesota.<br><br>1 Judge me, O Yahweh; for I have walked in mine integrity: I have trusted also in Yahweh; therefore I shall not slide.<br>2 Examine me, O Yahweh, and prove me; try my reins and my heart.<br>3 For thy lovingkindness is before mine eyes: and I have walked in thy truth.<br>4 I have not sat with vain persons, neither will I go in with dissemblers.<br>5 I have hated the congregation of evil doers; and will not sit with the wicked.<br>6 I will wash mine hands in innocency: so will I compass thine altar, O Yahweh:<br>7 That I may publish with the voice of thanksgiving, and tell of all thy wondrous works.<br>8 Yahweh, I have loved the habitation of thy house, and the place where thine honour dwelleth.<br>9 Gather not my soul with sinners, nor my life with bloody men:<br>10 In whose hands is mischief, and their right hand is full of bribes.<br>11 But as for me, I will walk in mine integrity: redeem me, and be merciful unto me.<br>12 My foot standeth in an even place: in the congregations will I bless Yahweh."
     },
     {
+      "psalm": 49,
+      "title": "Psalm 49",
+      "date": "Mar. 18, 2024",
+      "location": "Minnesota",
+      "image": "/images/thumbs/Psalms-49-thumbnail.jpg",
+      "videoUrl": "https://www.youtube-nocookie.com/embed/2CAnagRu7wo",
+      "audioUrl": "/audio/Psalm-49.mp3",
+      "length": "3:37",
+      "description": "For the director of music. Of the Sons of Korah. A psalm.<br><br>1 Hear this, all ye people; give ear, all ye inhabitants of the world:<br>2 Both low and high, rich and poor, together.<br>3 My mouth shall speak of wisdom; and the meditation of my heart shall be of understanding.<br>4 I will incline mine ear to a parable: I will open my dark saying upon the harp.<br>5 Wherefore should I fear in the days of evil, when the iniquity of my heels shall compass me about?<br>6 They that trust in their wealth, and boast themselves in the multitude of their riches;<br>7 None of them can by any means redeem his brother, nor give to Elohim a ransom for him:<br>8 (For the redemption of their soul is precious, and it ceaseth for ever:)<br>9 That he should still live for ever, and not see corruption.<br>10 For he seeth that wise men die, likewise the fool and the brutish person perish, and leave their wealth to others.<br>11 Their inward thought is, that their houses shall continue for ever, and their dwelling places to all generations; they call their lands after their own names.<br>12 Nevertheless man being in honour abideth not: he is like the beasts that perish.<br>13 This their way is their folly: yet their posterity approve their sayings. Selah.<br>14 Like sheep they are laid in the grave; death shall feed on them; and the upright shall have dominion over them in the morning; and their beauty shall consume in the grave from their dwelling.<br>15 But Elohim will redeem my soul from the power of the grave: for he shall receive me. Selah.<br>16 Be not thou afraid when one is made rich, when the glory of his house is increased;<br>17 For when he dieth he shall carry nothing away: his glory shall not descend after him.<br>18 Though while he lived he blessed his soul: and men will praise thee, when thou doest well to thyself.<br>19 He shall go to the generation of his fathers; they shall never see light.<br>20 Man that is in honour, and understandeth not, is like the beasts that perish."
+    },
+    {
       "psalm": 90,
       "title": "Psalm 90",
       "date": "Feb. 25, 2024",
@@ -905,6 +916,63 @@
           ]
         }
       ]
+    }
+  ],
+  "progress_log": [
+    {
+      "title": "Psalm 49",
+      "date": "3/2024",
+      "notes": "Our seventh Psalm reading, <a class='underline' href='/readings/49/'>Psalm 49</a>, is now posted."
+    },
+    {
+      "title": "Psalm 96",
+      "date": "3/2024",
+      "notes": "Our sixth Psalm reading, <a class='underline' href='/readings/96/'>Psalm 96</a>, set in the midst of cedar trees is now posted."
+    },
+    {
+      "title": "Psalm 90",
+      "date": "2/2024",
+      "notes": "<a class='underline' href='/readings/90/'>Psalm 90</a>, our fifth Psalm reading is now posted."
+    },
+    {
+      "title": "Psalm 13",
+      "date": "2/2024",
+      "notes": "Our fourth Psalm reading is now posted, <a class='underline' href='/readings/13/'>Psalm 13</a>. We filmed this reading on a foggy and frosty afternoon in the countryside of Minnesota. The combination of the thick fog, and frost on the grass had a unique feel."
+    },
+    {
+      "title": "Audio files now available",
+      "date": "2/2024",
+      "notes": "The website now includes audio versions of each Psalm reading."
+    },
+    {
+      "title": "Psalm 116",
+      "date": "1/2024",
+      "notes": "Another Psalm reading is now posted, <a class='underline' href='/readings/116/'>Psalm 116</a>. This is the first video to have the words of the Psalm appear near the bottom to help follow along with the Psalm reading."
+    },
+    {
+      "title": "Psalm 26",
+      "date": "12/2023",
+      "notes": "The second Psalm reading is now posted, <a class='underline' href='/readings/26/'>Psalm 26</a>. This was a test video we had filmed before we had a good quality camera, but it turned out so nice that we decided to post it anyway."
+    },
+    {
+      "title": "The first Psalm reading video!",
+      "date": "10/2023",
+      "notes": "The first Psalm reading video, <a class='underline' href='/readings/117/'>Psalm 117</a>, is now posted!"
+    },
+    {
+      "title": "Test videos",
+      "date": "8/2023",
+      "notes": "We've recorded a number of videos to get a feel for the equipment and to practice reading the Psalms."
+    },
+    {
+      "title": "Camera, audio equipment & gear",
+      "date": "7/2023",
+      "notes": "Praise Yahweh! He has provided us a professional-quality audio setup and a camera."
+    },
+    {
+      "title": "Trial video & planning",
+      "date": "7/2023",
+      "notes": "We recorded a trial video to ensure we have what we need for camera and audio equipment. A lot of planning..."
     }
   ]
 }

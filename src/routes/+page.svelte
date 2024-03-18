@@ -1,3 +1,7 @@
+<script>
+  import json from '../psalms.json';
+</script>
+
 <svelte:head>
   <title>The Psalms 23 Project</title>
   <meta name="description" content="The Psalms 23 Project aims to create high-quality videos of Psalm readings on location, in nature with the peaceful atmosphere and sounds of creation." />
@@ -10,13 +14,13 @@
       <p class="text-white text-sm uppercase">Latest Video</p>
       <div class="mt-20">
         <h1 class="text-5xl md:text-6xl lg:text-7xl font-serif font-medium text-white mt-5">
-          Psalm 96
+          Psalm 49
         </h1>
         <p class="text-white/90 text-xl mt-2 max-w-sm leading-6">
-          A reading in the midst of cedars.
+          A Psalm of the Sons of Korah.
         </p>
         <div class="flex mt-10">
-          <a href="/readings?psalm=96" class=" text-navybluedark font-semibold rounded-lg px-5 py-3 bg-white hover:bg-white/80 duration-300">
+          <a href="/readings/49/" class=" text-navybluedark font-semibold rounded-lg px-5 py-3 bg-white hover:bg-white/80 duration-300">
             Watch Video
           </a>
         </div>
@@ -52,146 +56,22 @@
     <div class="w-full md:w-2/3 lg:w-2/5 max-w-2xl text-navyblue">
       <h3 class="text-4xl font-semibold text-navyblue">Progress Log</h3>
       <ol class="flex flex-col-reverse mt-8 border-l-2 border-navyblue h-72 overflow-y-auto">
+        {#each Object.values(json.progress_log) as log}
         <li>
           <div class="flex-start flex items-center pt-3">
             <div class="-ml-[6px] mr-3 h-[10px] w-[10px] rounded-full bg-navyblue"></div>
             <p class="text-sm tracking-tight">
-              3/2024
+              {log.date}
             </p>
           </div>
           <div class="mb-6 ml-4 mt-2">
-            <h4 class="mb-1.5 text-xl tracking-tight font-medium">Psalm 96</h4>
+            <h4 class="mb-1.5 text-xl tracking-tight font-medium">{log.title}</h4>
             <p class="mb-3 tracking-tight">
-              Our sixth Psalm reading, <a class="underline" href="/readings?psalm=96">Psalm 96</a>, set in the midst of cedar trees is now posted.
+              {@html log.notes}
             </p>
           </div>
         </li>
-        <li>
-          <div class="flex-start flex items-center pt-3">
-            <div class="-ml-[6px] mr-3 h-[10px] w-[10px] rounded-full bg-navyblue"></div>
-            <p class="text-sm tracking-tight">
-              2/2024
-            </p>
-          </div>
-          <div class="mb-6 ml-4 mt-2">
-            <h4 class="mb-1.5 text-xl tracking-tight font-medium">Psalm 90</h4>
-            <p class="mb-3 tracking-tight">
-              <a class="underline" href="https://youtu.be/ydr4qt-5emI">Psalm 90</a>, our fifth Psalm reading is now posted.
-            </p>
-          </div>
-        </li>
-        <li>
-          <div class="flex-start flex items-center pt-3">
-            <div class="-ml-[6px] mr-3 h-[10px] w-[10px] rounded-full bg-navyblue"></div>
-            <p class="text-sm tracking-tight">
-              2/2024
-            </p>
-          </div>
-          <div class="mb-6 ml-4 mt-2">
-            <h4 class="mb-1.5 text-xl tracking-tight font-medium">Psalm 13</h4>
-            <p class="mb-3 tracking-tight">
-              Our fourth Psalm reading is now posted, <a class="underline" href="https://youtu.be/IMaHSiAI30Y">Psalm 13</a>. We filmed this reading on a foggy and frosty afternoon in the countryside of Minnesota. The combination of the thick fog, and frost on the grass had a unique feel.
-            </p>
-          </div>
-        </li>
-        <li>
-          <div class="flex-start flex items-center pt-3">
-            <div class="-ml-[6px] mr-3 h-[10px] w-[10px] rounded-full bg-navyblue"></div>
-            <p class="text-sm tracking-tight">
-              2/2024
-            </p>
-          </div>
-          <div class="mb-6 ml-4 mt-2">
-            <h4 class="mb-1.5 text-xl tracking-tight font-medium">Audio playlist</h4>
-            <p class="mb-3 tracking-tight">
-              The website now includes audio versions of each Psalm reading. See them <a class="underline" href="/readings/">here</a>.
-            </p>
-          </div>
-        </li>
-        <li>
-          <div class="flex-start flex items-center pt-3">
-            <div class="-ml-[6px] mr-3 h-[10px] w-[10px] rounded-full bg-navyblue"></div>
-            <p class="text-sm tracking-tight">
-              1/2024
-            </p>
-          </div>
-          <div class="mb-6 ml-4 mt-2">
-            <h4 class="mb-1.5 text-xl tracking-tight font-medium">Psalm 116</h4>
-            <p class="mb-3 tracking-tight">
-              Another Psalm reading is now posted, <a class="underline" href="https://youtu.be/O6-mBq8nG00">Psalm 116</a>. This is the first video to have the words of the Psalm appear near the bottom to help follow along with the Psalm reading.
-            </p>
-          </div>
-        </li>
-        <li>
-          <div class="flex-start flex items-center pt-3">
-            <div class="-ml-[6px] mr-3 h-[10px] w-[10px] rounded-full bg-navyblue"></div>
-            <p class="text-sm tracking-tight">
-              12/2023
-            </p>
-          </div>
-          <div class="mb-6 ml-4 mt-2">
-            <h4 class="mb-1.5 text-xl tracking-tight font-medium">Psalm 26</h4>
-            <p class="mb-3 tracking-tight">
-              The second Psalm reading is now posted, <a class="underline" href="https://youtu.be/EeaPLLWrnDQ">Psalm 26</a>. This was a test video we had filmed before we had a good quality camera, but it turned out so nice that we decided to post it anyway.
-            </p>
-          </div>
-        </li>
-        <li>
-          <div class="flex-start flex items-center pt-3">
-            <div class="-ml-[6px] mr-3 h-[10px] w-[10px] rounded-full bg-navyblue"></div>
-            <p class="text-sm tracking-tight">
-              10/2023
-            </p>
-          </div>
-          <div class="mb-6 ml-4 mt-2">
-            <h4 class="mb-1.5 text-xl tracking-tight font-medium">The first Psalm reading video!</h4>
-            <p class="mb-3 tracking-tight">
-              The first Psalm reading, <a class="underline" href="https://youtu.be/s8vmXgcJUXQ">Psalm 117</a>, is now posted!
-            </p>
-          </div>
-        </li>
-        <li>
-          <div class="flex-start flex items-center pt-3">
-            <div class="-ml-[6px] mr-3 h-[10px] w-[10px] rounded-full bg-navyblue"></div>
-            <p class="text-sm tracking-tight">
-              8/2023
-            </p>
-          </div>
-          <div class="mb-6 ml-4 mt-2">
-            <h4 class="mb-1.5 text-xl tracking-tight font-medium">Test videos</h4>
-            <p class="mb-3 tracking-tight">
-              We've recorded a number of videos to get a feel for the equipment and to practice reading the Psalms.
-            </p>
-          </div>
-        </li>
-        <li>
-          <div class="flex-start flex items-center pt-3">
-            <div class="-ml-[6px] mr-3 h-[10px] w-[10px] rounded-full bg-navyblue"></div>
-            <p class="text-sm tracking-tight">
-              7/2023
-            </p>
-          </div>
-          <div class="mb-6 ml-4 mt-2">
-            <h4 class="mb-1.5 text-xl tracking-tight font-medium">Camera, audio equipment & gear</h4>
-            <p class="mb-3 tracking-tight">
-              Praise Yahweh! We now have a professional-quality audio setup and a camera.
-            </p>
-          </div>
-        </li>
-        <li>
-          <div class="flex-start flex items-center pt-3">
-            <div class="-ml-[6px] mr-3 h-[10px] w-[10px] rounded-full bg-navyblue"></div>
-            <p class="text-sm tracking-tight">
-              7/2023
-            </p>
-          </div>
-          <div class="mb-6 ml-4 mt-2">
-            <h4 class="mb-1.5 text-xl tracking-tight font-medium">Trial video &amp; planning</h4>
-            <p class="mb-3 tracking-tight">
-              We recorded a trial video to ensure we have what we need for camera and audio equipment. Did a lot of planning.
-            </p>
-          </div>
-        </li>
+        {/each}
       </ol>
     </div>
   </div>

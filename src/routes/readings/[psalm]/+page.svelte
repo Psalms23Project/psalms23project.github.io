@@ -6,6 +6,8 @@
   import { goto } from "$app/navigation";
   import { page } from '$app/stores';
 
+  let defaultPsalm = 49;
+
   /**
    * @param {string} selectedTab
    */
@@ -14,13 +16,13 @@
   /**
      * @param {number} selectedPsalm
      */
-  let selectedPsalm = 96;
+  let selectedPsalm = defaultPsalm;
 
   /**
      * @type {{ psalm: number; title: string; date: string; location: string; image: string; videoUrl: string; audioUrl: string; length: string; description: string; } | undefined}
      */
   let data = {
-    psalm: 96,
+    psalm: defaultPsalm,
     title: "",
     date: "",
     location: "",
@@ -58,7 +60,7 @@
 
   function updatePage() {
     if (selectedPsalm == undefined) {
-      selectedPsalm = 90;
+      selectedPsalm = defaultPsalm;
     } else {
       selectedPsalm = Number(selectedPsalm);
     }
