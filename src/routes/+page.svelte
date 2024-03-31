@@ -16,7 +16,7 @@
         <h1 class="text-5xl md:text-6xl lg:text-7xl font-serif font-medium text-white mt-5">
           Psalm 49
         </h1>
-        <p class="text-white/90 text-xl mt-2 max-w-sm leading-6">
+        <p class="font-serif italic text-white/90 text-2xl mt-2 max-w-sm leading-6">
           A Psalm of the Sons of Korah.
         </p>
         <div class="flex mt-10">
@@ -30,20 +30,19 @@
   <!-- The project -->
   <div id="theproject" class="max-w-6xl mx-auto text-navyblue px-4 my-20">
     <div class="flex flex-col">
-      <h2 class="text-4xl mt-4 max-w-2xl mx-auto text-navyblue/90 font-semibold text-center">
+      <h2 class="font-serif text-4xl md:text-5xl mt-4 max-w-3xl mx-auto text-navyblue text-center">
         A project to create high-quality readings of the Psalms in nature.
       </h2>
-      <h3 class="text-xl mt-3 mx-auto text-center text-navyblue/80">Psalms of the Bible, read on location, in nature across the United States.</h3>
-      <div class="flex flex-col sm:flex-row text-lg space-x-0 sm:space-x-12 mt-8">
-        <div class="w-full md:w-1/2">
-          <p class="mt-3">The Psalms 23 project aims to film high-quality readings of the Psalms in nature.</p>
-          <p class="mt-3">The Psalms are a collection of prayers and songs of praise written over centuries by authors including David, Moses, and the sons of Korah. Appropriately called Israel's prayer book, the book of Psalms is filled with words to express to our Heavenly Father. It contains words of praise, of thanksgiving, of awe, of cries for deliverance from enemies, and of comfort.</p>
-          <p class="mt-3">We strive to align the <a class="underline" href="/locations">location</a>, weather, and time of day of each reading with each Psalm's overall mood and theme.</p>
-        </div>
-        <div class="w-full md:w-1/2">
-          <p class="mt-3">Since we film the Psalm readings in Yahweh's awesome creation, the audio is recorded on location, with no voice-over or added sound effects, to preserve the authenticity. Depending on the Psalm, we film the videos with multiple angles to present a full picture of the location.</p>
-          <p class="mt-3">The readings also restore the name of our Heavenly Father, Yahweh, to where it appears in the original Hebrew Scriptures. "Give praise to Yahweh, proclaim his name; make known among the nations what he has done." (Psalm 105:1)</p>
-        </div>
+      <h3 class="text-2xl md:text-3xl mt-3 mx-auto text-center text-navyblue/80 font-serif italic">
+        Psalms of the Bible, read on location in nature across the United States.
+      </h3>
+      <div class="text-navyblue/90 text-xl mt-4 text-center">
+        <p class="mt-3">The Book of Psalms is a collection of prayers and songs of praise written over centuries by authors including David, Moses, and the sons of Korah. Appropriately called Israel's prayer book, the book of Psalms is filled with words to express to our Heavenly Father. It contains words of praise, of thanksgiving, of awe, of cries for deliverance from enemies, and of comfort.</p>
+        <p class="mt-3 mb-8">Our goal is to create readings of the Psalms in natural settings that fit each Psalm's overall theme.</p>
+        <a class="group text-base inline-flex items-center font-semibold hover:opacity-90 duration-300 ease-in-out" href="/about/">
+          LEARN MORE
+          <svg class="w-4 h-4 fill-navyblue ml-2 group-hover:ml-3 duration-300" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#000000" viewBox="0 0 256 256"><path d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z"></path></svg>
+        </a>
       </div>
     </div>
   </div>
@@ -54,7 +53,7 @@
       <img class="w-auto h-auto rounded-2xl" src="images/covers/psalm-116.jpg" alt="Reading the Psalms in nature" />
     </div>
     <div class="w-full md:w-2/3 lg:w-2/5 max-w-2xl text-navyblue">
-      <h3 class="text-4xl font-semibold text-navyblue">Progress Log</h3>
+      <h3 class="text-4xl md:text-5xl font-serif text-navyblue">Progress Log</h3>
       <ol class="flex flex-col-reverse mt-8 border-l-2 border-navyblue h-72 overflow-y-auto">
         {#each Object.values(json.progress_log) as log}
         <li>
@@ -80,7 +79,7 @@
   <div class="min-w-0 max-w-7xl mx-auto">
     <div id="signup" class="flex flex-col text-center bg-birch-tree rounded-2xl">
       <div class="flex flex-col bg-cover px-1 pt-32 pb-32 rounded-2xl bg-navybluedark/50">
-        <h5 class="text-4xl font-semibold text-white mt-4 px-4 mx-auto">
+        <h5 class="text-4xl md:text-5xl font-serif text-white mt-4 px-4 mx-auto">
           The Psalms 23 Project Newsletter
         </h5>
         <p class="text-white text-base mt-4 max-w-xl mx-auto px-3">Signup for our newsletter to get project updates and notifications emails whenever we publish a video or have an announcement.</p>

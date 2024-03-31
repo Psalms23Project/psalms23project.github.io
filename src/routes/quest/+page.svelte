@@ -10,8 +10,8 @@
 <div class="max-w-6xl mx-auto px-4 mt-10 mb-20"> 
   <div class="max-w-3xl text-navyblue">
     <img class="w-auto rounded-2xl" src="/images/sunset.jpg" alt=""/>
-    <h2 class="text-4xl sm:text-5xl font-serif mt-8">The Quest for Quiet Locations</h2>
-    <h3 class="text-xl mt-2 text-navyblue/80 tracking-tight">A call for quiet locations to film readings of the Psalms in nature.</h3>
+    <h1 class="text-4xl sm:text-5xl font-serif mt-8">The Quest for Quiet Locations</h1>
+    <h2 class="text-2xl text-navyblue/80 font-serif italic mt-1">A call for quiet locations to film readings of the Psalms in nature.</h2>
     <p class="text-2xl font-semibold tracking-tight mt-8">Why we need quiet locations</p>
     <p class="text-lg mt-2">The Psalms 23 project aims to film high-quality readings of the Psalms in nature, with the peaceful sounds of creation.</p>
     <p class="text-lg mt-2">Most Scripture and Psalm readings that you find online are recorded in a sound-proof studio. Nature soundtracks and foley (sound effects) are mixed in digitally after recording.</p>

@@ -9,9 +9,14 @@
   <meta name="description" content="The Psalms 23 Project aims to create high-quality videos of Psalm readings on location, in nature with the peaceful atmosphere and sounds of creation." />
 </svelte:head>
 
-<div class="max-w-7xl flex flex-col mx-auto px-4 mt-2 mb-10">
-  <h3 class="text-4xl sm:text-5xl text-navyblue font-serif mt-4 mb-10">Psalm Readings</h3>
-  <div class="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-6 gap-x-4">
+<div class="max-w-7xl flex flex-col mx-auto px-4 my-10">
+  <h3 class="text-4xl sm:text-5xl text-navyblue font-serif mt-4">
+    Psalm Readings
+  </h3>
+  <h3 class="text-2xl text-navyblue/80 font-serif italic">
+    { json.psalms_media.length } Psalms completed of 150
+  </h3>
+  <div class="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-6 gap-x-4 mt-12">
     {#each Object.values(json.psalms_media) as file}
     <button on:click={() => goto('/readings/' + file.psalm)} class="flex flex-col items-start text-left mb-4">
       <div class="relative">
