@@ -41,7 +41,7 @@
       </li>
     </ol>
     <p class="text-lg mt-2">
-      We provide the videos and audio for the Psalm readings on this website and on <a class="font-bold underline hover:opacity-90 duration-300 ease-in-out" href="https://youtube.com/@ThePsalms23Project">our YouTube channel</a> freely for the edification and encouragement of others.
+      We provide the videos and audio for the Psalm readings on this website and on <a class="font-semibold underline hover:opacity-90 duration-300 ease-in-out" href="https://youtube.com/@ThePsalms23Project">our YouTube channel</a> freely for the edification and encouragement of others.
     </p>
     <p class="text-2xl font-semibold tracking-tight mt-8">
       Future plans
@@ -56,7 +56,7 @@
       <li class="mt-4">
         <b>Share our Psalm reading videos.</b> Help us get out the word about this project by telling your family and friends and by sharing our videos.
       </li>
-      <li><b>Help us find locations.</b> We're in need of private, quiet locations where we can film Psalm readings. If you know of a place or would be willing to have us come film on your property, <a class="font-bold underline hover:opacity-90 duration-300 ease-in-out" href="/quest/">click here</a> to learn more.</li>
+      <li><b>Help us find locations.</b> We're in need of private, quiet locations where we can film Psalm readings. If you know of a place or would be willing to have us come film on your property, <a class="font-semibold underline hover:opacity-90 duration-300 ease-in-out" href="/quest/">click here</a> to learn more.</li>
     </ol>
     <hr class="mt-8"/>
     <p class="text-lg mt-8">

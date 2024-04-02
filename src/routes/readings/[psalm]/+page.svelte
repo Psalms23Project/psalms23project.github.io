@@ -129,7 +129,7 @@
               <div class="flex flex-row items-center">
                 <img class="w-24 h-auto rounded-md" src={file.image} alt={file.title}/>
                 <div class="flex flex-col text-left ml-2">
-                  <p class="text-md font-medium" class:font-bold={file.psalm == selectedPsalm}>{file.title}</p>
+                  <p class="text-md font-medium" class:font-semibold={file.psalm == selectedPsalm}>{file.title}</p>
                   <small class="text-xs text-navyblue/70">{file.date}</small>
                 </div>
               </div>

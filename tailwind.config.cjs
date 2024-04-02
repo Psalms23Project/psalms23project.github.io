@@ -3,7 +3,7 @@ const config = {
   content: ["./src/**/*.{html,js,svelte,ts}"],
   theme: {
     fontFamily: {
-      serif: ['High Tower text', 'Charter', 'Sitka Text', 'Cambria', 'serif'],
+      serif: ['High Tower text', 'EB Garamond', 'Georgia', 'serif'], 
       sans: ['Figtree', 'sans-serif'],
     },
     extend: {
