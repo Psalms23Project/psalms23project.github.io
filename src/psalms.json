@@ -918,6 +918,255 @@
       ]
     }
   ],
+  "psalms_locations": [
+    {
+      "psalm": 1,
+      "completed": false,
+      "time_of_day": "Morning",
+      "location": "River",
+      "weather": "sunny",
+      "categories": [
+        "Wisdom"
+      ],
+      "tags": [
+        "A Psalm of a righteous man", "Tree planted by the rivers of water", "Summer", "Fruit tree", "Wind", "Encouragement", "Instruction", "Judgement on evil"
+      ]
+    },
+    {
+      "psalm": 2,
+      "completed": false,
+      "time_of_day": "Morning/Evening",
+      "location": "Mountain/Mountain Top",
+      "weather": "sunny",
+      "categories": [
+        "Thanksgiving/Kingship-Covenant"
+      ],
+      "tags": [
+        "A Psalm about Yahweh the Father and Yahushua the Son", "Holy hill", "Judgement on evil", "Yahweh's power", "All will bow to Yahushua", "Ends of the earth"
+      ]
+    },
+    {
+      "psalm": 3,
+      "completed": false,
+      "time_of_day": "Evening/Afternoon",
+      "location": "Meadow/Hill/Mountain",
+      "weather": "rainy",
+      "categories": [
+        "Lament/Individual"
+      ],
+      "tags": [
+        "Crying out for deliverance", "Yahweh's protection", "Holy hill", "Laying down to sleep", "Trust in Yahweh", "Protection"
+      ]
+    },
+    {
+      "psalm": 4,
+      "completed": false,
+      "time_of_day": "Evening",
+      "location": "Meadow/Hill/Mountain",
+      "weather": "rainy",
+      "categories": [
+        "Lament/Individual"
+      ],
+      "tags": [
+        "The evening Psalm", "Crying out for deliverance", "Light", "Lie down and sleep", "Trust in Yahweh", "Protection"
+      ]
+    },
+    {
+      "psalm": 5,
+      "completed": false,
+      "time_of_day": "Morning sunrise",
+      "location": "River",
+      "weather": "sunny",
+      "categories": [
+        "Lament/Individual"
+      ],
+      "tags": [
+        "The morning Psalm", "River", "Calling out to Yahweh", "Morning prayer", "Judgement on evil", "Mercy", "Worship", "Shout for joy", "Prayer for guidance"
+      ]
+    },
+    {
+      "psalm": 6,
+      "completed": false,
+      "time_of_day": "Afternoon",
+      "location": "Lake",
+      "weather": "cloudy",
+      "categories": [
+        "Lament/Individual"
+      ],
+      "tags": [
+        "A penitental Psalm", "Crying out for mercy", "Forgiveness", "How long? Psalm", "Night", "tears"
+      ]
+    },
+    {
+      "psalm": 7,
+      "completed": false,
+      "time_of_day": "Morning",
+      "location": "Woods/Forest",
+      "weather": "sunny",
+      "categories": [
+        "Lament/Individual"
+      ],
+      "tags": [
+        "Crying out for deliverance", "Judgement on evil", "Praise", "Judgement of the righteous", "Defense in Yahweh"
+      ]
+    },
+    {
+      "psalm": 8,
+      "completed": false,
+      "time_of_day": "Evening night with stars and moon",
+      "location": "Hill",
+      "weather": "sunny",
+      "categories": [
+        "Praise/Creator"
+      ],
+      "tags": [
+        "A Creation Psalm", "Hill", "Yahweh's power and glory", "Smallness of man", "Nature"
+      ]
+    },
+    {
+      "psalm": 9,
+      "completed": false,
+      "time_of_day": "Afternoon",
+      "location": "Meadow",
+      "weather": "sunny",
+      "categories": [
+        "Lament/Individual"
+      ],
+      "tags": [
+        "An arostic Psalm", "Praise for Yahweh's works", "Destruction and judgement of the wicked", "Yahweh is a refuge for the oppressed", "Yahweh's mercy", "Unbelievers sunk in a pit", "Yahweh's care for the humble and needy"
+      ]
+    },
+    {
+      "psalm": 10,
+      "completed": false,
+      "time_of_day": "Morning",
+      "location": "Hill",
+      "weather": "cloudy",
+      "categories": [
+        "Lament/Individual"
+      ],
+      "tags": [
+        "An arostic Psalm", "A Psalm of the wicked", "Persecution", "Evil men", "Crying to Yahweh to see the evil and judge it", "Yahweh is a helper to the fatherless and humble"
+      ]
+    },
+    {
+      "psalm": 11,
+      "completed": false,
+      "time_of_day": "Morning",
+      "location": "Desert",
+      "weather": "cloudy",
+      "categories": [
+        "Song of Trust"
+      ],
+      "tags": [
+        "Trust in Yahweh", "Yahweh's Holy temple and throne", "Judgement of the wicked", "Yahweh's care for the righteous"
+      ]
+    },
+    {
+      "psalm": 12,
+      "completed": false,
+      "time_of_day": "Midday",
+      "location": "Meadow",
+      "weather": "cloudy",
+      "categories": [
+        "Lament/National/Individual"
+      ],
+      "tags": [
+        "Judgement on evil", "Help for the poor and oppressed", "Yahweh's pure words, tried and purified in the furnace of earth"
+      ]
+    },
+    {
+      "psalm": 13,
+      "completed": true,
+      "time_of_day": "Morning",
+      "location": "Meadow",
+      "weather": "foggy",
+      "categories": [
+        "Lament/Individual"
+      ],
+      "tags": [
+        "The How long? Psalm", "Sorrow", "Sing unto Yahweh", "Crying out for deliverance"
+      ]
+    },
+    {
+      "psalm": 14,
+      "completed": false,
+      "time_of_day": "Afternoon",
+      "location": "Mountain/Mountain Top",
+      "weather": "sunny",
+      "categories": [
+        "Lament/Individual"
+      ],
+      "tags": [
+        "A Psalm of the wicked", "All have sinned", "No-one does good"
+      ]
+    },
+    {
+      "psalm": 15,
+      "completed": false,
+      "time_of_day": "Midday",
+      "location": "Hill",
+      "weather": "sunny",
+      "categories": [
+        "Wisdom"
+      ],
+      "tags": [
+        "Instruction", "Truth", "Righteousness"
+      ]
+    },
+    {
+      "psalm": 16,
+      "completed": false,
+      "time_of_day": "Morning",
+      "location": "Waterfall",
+      "weather": "foggy",
+      "categories": [
+        "Song of Trust"
+      ],
+      "tags": [
+        "A Messianic Psalm (prophecy of Yahushua)", "Yahweh is my portion and cup", "We will not be moved", "Joy"
+      ]
+    },
+    {
+      "psalm": 17,
+      "completed": false,
+      "time_of_day": "Evening",
+      "location": "Mountain/Mountain Top",
+      "weather": "sunny",
+      "categories": [
+        "Lament/Individual"
+      ],
+      "tags": [
+        "Crying to Yahweh to prove him", "Prayer for deliverance from the wicked"
+      ]
+    },
+    {
+      "psalm": 18,
+      "completed": false,
+      "time_of_day": "Afternoon",
+      "location": "Woods/Forest",
+      "weather": "cloudy",
+      "categories": [
+        "Thanksgiving/Individual", "Thanksgiving/Kingship-Covenant"
+      ],
+      "tags": [
+        "A Messianic Psalm (prophecy of Yahushua)", "Yahweh is our rock and our high tower", "Crying out for deliverance", "Yahweh's power over creation", "Yahweh's salvation", "Yahweh's protection", "Praise"
+      ]
+    },
+    {
+      "psalm": 19,
+      "completed": false,
+      "time_of_day": "Evening night with stars and moon",
+      "location": "Hilltop",
+      "weather": "sunny",
+      "categories": [
+        "Praise hymn/Creator", "Wisdom"
+      ],
+      "tags": [
+        "A word of Yahweh Psalm", "Yahweh's creation", "Yahweh's law", "Plea for help to avoid sin", "In awe of Yahweh"
+      ]
+    }
+  ],
   "progress_log": [
     {
       "title": "Psalm 49",
