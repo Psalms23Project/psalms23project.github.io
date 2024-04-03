@@ -25,7 +25,7 @@
       Who we are
     </p>
     <p class="text-lg mt-2">
-      The Psalms 23 Project is a ministry project by Richard, Noah, and Elijah Rahm to create high-quality video and audio readings of the Psalms in nature. Richard reads the Psalms, Noah handles the filming, editing, and website, and Elijah monitors the audio and assists with setup. Together, we are The Psalms 23 Project team!
+      The Psalms 23 Project is a ministry project by Richard and his sons Noah and Elijah Rahm, to create high-quality video and audio readings of the Psalms in nature. Richard reads the Psalms, Noah handles the filming, editing, and website, and Elijah monitors the audio and assists with setup. Together, we are The Psalms 23 Project team!
     </p>
     <p class="text-2xl font-semibold tracking-tight mt-8">
       What makes the Psalms 23 Project unique?
