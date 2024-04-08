@@ -939,7 +939,7 @@
       "location": "Mountain/Mountain Top",
       "weather": "sunny",
       "categories": [
-        "Thanksgiving/Kingship-Covenant"
+        "Kingship-Covenant/Theocratic/Human King"
       ],
       "tags": [
         "A Psalm about Yahweh the Father and Yahushua the Son", "Holy hill", "Judgement on evil", "Yahweh's power", "All will bow to Yahushua", "Ends of the earth"
@@ -1164,6 +1164,1059 @@
       ],
       "tags": [
         "A word of Yahweh Psalm", "Yahweh's creation", "Yahweh's law", "Plea for help to avoid sin", "In awe of Yahweh"
+      ]
+    },
+    {
+      "psalm": 20,
+      "completed": false,
+      "time_of_day": "Morning",
+      "location": "Meadow",
+      "weather": "sunny",
+      "categories": [
+        "Kingship-Covenant/Theocratic/Human King"
+      ],
+      "tags": [
+        "Yahweh's help", "Rejoice in Yahweh's salvation", "Yahweh's saves His anointed", "Trust in Yahweh"
+      ]
+    },
+    {
+      "psalm": 21,
+      "completed": false,
+      "time_of_day": "Afternoon",
+      "location": "Hill",
+      "weather": "cloudy",
+      "categories": [
+        "Kingship-Covenant/Theocratic/Human King"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 22,
+      "completed": false,
+      "time_of_day": "Morning sunrise",
+      "location": "Hill",
+      "weather": "sunny",
+      "categories": [
+        "Lament/Individual"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 23,
+      "completed": false,
+      "time_of_day": "Afternoon",
+      "location": "Still water with sheep nearby",
+      "weather": "sunny",
+      "categories": [
+        "Song of Trust"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 24,
+      "completed": false,
+      "time_of_day": "Afternoon",
+      "location": "Lake",
+      "weather": "sunny",
+      "categories": [
+        "Kingship-Covenant/Yahweh as Divine King"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 25,
+      "completed": false,
+      "time_of_day": "Morning",
+      "location": "Waterfall",
+      "weather": "sunny",
+      "categories": [
+        "Lament/Individual"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 26,
+      "completed": true,
+      "time_of_day": "Afternoon",
+      "location": "Meadow",
+      "weather": "sunny",
+      "categories": [
+        "Lament/Individual/Request in Prayer"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 27,
+      "completed": false,
+      "time_of_day": "Morning sunrise",
+      "location": "Lake with Trees",
+      "weather": "foggy",
+      "categories": [
+        "Song of Trust"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 28,
+      "completed": false,
+      "time_of_day": "Morning",
+      "location": "Mountain/Mountain Top",
+      "weather": "sunny",
+      "categories": [
+        "Lament/Individual"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 29,
+      "completed": false,
+      "time_of_day": "Afternoon",
+      "location": "Lake",
+      "weather": "cloudy",
+      "categories": [
+        "Praise hymn/Creator", "Kingship-Covenant/Yahweh as Divine King"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 30,
+      "completed": false,
+      "time_of_day": "Morning",
+      "location": "Woods/Forest",
+      "weather": "sunny",
+      "categories": [
+        "Thanksgiving/Individual"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 31,
+      "completed": false,
+      "time_of_day": "Morning",
+      "location": "Mountain/Mountain Top",
+      "weather": "sunny",
+      "categories": [
+        "Lament/Individual", "Song of Trust"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 32,
+      "completed": false,
+      "time_of_day": "Afternoon",
+      "location": "Lake",
+      "weather": "sunny",
+      "categories": [
+        "Thanksgiving/Individual"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 33,
+      "completed": false,
+      "time_of_day": "Afternoon",
+      "location": "Lake with Trees",
+      "weather": "sunny",
+      "categories": [
+        "Praise hymn", "Yahweh of History"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 34,
+      "completed": false,
+      "time_of_day": "Afternoon",
+      "location": "Stream",
+      "weather": "sunny",
+      "categories": [
+        "Thanksgiving/Individual"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 35,
+      "completed": false,
+      "time_of_day": "Afternoon",
+      "location": "Woods/Forest",
+      "weather": "sunny",
+      "categories": [
+        "Lament/Individual/Imprecatory"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 36,
+      "completed": false,
+      "time_of_day": "Morning",
+      "location": "Mountain/Mountain Top",
+      "weather": "sunny",
+      "categories": [
+        "Wisdom"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 37,
+      "completed": false,
+      "time_of_day": "Afternoon",
+      "location": "Meadow",
+      "weather": "sunny",
+      "categories": [
+        "Wisdom"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 38,
+      "completed": false,
+      "time_of_day": "Morning",
+      "location": "Hill",
+      "weather": "sunny",
+      "categories": [
+        "Lament/Individual"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 39,
+      "completed": false,
+      "time_of_day": "Morning",
+      "location": "Meadow",
+      "weather": "sunny",
+      "categories": [
+        "Lament/Individual"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 40,
+      "completed": false,
+      "time_of_day": "Afternoon",
+      "location": "Waterfall",
+      "weather": "sunny",
+      "categories": [
+        "Thanksgiving/Individual"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 41,
+      "completed": false,
+      "time_of_day": "Afternoon",
+      "location": "Stream",
+      "weather": "sunny",
+      "categories": [
+        "Lament/Individual"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 42,
+      "completed": false,
+      "time_of_day": "Midday",
+      "location": "Stream with woods nearby",
+      "weather": "sunny",
+      "categories": [
+        "Lament/Individual"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 43,
+      "completed": false,
+      "time_of_day": "Morning",
+      "location": "Hill",
+      "weather": "sunny",
+      "categories": [
+        "Lament/Individual"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 44,
+      "completed": false,
+      "time_of_day": "Afternoon",
+      "location": "Lake",
+      "weather": "sunny",
+      "categories": [
+        "Lament/National/Penitential"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 45,
+      "completed": false,
+      "time_of_day": "Morning",
+      "location": "Ocean ~/",
+      "weather": "sunny",
+      "categories": [
+        "Kingship-Covenant/Theocratic/Human King"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 46,
+      "completed": false,
+      "time_of_day": "Afternoon",
+      "location": "Stream",
+      "weather": "sunny",
+      "categories": [
+        "Praise hymn/Song of Zion"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 47,
+      "completed": false,
+      "time_of_day": "Morning",
+      "location": "River",
+      "weather": "sunny",
+      "categories": [
+        "Kingship-Covenant/Yahweh as Divine King", "Praise hymn/Yahweh as Divine King"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 48,
+      "completed": false,
+      "time_of_day": "Morning",
+      "location": "Mountain/Mountain Top",
+      "weather": "sunny",
+      "categories": [
+        "Praise hymn/Song of Zion"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 49,
+      "completed": true,
+      "time_of_day": "Afternoon",
+      "location": "Woods/Forest",
+      "weather": "sunny",
+      "categories": [
+        "Wisdom"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 50,
+      "completed": false,
+      "time_of_day": "Midday",
+      "location": "Waterfall",
+      "weather": "sunny",
+      "categories": [
+        "Kingship-Covenant/Creator"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 51,
+      "completed": false,
+      "time_of_day": "Afternoon",
+      "location": "Stream",
+      "weather": "sunny",
+      "categories": [
+        "Lament/Individual/Penitential"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 52,
+      "completed": false,
+      "time_of_day": "Morning",
+      "location": "Woods/Forest",
+      "weather": "sunny",
+      "categories": [
+        "Lament/Individual"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 53,
+      "completed": false,
+      "time_of_day": "Afternoon",
+      "location": "Mountain/Mountain Top",
+      "weather": "sunny",
+      "categories": [
+        "Lament/Individual"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 54,
+      "completed": false,
+      "time_of_day": "Afternoon",
+      "location": "Stream",
+      "weather": "sunny",
+      "categories": [
+        "Lament/Individual", "Song of Trust"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 55,
+      "completed": false,
+      "time_of_day": "Evening night with stars and moon",
+      "location": "River",
+      "weather": "sunny",
+      "categories": [
+        "Lament/Individual"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 56,
+      "completed": false,
+      "time_of_day": "Evening night with stars and moon",
+      "location": "Hill",
+      "weather": "sunny",
+      "categories": [
+        "Lament/Individual", "Song of Trust"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 57,
+      "completed": false,
+      "time_of_day": "Afternoon",
+      "location": "Meadow",
+      "weather": "sunny",
+      "categories": [
+        "Lament/Individual"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 58,
+      "completed": false,
+      "time_of_day": "Afternoon (~/)",
+      "location": "Meadow",
+      "weather": "sunny",
+      "categories": [
+        "Lament/National", "Praise hymn/Individual"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 59,
+      "completed": false,
+      "time_of_day": "Afternoon",
+      "location": "Stream",
+      "weather": "sunny",
+      "categories": [
+        "Lament/Individual/Imprecatory"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 60,
+      "completed": false,
+      "time_of_day": "Afternoon",
+      "location": "Mountain/Mountain Top",
+      "weather": "sunny",
+      "categories": [
+        "Lament/National", "Praise hymn"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 61,
+      "completed": false,
+      "time_of_day": "Afternoon",
+      "location": "Mountain/Mountain Top",
+      "weather": "cloudy",
+      "categories": [
+        "Lament/Individual"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 62,
+      "completed": false,
+      "time_of_day": "Afternoon",
+      "location": "Mountain/Mountain Top",
+      "weather": "sunny",
+      "categories": [
+        "Song of Trust"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 63,
+      "completed": false,
+      "time_of_day": "Morning",
+      "location": "Desert",
+      "weather": "sunny",
+      "categories": [
+        "Song of Trust"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 64,
+      "completed": false,
+      "time_of_day": "Evening",
+      "location": "Mountain/Mountain Top",
+      "weather": "sunny",
+      "categories": [
+        "Lament/Individual"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 65,
+      "completed": false,
+      "time_of_day": "Morning",
+      "location": "Mountain Top",
+      "weather": "sunny",
+      "categories": [
+        "Thanksgiving/National"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 66,
+      "completed": false,
+      "time_of_day": "Morning",
+      "location": "Meadow",
+      "weather": "sunny",
+      "categories": [
+        "Thanksgiving/Individual", "Thanksgiving/National"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 67,
+      "completed": false,
+      "time_of_day": "Afternoon",
+      "location": "Hill",
+      "weather": "sunny",
+      "categories": [
+        "Thanksgiving/National"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 68,
+      "completed": false,
+      "time_of_day": "Afternoon",
+      "location": "Waterfall",
+      "weather": "sunny",
+      "categories": [
+        "Praise hymn", "Kingship-Covenant/Yahweh as Divine King"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 69,
+      "completed": false,
+      "time_of_day": "Morning sunrise",
+      "location": "Mountain/Mountain Top",
+      "weather": "sunny",
+      "categories": [
+        "Lament/Individual"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 70,
+      "completed": false,
+      "time_of_day": "Afternoon",
+      "location": "Mountain/Mountain Top",
+      "weather": "sunny",
+      "categories": [
+        "Lament/Individual"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 71,
+      "completed": false,
+      "time_of_day": "Morning",
+      "location": "Stream",
+      "weather": "sunny",
+      "categories": [
+        "Lament/Individual"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 72,
+      "completed": false,
+      "time_of_day": "Afternoon",
+      "location": "Mountain Top",
+      "weather": "sunny",
+      "categories": [
+        "Kingship-Covenant/Individual"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 73,
+      "completed": false,
+      "time_of_day": "Morning",
+      "location": "Stream",
+      "weather": "sunny",
+      "categories": [
+        "Wisdom"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 74,
+      "completed": false,
+      "time_of_day": "Midday",
+      "location": "Meadow",
+      "weather": "sunny",
+      "categories": [
+        "Lament/Penitential"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 75,
+      "completed": false,
+      "time_of_day": "Afternoon",
+      "location": "River",
+      "weather": "sunny",
+      "categories": [
+        "Thanksgiving/National"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 76,
+      "completed": false,
+      "time_of_day": "Midday",
+      "location": "Lake",
+      "weather": "sunny",
+      "categories": [
+        "Praise hymn/Song of Zion"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 77,
+      "completed": false,
+      "time_of_day": "Midday",
+      "location": "Mountain/Mountain Top",
+      "weather": "cloudy",
+      "categories": [
+        "Lament/Individual"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 78,
+      "completed": false,
+      "time_of_day": "Morning",
+      "location": "Mountain/Mountain Top",
+      "weather": "sunny",
+      "categories": [
+        "Wisdom", "Praise hymn/History"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 79,
+      "completed": false,
+      "time_of_day": "Midday",
+      "location": "Stream",
+      "weather": "sunny",
+      "categories": [
+        "Lament/Penitential"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 80,
+      "completed": false,
+      "time_of_day": "Morning",
+      "location": "Meadow",
+      "weather": "sunny",
+      "categories": [
+        "Lament/Penitential"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 81,
+      "completed": false,
+      "time_of_day": "Midday",
+      "location": "Mountain/Mountain Top",
+      "weather": "sunny",
+      "categories": [
+        "Kingship-Covenant/Creator"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 82,
+      "completed": false,
+      "time_of_day": "Afternoon",
+      "location": "Waterfall",
+      "weather": "sunny",
+      "categories": [
+        "Lament/National/Penitential"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 83,
+      "completed": false,
+      "time_of_day": "Afternoon",
+      "location": "Hill",
+      "weather": "cloudy",
+      "categories": [
+        "Lament/National/Imprecatory"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 84,
+      "completed": false,
+      "time_of_day": "Midday",
+      "location": "Meadow",
+      "weather": "sunny",
+      "categories": [
+        "Praise hymn/Song of Zion"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 85,
+      "completed": false,
+      "time_of_day": "Midday",
+      "location": "Lake",
+      "weather": "sunny",
+      "categories": [
+        "Lament/National", "Praise hymn"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 86,
+      "completed": false,
+      "time_of_day": "Afternoon",
+      "location": "River",
+      "weather": "sunny",
+      "categories": [
+        "Lament/Individual"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 87,
+      "completed": false,
+      "time_of_day": "Afternoon",
+      "location": "Mountain Top",
+      "weather": "sunny",
+      "categories": [
+        "Praise hymn/Song of Zion"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 88,
+      "completed": false,
+      "time_of_day": "Afternoon",
+      "location": "River",
+      "weather": "sunny",
+      "categories": [
+        "Lament/Individual"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 89,
+      "completed": false,
+      "time_of_day": "Midday",
+      "location": "Mountain/Mountain Top",
+      "weather": "sunny",
+      "categories": [
+        "Kingship-Covenant/Thanksgiving"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 90,
+      "completed": true,
+      "time_of_day": "Afternoon",
+      "location": "Mountain/Mountain Top",
+      "weather": "cloudy",
+      "categories": [
+        "Lament/Penitential"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 91,
+      "completed": false,
+      "time_of_day": "Morning",
+      "location": "Woods/Forest",
+      "weather": "sunny",
+      "categories": [
+        "Song of Trust"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 92,
+      "completed": false,
+      "time_of_day": "Morning",
+      "location": "Waterfall",
+      "weather": "sunny",
+      "categories": [
+        "Thanksgiving/Individual"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 93,
+      "completed": false,
+      "time_of_day": "Morning",
+      "location": "Lake",
+      "weather": "sunny",
+      "categories": [
+        "Kingship-Covenant/Yahweh as Divine King"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 94,
+      "completed": false,
+      "time_of_day": "Afternoon",
+      "location": "River",
+      "weather": "sunny",
+      "categories": [
+        "Lament/Penitential"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 95,
+      "completed": false,
+      "time_of_day": "Morning",
+      "location": "Meadow",
+      "weather": "sunny",
+      "categories": [
+        "Kingship-Covenant/Yahweh as Divine King", "Praise hymn/Yahweh as Divine King"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 96,
+      "completed": true,
+      "time_of_day": "Afternoon",
+      "location": "Woods/Forest",
+      "weather": "sunny",
+      "categories": [
+        "Kingship-Covenant/Yahweh as Divine King"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 97,
+      "completed": false,
+      "time_of_day": "Afternoon",
+      "location": "Mountain Top",
+      "weather": "cloudy",
+      "categories": [
+        "Kingship-Covenant/Yahweh as Divine King"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 98,
+      "completed": false,
+      "time_of_day": "Afternoon",
+      "location": "Ocean",
+      "weather": "sunny",
+      "categories": [
+        "Kingship-Covenant/Yahweh as Divine King", "Praise hymn/Yahweh as Divine King"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 99,
+      "completed": false,
+      "time_of_day": "Afternoon",
+      "location": "Hill",
+      "weather": "sunny",
+      "categories": [
+        "Kingship-Covenant/Yahweh as Divine King"
+      ],
+      "tags": [
+        
+      ]
+    },
+    {
+      "psalm": 100,
+      "completed": false,
+      "time_of_day": "Morning",
+      "location": "Stream in a meadow",
+      "weather": "sunny",
+      "categories": [
+        "Praise hymn/Deliverer"
+      ],
+      "tags": [
+        
       ]
     }
   ],
