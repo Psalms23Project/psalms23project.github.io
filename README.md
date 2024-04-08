@@ -26,5 +26,6 @@ Preview the production build with `npm run preview`.
 ## Licenses
 
 - Source code for this website is licensed under the GPL-3.0 license. 
-- All photographs are my own. Copyright 2023-2024 Noah Rahm. All rights reserved. (Please ask permission before using them for your own projects).
+- Photographs in ``/static/images/stock/`` are from free stock photo websites and have their own licenses. 
+- All other Photographs are Copyright 2023-2024 Noah Rahm. All rights reserved. (Please ask permission before using the photos for your own projects). 
 - Icons are from the Bootstrap and Phosphor icons sets (both MIT-licensed).
