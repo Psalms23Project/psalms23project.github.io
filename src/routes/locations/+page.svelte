@@ -73,9 +73,9 @@
             <p class="text-navyblue/80 text-sm">
               CATEGORIES
             </p>
-            <p class="inline-flex items-center">
+            <p class="items-center text-end">
               {#each Object.values(psalm.categories) as category}
-                <span class="mx-1">{category}</span>
+                <span class="mx-1 text-end">{category}</span>
               {/each}
             </p>
           </div>
