@@ -88,9 +88,7 @@
       {/each}
     </div>
 
-    <p class="text-lg text-navyblue my-28">The rest of this list is still being worked on. In the meantime, refer to the following table:</p>
-
-    <div class="flex flex-col border border-violet-200 px-6 py-4 rounded-md">
+    <div class="flex flex-col border border-violet-200 px-6 py-4 rounded-md mt-28">
       <div class="flex flex-row flex-wrap">
         {#each Object.values(json.psalms_location_table) as location}
           <div class="w-full md:w-1/3 flex flex-col mt-3">
