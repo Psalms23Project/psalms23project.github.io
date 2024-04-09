@@ -1495,7 +1495,7 @@
       "psalm": 45,
       "completed": false,
       "time_of_day": "Morning",
-      "location": "Ocean ~/",
+      "location": "Ocean",
       "weather": "sunny",
       "categories": [
         "Kingship-Covenant/Theocratic/Human King"
@@ -1663,7 +1663,7 @@
     {
       "psalm": 58,
       "completed": false,
-      "time_of_day": "Afternoon (~/)",
+      "time_of_day": "Afternoon",
       "location": "Meadow",
       "weather": "sunny",
       "categories": [
@@ -2717,7 +2717,7 @@
       "psalm": 139,
       "completed": false,
       "time_of_day": "Evening",
-      "location": "Ocean ~/",
+      "location": "Ocean",
       "weather": "sunny",
       "categories": [
         "Wisdom", "Praise hymn"

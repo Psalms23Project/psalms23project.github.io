@@ -19,6 +19,109 @@
     let iconExt = ".svg";
     return basePath + icon + iconExt;
   }
+
+  
+  /**
+     * @param {any} location
+     */
+  function getLocationBgImage(location) {
+    switch(location.toLowerCase()) {
+      case "river":
+        return "river.jpg";
+      case "mountain/mountain top":
+        return "mountain_top.jpg";
+      case "meadow/hill/mountain":
+        return "mountain_top_grassy.jpg";
+      case "lake":
+        return "lake.jpg";
+      case "woods/forest":
+        return "forest.jpg";
+      case "hill":
+        return "hill.jpg";
+      case "meadow":
+        return "meadow.jpg";
+      case "desert":
+        return "desert.jpg";
+      case "waterfall":
+        return "waterfall.jpg";
+      case "hilltop":
+        return "hilltop.jpg";
+      case "still water with sheep nearby":
+        return "sheep.jpg";
+      case "lake with trees":
+        return "lake_trees.jpg"
+      case "stream":
+        return "stream_with_trees.jpg";
+      case "stream with woods nearby":
+        return "stream_with_trees.jpg";
+      case 'mountain top':
+        return "mountain_top.jpg";
+      case "ocean":
+        return "ocean.jpg";
+      case "stream in a meadow":
+        return "stream_in_meadow.jpg";
+      case "mountain":
+        return "mountain.jpg";
+    }
+  }
+
+  function getUniqueLocations() {
+    /**
+       * @type {string[]}
+       */
+    let uniqueLocations = [];
+    for (let key in json.psalms_locations) {
+      let location = json.psalms_locations[key].location;
+      if (uniqueLocations.includes(location) == false && location !== 'Various') {
+        uniqueLocations.push(location);
+      }
+    }
+    return uniqueLocations;
+  }
+
+  /**
+     * @param {string} location
+     */
+  function getUniqueWeather(location) {
+    let psalmsAtLocation = allPsalms.filter(psalm => {
+      return psalm.location == location;
+    });
+
+    /**
+       * @type {string | string[]}
+       */
+    let uniqueWeather = [];
+
+    for (let psalm in psalmsAtLocation) {
+      let weather = psalmsAtLocation[psalm].weather;
+      if (uniqueWeather.includes(weather) == false) {
+        uniqueWeather.push(weather);
+      }
+    }
+    return uniqueWeather;
+  }
+
+  /**
+     * @param {string} location
+     */
+     function getUniqueTimeOfDay(location) {
+    let psalmsAtLocation = allPsalms.filter(psalm => {
+      return psalm.location == location;
+    });
+
+    /**
+       * @type {string | string[]}
+       */
+    let uniqueTimeOfDay = [];
+
+    for (let psalm in psalmsAtLocation) {
+      let weather = psalmsAtLocation[psalm].time_of_day;
+      if (uniqueTimeOfDay.includes(weather) == false) {
+        uniqueTimeOfDay.push(weather);
+      }
+    }
+    return uniqueTimeOfDay;
+  }
 </script>
 
 <svelte:head>
@@ -31,6 +134,33 @@
     <div class="max-w-4xl">
       <h3 class="text-4xl sm:text-5xl text-navyblue font-serif mt-4">Planned Locations</h3>
       <p class="text-lg mt-5">This page shows how we are planning to align the location, weather, and time of day of each reading with the overal theme and mood of each Psalm. This is subject to change as Yahweh leads. We plan to divide the sections of Psalm 119 into different locations.</p>
+    </div>
+
+    <div class="grid grid-cols-5 gap-2 my-10">
+      {#each getUniqueLocations() as location}
+      <div class="bg-cover bg-center rounded-2xl" style="background-image: url('/images/stock/{getLocationBgImage(location)}')">
+        <div class="rounded-2xl bg-gradient-to-r from-black/30 to-transparent pt-40 px-6 pb-5 h-full">
+          <ul class="inline-flex text-white">
+            {#each getUniqueWeather(location) as weather}
+            <li>
+              <img class="w-4 h-4 mx-1" style="filter: invert(100%)" src="{getIconStr(weather)}" alt="{weather}" title="{weather}"/>
+            </li>
+            {/each}
+          </ul>
+          <p class=" text-white font-semibold uppercase">{location}</p>
+          <ul class="mt-2 text-white">
+            {#each getUniqueTimeOfDay(location) as time_of_day}
+            <li>
+              {time_of_day}
+            </li>
+            {/each}
+          </ul>
+        </div>
+      </div>
+
+      
+
+      {/each}
     </div>
 
     <!-- <div class="flex flex-row mt-5">
@@ -64,7 +194,7 @@
               WEATHER
             </p>
             <p class="inline-flex items-center capitalize">
-              <img class="w-4 h-4 mr-1" src="{getIconStr(psalm.weather)}" alt="weather" title="{psalm.weather}"/>
+              <img class="w-4 h-4 mr-1" src="{getIconStr(psalm.weather)}" alt="{psalm.weather}" title="{psalm.weather}"/>
               {psalm.weather}
             </p>
           </div>
