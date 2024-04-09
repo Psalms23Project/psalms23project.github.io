@@ -145,7 +145,7 @@
       <p class="text-lg mt-5">This page shows how we are planning to align the location, weather, and time of day of each reading with the overal theme and mood of each Psalm. This is subject to change as Yahweh leads. We plan to divide the sections of Psalm 119 into different locations.</p>
     </div>
 
-    <div class="grid grid-cols-5 gap-2 my-10">
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-2 my-10">
       {#each getUniqueLocations() as location}
       <div class="bg-cover bg-center rounded-2xl" style="background-image: url('/images/stock/{getLocationBgImage(location)}')">
         <div class="rounded-2xl bg-gradient-to-r from-black/40 to-transparent pt-40 px-6 pb-5 h-full">
