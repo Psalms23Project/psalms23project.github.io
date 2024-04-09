@@ -1,14 +1,23 @@
 <script>
   import json from '../../psalms.json';
 
-  let searchTerms = '';
-  let allPsalms = json.psalms_locations;
-  let filteredPsalms = allPsalms;
+  let filteredPsalms = json.psalms_locations;
 
-  const searchPsalms = () => {	
-    filteredPsalms = allPsalms.filter(psalm => {
-      return psalm.tags.includes(searchTerms.toLowerCase());
+  /**
+     * @param {string} location
+     * @param {string} time_of_day
+     */
+  function filterPsalms(location, time_of_day) {	
+    filteredPsalms = json.psalms_locations.filter(psalm => {
+      return psalm.location == location && psalm.time_of_day == time_of_day;
     });
+
+    const anchor = document.getElementById('psalms');
+		window.scrollTo({
+			// @ts-ignore
+			top: anchor.offsetTop,
+			behavior: 'smooth'
+		})
   }
 
   /**
@@ -83,7 +92,7 @@
      * @param {string} location
      */
   function getUniqueWeather(location) {
-    let psalmsAtLocation = allPsalms.filter(psalm => {
+    let psalmsAtLocation = json.psalms_locations.filter(psalm => {
       return psalm.location == location;
     });
 
@@ -105,7 +114,7 @@
      * @param {string} location
      */
      function getUniqueTimeOfDay(location) {
-    let psalmsAtLocation = allPsalms.filter(psalm => {
+    let psalmsAtLocation = json.psalms_locations.filter(psalm => {
       return psalm.location == location;
     });
 
@@ -139,7 +148,7 @@
     <div class="grid grid-cols-5 gap-2 my-10">
       {#each getUniqueLocations() as location}
       <div class="bg-cover bg-center rounded-2xl" style="background-image: url('/images/stock/{getLocationBgImage(location)}')">
-        <div class="rounded-2xl bg-gradient-to-r from-black/30 to-transparent pt-40 px-6 pb-5 h-full">
+        <div class="rounded-2xl bg-gradient-to-r from-black/40 to-transparent pt-40 px-6 pb-5 h-full">
           <ul class="inline-flex text-white">
             {#each getUniqueWeather(location) as weather}
             <li>
@@ -150,30 +159,20 @@
           <p class=" text-white font-semibold uppercase">{location}</p>
           <ul class="mt-2 text-white">
             {#each getUniqueTimeOfDay(location) as time_of_day}
-            <li>
+            <!-- svelte-ignore a11y-click-events-have-key-events -->
+            <!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
+            <li class="cursor-pointer" on:click={() => filterPsalms(location, time_of_day)}>
               {time_of_day}
             </li>
             {/each}
           </ul>
         </div>
       </div>
-
-      
-
       {/each}
     </div>
 
-    <!-- <div class="flex flex-row mt-5">
-      <div class="relative">
-        <input class="relative inline-flex flex-auto w-full py-2 pl-12 pr-6 rounded-full border border-violet-200 focus:ring-0 focus:outline-none placeholder:text-navyblue/50 placeholder:dark:text-dark-40 placeholder:font-medium" placeholder="Type to search" bind:value={searchTerms} on:input={searchPsalms}>
-        <svg xmlns="http://www.w3.org/2000/svg" class="absolute -top-0.5 left-0 h-12 w-12 fill-navyblue px-3.5 ml-2" viewBox="0 0 24 24">
-          <g data-name="Layer 2"><g data-name="search"><rect width="24" height="24" opacity="0"/><path d="M20.71 19.29l-3.4-3.39A7.92 7.92 0 0 0 19 11a8 8 0 1 0-8 8 7.92 7.92 0 0 0 4.9-1.69l3.39 3.4a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42zM5 11a6 6 0 1 1 6 6 6 6 0 0 1-6-6z"/></g></g>
-        </svg>
-      </div>
-    </div> -->
-
-    <div class="grid grid-cols-1 md:grid-cols-2 gap-3 mt-5">
-      {#each Object.values(json.psalms_locations) as psalm}
+    <div id="psalms" class="grid grid-cols-1 md:grid-cols-2 gap-3 mt-5">
+      {#each filteredPsalms as psalm}
         <div class="relative px-5 py-6 rounded-lg border border-violet-200" class:opacity-60={psalm.completed == true}>
           {#if psalm.completed == true}
           <span class="absolute top-6 right-5 font-semibold uppercase">Completed</span>
