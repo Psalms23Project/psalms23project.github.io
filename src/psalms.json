@@ -1298,7 +1298,7 @@
     },
     {
       "psalm": 30,
-      "completed": false,
+      "completed": true,
       "time_of_day": "Morning",
       "location": "Woods/Forest",
       "weather": "rainy",
@@ -2338,7 +2338,7 @@
     },
     {
       "psalm": 110,
-      "completed": false,
+      "completed": true,
       "time_of_day": "Morning",
       "location": "Woods/Forest",
       "weather": "sunny",
