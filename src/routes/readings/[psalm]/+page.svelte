@@ -6,7 +6,7 @@
   import { goto } from "$app/navigation";
   import { page } from '$app/stores';
 
-  let defaultPsalm = 49;
+  let defaultPsalm = 30;
 
   /**
    * @param {string} selectedTab
@@ -19,13 +19,14 @@
   let selectedPsalm = defaultPsalm;
 
   /**
-     * @type {{ psalm: number; title: string; date: string; location: string; image: string; videoUrl: string; audioUrl: string; length: string; description: string; } | undefined}
+     * @type {{ psalm: number; title: string; date: string; location: string; time_of_day: string; image: string; videoUrl: string; audioUrl: string; length: string; description: string; } | undefined}
      */
   let data = {
     psalm: defaultPsalm,
     title: "",
     date: "",
     location: "",
+    time_of_day: "",
     image: "",
     videoUrl: "",
     audioUrl: "",
@@ -161,7 +162,7 @@
         </div>
       </div>
       <div class="flex flex-row tracking-tight space-x-3">
-        <p>{ data.location }</p><p>{ data.date }</p>
+        <p>{ data.date }</p><p>{ data.location }</p><p>{ data.time_of_day }</p>
       </div>
       <p class="text-base mt-5 max-w-prose">
         {@html data.description }

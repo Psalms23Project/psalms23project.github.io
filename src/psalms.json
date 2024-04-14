@@ -4,7 +4,8 @@
       "psalm": 13,
       "title": "Psalm 13",
       "date": "Feb. 11, 2024",
-      "location": "Minnesota",
+      "location": "Central Minnesota",
+      "time_of_day": "Afternoon",
       "image": "/images/thumbs/Psalms-13-thumbnail.jpg",
       "videoUrl": "https://www.youtube-nocookie.com/embed/IMaHSiAI30Y",
       "audioUrl": "/audio/Psalm-13.mp3",
@@ -15,7 +16,8 @@
       "psalm": 26,
       "title": "Psalm 26",
       "date": "Dec. 3, 2023",
-      "location": "Minnesota",
+      "location": "Central Minnesota",
+      "time_of_day": "Sunset",
       "image": "/images/thumbs/Psalms-26-thumbnail.jpg",
       "videoUrl": "https://www.youtube-nocookie.com/embed/EeaPLLWrnDQ",
       "audioUrl": "/audio/Psalm-26.mp3",
@@ -23,10 +25,23 @@
       "description": "Psalms 26 read in nature. This Psalm reading was filmed just before sunset in the countryside of Minnesota.<br><br>1 Judge me, O Yahweh; for I have walked in mine integrity: I have trusted also in Yahweh; therefore I shall not slide.<br>2 Examine me, O Yahweh, and prove me; try my reins and my heart.<br>3 For thy lovingkindness is before mine eyes: and I have walked in thy truth.<br>4 I have not sat with vain persons, neither will I go in with dissemblers.<br>5 I have hated the congregation of evil doers; and will not sit with the wicked.<br>6 I will wash mine hands in innocency: so will I compass thine altar, O Yahweh:<br>7 That I may publish with the voice of thanksgiving, and tell of all thy wondrous works.<br>8 Yahweh, I have loved the habitation of thy house, and the place where thine honour dwelleth.<br>9 Gather not my soul with sinners, nor my life with bloody men:<br>10 In whose hands is mischief, and their right hand is full of bribes.<br>11 But as for me, I will walk in mine integrity: redeem me, and be merciful unto me.<br>12 My foot standeth in an even place: in the congregations will I bless Yahweh."
     },
     {
+      "psalm": 30,
+      "title": "Psalm 30",
+      "date": "Apr. 14, 2024",
+      "location": "Central Minnesota",
+      "time_of_day": "Sunrise",
+      "image": "/images/thumbs/Psalms-30-thumbnail.jpg",
+      "videoUrl": "https://www.youtube-nocookie.com/embed/0JGhEXjqV0c",
+      "audioUrl": "/audio/Psalm-30.mp3",
+      "length": "2:21",
+      "description": "1 I will extol Thee, O Yahweh; for Thou hast lifted me up, and hast not made my foes to rejoice over me.<br>2 O Yahweh my Elohim, I cried unto Thee, and Thou hast healed me.<br>3 O Yahweh, Thou hast brought up my soul from the grave: Thou hast kept me alive, that I should not go down to the pit.<br>4 Sing unto Yahweh, O ye saints of His, and give thanks at the remembrance of His holiness.<br>5 For His anger endureth but a moment; in His favour is life: weeping may endure for a night, but joy cometh in the morning.<br>6 And in my prosperity I said, I shall never be moved.<br>7 Yahweh, by thy favour thou hast made my mountain to stand strong: Thou didst hide Thy face, and I was troubled.<br>8 I cried to thee, O Yahweh; and unto Yahweh I made supplication.<br>9 What profit is there in my blood, when I go down to the pit? Shall the dust praise Thee? shall it declare Thy truth?<br>10 Hear, O Yahweh, and have mercy upon me: Yahweh, be Thou my helper.<br>11 Thou hast turned for me my mourning into dancing: Thou hast put off my sackcloth, and girded me with gladness;<br>12 To the end that my glory may sing praise to Thee, and not be silent. O Yahweh my Elohim, I will give thanks unto Thee for ever."
+    },
+    {
       "psalm": 49,
       "title": "Psalm 49",
       "date": "Mar. 18, 2024",
-      "location": "Minnesota",
+      "location": "Central Minnesota",
+      "time_of_day": "Sunset",
       "image": "/images/thumbs/Psalms-49-thumbnail.jpg",
       "videoUrl": "https://www.youtube-nocookie.com/embed/2CAnagRu7wo",
       "audioUrl": "/audio/Psalm-49.mp3",
@@ -37,7 +52,8 @@
       "psalm": 90,
       "title": "Psalm 90",
       "date": "Feb. 25, 2024",
-      "location": "Minnesota",
+      "location": "Central Minnesota",
+      "time_of_day": "Afternoon",
       "image": "/images/thumbs/Psalms-90-thumbnail.jpg",
       "videoUrl": "https://www.youtube-nocookie.com/embed/ydr4qt-5emI",
       "audioUrl": "/audio/Psalm-90.mp3",
@@ -48,7 +64,8 @@
       "psalm": 96,
       "title": "Psalm 96",
       "date": "Mar. 10, 2024",
-      "location": "Minnesota",
+      "location": "Central Minnesota",
+      "time_of_day": "Afternoon",
       "image": "/images/thumbs/Psalms-96-thumbnail.jpg",
       "videoUrl": "https://www.youtube-nocookie.com/embed/47MfEt7usM8",
       "audioUrl": "/audio/Psalm-96.mp3",
@@ -59,7 +76,8 @@
       "psalm": 116,
       "title": "Psalm 116",
       "date": "Jan. 28, 2024",
-      "location": "Minnesota",
+      "location": "Central Minnesota",
+      "time_of_day": "Afternoon",
       "image": "/images/thumbs/Psalms-116-thumbnail.jpg",
       "videoUrl": "https://www.youtube-nocookie.com/embed/O6-mBq8nG00",
       "audioUrl": "/audio/Psalm-116.mp3",
@@ -70,7 +88,8 @@
       "psalm": 117,
       "title": "Psalm 117",
       "date": "Oct. 15, 2023",
-      "location": "Wisconsin",
+      "location": "Northwest Wisconsin",
+      "time_of_day": "Midday",
       "image": "/images/thumbs/Psalms-117-thumbnail.jpg",
       "videoUrl": "https://www.youtube-nocookie.com/embed/s8vmXgcJUXQ",
       "audioUrl": "/audio/Psalm-117.mp3",
@@ -2871,6 +2890,21 @@
     }
   ],
   "progress_log": [
+    {
+      "title": "Psalm 30",
+      "date": "4/14/2024",
+      "notes": "<a class='underline' href='/readings/30/'>Psalm 30</a> is our eighth published video. It is really beginning to show signs of Spring in the north where we are at this time. We are excited to have the opportunity to film these readings through the change of seasons."
+    },
+    {
+      "title": "Psalm location updates",
+      "date": "4/2024",
+      "notes": "I've gone through and categorized the Psalms. I also updated the website with organized locations where  we plan to film."
+    },
+    {
+      "title": "Website updates",
+      "date": "3/2024",
+      "notes": "This website has been improved and updated."
+    },
     {
       "title": "Psalm 49",
       "date": "3/2024",
