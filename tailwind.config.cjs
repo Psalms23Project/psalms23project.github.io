@@ -18,7 +18,7 @@ const config = {
       },
       backgroundImage: {
         'birch-tree': "url('/images/birch-tree.jpg')",
-        'featured-psalm': "url('/images/covers/psalm-30.jpg')",
+        'featured-psalm': "url('/images/covers/psalm-110.jpg')",
         'about': "url('/images/covers/psalm-49.jpg')",
       }
     },

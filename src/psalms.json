@@ -73,6 +73,18 @@
       "description": "A Psalm reading set in the midst of cedars.<br><br>1 O sing unto Yahweh a new song: sing unto Yahweh, all the earth.<br>2 Sing unto Yahweh, bless his name; shew forth His salvation from day to day.<br>3 Declare His glory among the heathen, His wonders among all people.<br>4 For Yahweh is great, and greatly to be praised: He is to be feared above all mighty ones.<br>5 For all the mighty ones of the nations are idols: but Yahweh made the heavens.<br>6 Honor and majesty are before Him: strength and beauty are in his sanctuary.<br>7 Give unto Yahweh, O ye kindreds of the people, give unto Yahweh glory and strength.<br>8 Give unto Yahweh the glory due unto His name: bring an offering, and come into His courts.<br>9 O worship Yahweh in the beauty of holiness: fear before Him, all the earth.<br>10 Say among the heathen that Yahweh reigneth: the world also shall be established that it shall not be moved: He shall judge the people righteously.<br>11 Let the heavens rejoice, and let the earth be glad; let the sea roar, and the fullness thereof.<br>12 Let the field be joyful, and all that is therein: then shall all the trees of the wood rejoice<br>13 Before Yahweh: for He cometh, for He cometh to judge the earth: He shall judge the world with righteousness, and the people with His truth."
     },
     {
+      "psalm": 110,
+      "title": "Psalm 110",
+      "date": "Apr. 16, 2024",
+      "location": "Central Minnesota",
+      "time_of_day": "Morning",
+      "image": "/images/thumbs/Psalms-110-thumbnail.jpg",
+      "videoUrl": "https://www.youtube-nocookie.com/embed/IwuZWa_gtG4",
+      "audioUrl": "/audio/Psalm-110.mp3",
+      "length": "1:35",
+      "description": "1 Yahweh said unto my Sovereign, Sit Thou at My right hand, until I make Thine enemies Thy footstool.<br>2 Yahweh shall send the rod of Thy strength out of Zion: rule Thou in the midst of thine enemies.<br>3 Thy people shall be willing in the day of Thy power, in the beauties of holiness from the womb of the morning: Thou hast the dew of Thy youth.<br>4 Yahweh hath sworn, and will not repent, Thou art a priest for ever after the order of Melchizedek.<br>5 Yahweh at Thy right hand shall strike through kings in the day of His wrath.<br>6 He shall judge among the heathen, He shall fill the places with the dead bodies; He shall wound the heads over many countries.<br>7 He shall drink of the brook in the way: therefore shall He lift up the head."
+    },
+    {
       "psalm": 116,
       "title": "Psalm 116",
       "date": "Jan. 28, 2024",
@@ -2890,6 +2902,11 @@
     }
   ],
   "progress_log": [
+    {
+      "title": "Psalm 110",
+      "date": "4/16/2024",
+      "notes": "<a class='underline' href='/readings/110/'>Psalm 110</a>, a Psalm of David, is published"
+    },
     {
       "title": "Psalm 30",
       "date": "4/14/2024",

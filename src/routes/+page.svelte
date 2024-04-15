@@ -14,13 +14,13 @@
       <p class="text-white text-sm uppercase">Latest Video</p>
       <div class="mt-20">
         <h1 class="text-5xl md:text-6xl lg:text-7xl font-serif font-medium text-white mt-5">
-          Psalm 30
+          Psalm 110
         </h1>
         <p class="font-serif italic text-white/90 text-2xl mt-2 max-w-sm leading-6">
-          A Song at the Dedication of the Temple.
+          A Psalm of David.
         </p>
         <div class="flex mt-10">
-          <a href="/readings/30/" class=" text-navybluedark font-semibold rounded-lg px-5 py-3 bg-white hover:bg-white/80 duration-300">
+          <a href="/readings/110/" class=" text-navybluedark font-semibold rounded-lg px-5 py-3 bg-white hover:bg-white/80 duration-300">
             Watch Video
           </a>
         </div>
