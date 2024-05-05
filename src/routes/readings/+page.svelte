@@ -13,7 +13,7 @@
   <h3 class="text-4xl sm:text-5xl text-navyblue font-serif mt-4">
     Psalm Readings
   </h3>
-  <h3 class="text-2xl text-navyblue/80 font-serif italic">
+  <h3 class="text-xl text-navyblue/80 font-secondary italic">
     { json.psalms_media.length } Psalms completed of 150
   </h3>
   <div class="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-6 gap-x-4 mt-12">

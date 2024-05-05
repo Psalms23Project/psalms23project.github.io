@@ -10,17 +10,17 @@
 <div class="mx-3">
   <!-- Latest video -->
   <div class="flex flex-col bg-featured-psalm bg-cover bg-center rounded-2xl max-w-7xl mx-auto">
-    <div class="flex flex-col px-8 md:px-24 py-36 rounded-2xl bg-gradient-to-r from-black/60 to-transparent">
+    <div class="flex flex-col px-8 md:px-24 py-36 rounded-2xl bg-gradient-to-r from-black/20 to-transparent">
       <p class="text-white text-sm uppercase">Latest Video</p>
       <div class="mt-20">
-        <h1 class="text-5xl md:text-6xl lg:text-7xl font-serif font-medium text-white mt-5">
-          Psalm 110
+        <h1 class="text-5xl lg:text-6xl font-serif font-medium text-white mt-5">
+          Psalm 35
         </h1>
-        <p class="font-serif italic text-white/90 text-2xl mt-2 max-w-sm leading-6">
+        <p class="font-secondary italic text-white/90 text-xl mt-2 max-w-sm leading-6">
           A Psalm of David.
         </p>
         <div class="flex mt-10">
-          <a href="/readings/110/" class=" text-navybluedark font-semibold rounded-lg px-5 py-3 bg-white hover:bg-white/80 duration-300">
+          <a href="/readings/35/" class=" text-navybluedark font-semibold rounded-lg px-5 py-3 bg-white hover:bg-white/80 duration-300">
             Watch Video
           </a>
         </div>
@@ -33,7 +33,7 @@
       <h2 class="font-serif text-4xl md:text-5xl mt-4 max-w-3xl mx-auto text-navyblue text-center">
         A project to create high-quality readings of the Psalms in nature.
       </h2>
-      <h3 class="text-2xl md:text-3xl mt-3 mx-auto text-center text-navyblue/80 font-serif italic">
+      <h3 class="text-2xl md:text-2xl mt-3 mx-auto text-center text-navyblue/80 font-secondary italic">
         Psalms of the Bible, read on location in nature across the United States.
       </h3>
       <div class="text-navyblue/90 text-xl mt-4 text-center">

@@ -14,7 +14,7 @@
         <h1 class="text-5xl lg:text-6xl font-serif font-medium text-white mt-5">
           About the Psalms 23 Project
         </h1>
-        <p class="font-serif italic text-white/90 text-2xl mt-2 leading-6 mx-auto">
+        <p class="font-secondary italic text-white/90 text-xl mt-2 leading-6 mx-auto">
           A project to create high-quality readings of the Psalms in nature.
         </p>
       </div>

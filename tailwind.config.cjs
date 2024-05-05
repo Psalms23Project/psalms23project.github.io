@@ -3,7 +3,8 @@ const config = {
   content: ["./src/**/*.{html,js,svelte,ts}"],
   theme: {
     fontFamily: {
-      serif: ['High Tower text', 'EB Garamond', 'Georgia', 'serif'], 
+      serif: ['EB Garamond', 'Georgia', 'serif'],
+      secondary: ['iowan old style', 'iowan', 'iowan bt', 'palatino linotype', 'urw palladio l', 'P052', 'serif'], 
       sans: ['Figtree', 'sans-serif'],
     },
     extend: {
@@ -18,7 +19,7 @@ const config = {
       },
       backgroundImage: {
         'birch-tree': "url('/images/birch-tree.jpg')",
-        'featured-psalm': "url('/images/covers/psalm-110.jpg')",
+        'featured-psalm': "url('/images/covers/psalm-35.jpg')",
         'about': "url('/images/covers/psalm-49.jpg')",
       }
     },

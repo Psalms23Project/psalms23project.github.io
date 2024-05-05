@@ -3,7 +3,7 @@
     {
       "psalm": 13,
       "title": "Psalm 13",
-      "date": "Feb. 11, 2024",
+      "date": "Feb. 11th, 2024",
       "location": "Central Minnesota",
       "time_of_day": "Afternoon",
       "image": "/images/thumbs/Psalms-13-thumbnail.jpg",
@@ -15,7 +15,7 @@
     {
       "psalm": 26,
       "title": "Psalm 26",
-      "date": "Dec. 3, 2023",
+      "date": "Dec. 3rd, 2023",
       "location": "Central Minnesota",
       "time_of_day": "Sunset",
       "image": "/images/thumbs/Psalms-26-thumbnail.jpg",
@@ -37,9 +37,21 @@
       "description": "1 I will extol Thee, O Yahweh; for Thou hast lifted me up, and hast not made my foes to rejoice over me.<br>2 O Yahweh my Elohim, I cried unto Thee, and Thou hast healed me.<br>3 O Yahweh, Thou hast brought up my soul from the grave: Thou hast kept me alive, that I should not go down to the pit.<br>4 Sing unto Yahweh, O ye saints of His, and give thanks at the remembrance of His holiness.<br>5 For His anger endureth but a moment; in His favour is life: weeping may endure for a night, but joy cometh in the morning.<br>6 And in my prosperity I said, I shall never be moved.<br>7 Yahweh, by thy favour thou hast made my mountain to stand strong: Thou didst hide Thy face, and I was troubled.<br>8 I cried to thee, O Yahweh; and unto Yahweh I made supplication.<br>9 What profit is there in my blood, when I go down to the pit? Shall the dust praise Thee? shall it declare Thy truth?<br>10 Hear, O Yahweh, and have mercy upon me: Yahweh, be Thou my helper.<br>11 Thou hast turned for me my mourning into dancing: Thou hast put off my sackcloth, and girded me with gladness;<br>12 To the end that my glory may sing praise to Thee, and not be silent. O Yahweh my Elohim, I will give thanks unto Thee for ever."
     },
     {
+      "psalm": 35,
+      "title": "Psalm 35",
+      "date": "May 5, 2024",
+      "location": "Central Minnesota",
+      "time_of_day": "Evening",
+      "image": "/images/thumbs/Psalms-35-thumbnail.jpg",
+      "videoUrl": "https://www.youtube-nocookie.com/embed/r9rH5Is4TBQ",
+      "audioUrl": "/audio/Psalm-35.mp3",
+      "length": "4:55",
+      "description": "1 Plead my cause, O Yahweh, with them that strive with me: fight against them that fight against me.<br>2 Take hold of shield and buckler, and stand up for mine help.<br>3 Draw out also the spear, and stop the way against them that persecute me: say unto my soul, I am thy salvation.<br>4 Let them be confounded and put to shame that seek after my soul: let them be turned back and brought to confusion that devise my hurt.<br>5 Let them be as chaff before the wind: and let the angel of Yahweh chase them.<br>6 Let their way be dark and slippery: and let the angel of Yahweh persecute them.<br>7 For without cause have they hid for me their net in a pit, which without cause they have digged for my soul.<br>8 Let destruction come upon him at unawares; and let his net that he hath hid catch himself: into that very destruction let him fall.<br>9 And my soul shall be joyful in Yahweh: it shall rejoice in His salvation.<br>10 All my bones shall say, Yahweh, who is like unto thee, which deliverest the poor from him that is too strong for him, yea, the poor and the needy from him that spoileth him?<br>11 False witnesses did rise up; they laid to my charge things that I knew not.<br>12 They rewarded me evil for good to the spoiling of my soul.<br>13 But as for me, when they were sick, my clothing was sackcloth: I humbled my soul with fasting; and my prayer returned into mine own bosom.<br>14 I behaved myself as though he had been my friend or brother: I bowed down heavily, as one that mourneth for his mother.<br>15 But in mine adversity they rejoiced, and gathered themselves together: yea, the abjects gathered themselves together against me, and I knew it not; they did tear me, and ceased not:<br>16 With hypocritical mockers in feasts, they gnashed upon me with their teeth.<br>17 Yahweh, how long wilt Thou look on? rescue my soul from their destructions, my darling from the lions.<br>18 I will give Thee thanks in the great congregation: I will praise Thee among much people.<br>19 Let not them that are mine enemies wrongfully rejoice over me: neither let them wink with the eye that hate me without a cause.<br>20 For they speak not peace: but they devise deceitful matters against them that are quiet in the land.<br>21 Yea, they opened their mouth wide against me, and said, Aha, aha, our eye hath seen it.<br>22 This thou hast seen, O Yahweh: keep not silence: O Yahweh, be not far from me.<br>23 Stir up Thyself, and awake to my judgment, even unto my cause, my Elohim and my Sovereign.<br>24 Judge me, O Yahweh my Elohim, according to Thy righteousness; and let them not rejoice over me.<br>25 Let them not say in their hearts, Ah, so would we have it: let them not say, We have swallowed him up.<br>26 Let them be ashamed and brought to confusion together that rejoice at mine hurt: let them be clothed with shame and dishonour that magnify themselves against me.<br>27 Let them shout for joy, and be glad, that favour my righteous cause: yea, let them say continually, Let Yahweh be magnified, which hath pleasure in the prosperity of His servant.<br>28 And my tongue shall speak of Thy righteousness and of Thy praise all the day long."
+    },
+    {
       "psalm": 49,
       "title": "Psalm 49",
-      "date": "Mar. 18, 2024",
+      "date": "Mar. 18th, 2024",
       "location": "Central Minnesota",
       "time_of_day": "Sunset",
       "image": "/images/thumbs/Psalms-49-thumbnail.jpg",
@@ -51,7 +63,7 @@
     {
       "psalm": 90,
       "title": "Psalm 90",
-      "date": "Feb. 25, 2024",
+      "date": "Feb. 25th, 2024",
       "location": "Central Minnesota",
       "time_of_day": "Afternoon",
       "image": "/images/thumbs/Psalms-90-thumbnail.jpg",
@@ -63,7 +75,7 @@
     {
       "psalm": 96,
       "title": "Psalm 96",
-      "date": "Mar. 10, 2024",
+      "date": "Mar. 10th, 2024",
       "location": "Central Minnesota",
       "time_of_day": "Afternoon",
       "image": "/images/thumbs/Psalms-96-thumbnail.jpg",
@@ -75,7 +87,7 @@
     {
       "psalm": 110,
       "title": "Psalm 110",
-      "date": "Apr. 16, 2024",
+      "date": "Apr. 16th, 2024",
       "location": "Central Minnesota",
       "time_of_day": "Morning",
       "image": "/images/thumbs/Psalms-110-thumbnail.jpg",
@@ -87,7 +99,7 @@
     {
       "psalm": 116,
       "title": "Psalm 116",
-      "date": "Jan. 28, 2024",
+      "date": "Jan. 28th, 2024",
       "location": "Central Minnesota",
       "time_of_day": "Afternoon",
       "image": "/images/thumbs/Psalms-116-thumbnail.jpg",
@@ -99,7 +111,7 @@
     {
       "psalm": 117,
       "title": "Psalm 117",
-      "date": "Oct. 15, 2023",
+      "date": "Oct. 15th, 2023",
       "location": "Northwest Wisconsin",
       "time_of_day": "Midday",
       "image": "/images/thumbs/Psalms-117-thumbnail.jpg",
@@ -2903,9 +2915,14 @@
   ],
   "progress_log": [
     {
+      "title": "Psalm 35",
+      "date": "5/5/2024",
+      "notes": "Our tenth Psalm reading, <a class='underline' href='/readings/35/'>Psalm 35</a> is published."
+    },
+    {
       "title": "Psalm 110",
       "date": "4/16/2024",
-      "notes": "<a class='underline' href='/readings/110/'>Psalm 110</a>, a Psalm of David, is published"
+      "notes": "<a class='underline' href='/readings/110/'>Psalm 110</a>, a Psalm of David, is published."
     },
     {
       "title": "Psalm 30",
