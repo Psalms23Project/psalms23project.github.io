@@ -1406,7 +1406,7 @@
     },
     {
       "psalm": 35,
-      "completed": false,
+      "completed": true,
       "time_of_day": "Afternoon",
       "location": "Woods/Forest",
       "weather": "sunny",
