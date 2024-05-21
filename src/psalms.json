@@ -119,6 +119,18 @@
       "audioUrl": "/audio/Psalm-117.mp3",
       "length": "1:39",
       "description": "Psalm 117, the shortest Psalm (and chapter) in the Bible, read in the forested hills of northern United States.<br><br>1 O praise Yahweh, all ye nations: praise him, all ye people. <br> 2 For his merciful kindness is great toward us: and the truth of Yahweh endureth for ever. Praise ye Yahweh."
+    },
+    {
+      "psalm": 149,
+      "title": "Psalm 149",
+      "date": "May 21st, 2024",
+      "location": "Central Minnesota",
+      "time_of_day": "Noon",
+      "image": "/images/thumbs/Psalms-149-thumbnail.jpg",
+      "videoUrl": "https://www.youtube-nocookie.com/embed/76QYB3O2RSE",
+      "audioUrl": "/audio/Psalm-149.mp3",
+      "length": "3:00",
+      "description": "PSALM 149<br>1 Praise ye Yah. Sing unto Yahweh a new song, and His praise in the congregation of saints.<br>2 Let Israel rejoice in Him that made him: let the children of Zion be joyful in their King.<br>3 Let them praise His name in the dance: let them sing praises unto Him with the timbrel and harp.<br>4 For Yahweh taketh pleasure in his people: He will beautify the meek with salvation.<br>5 Let the saints be joyful in glory: let them sing aloud upon their beds.<br>6 Let the high praises of El be in their mouth, and a two-edged sword in their hand;<br>7 To execute vengeance upon the heathen, and punishments upon the people;<br>8 To bind their kings with chains, and their nobles with fetters of iron;<br>9 To execute upon them the judgment written: this honour have all His saints. Praise ye Yah."
     }
   ],
   "psalms_location_table": [
@@ -2888,7 +2900,7 @@
     },
     {
       "psalm": 149,
-      "completed": false,
+      "completed": true,
       "time_of_day": "Midday",
       "location": "Woods/Forest",
       "weather": "sunny",
@@ -2914,6 +2926,11 @@
     }
   ],
   "progress_log": [
+    {
+      "title": "Psalm 149",
+      "date": "5/21/2024",
+      "notes": "<a class='underline' href='/readings/149/'>Psalm 149</a> is now published. See if you can spot the squirrel who attempts to get some attention in the video!"
+    },
     {
       "title": "Psalm 35",
       "date": "5/5/2024",
