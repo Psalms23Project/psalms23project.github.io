@@ -61,6 +61,18 @@
       "description": "For the director of music. Of the Sons of Korah. A psalm.<br><br>1 Hear this, all ye people; give ear, all ye inhabitants of the world:<br>2 Both low and high, rich and poor, together.<br>3 My mouth shall speak of wisdom; and the meditation of my heart shall be of understanding.<br>4 I will incline mine ear to a parable: I will open my dark saying upon the harp.<br>5 Wherefore should I fear in the days of evil, when the iniquity of my heels shall compass me about?<br>6 They that trust in their wealth, and boast themselves in the multitude of their riches;<br>7 None of them can by any means redeem his brother, nor give to Elohim a ransom for him:<br>8 (For the redemption of their soul is precious, and it ceaseth for ever:)<br>9 That he should still live for ever, and not see corruption.<br>10 For he seeth that wise men die, likewise the fool and the brutish person perish, and leave their wealth to others.<br>11 Their inward thought is, that their houses shall continue for ever, and their dwelling places to all generations; they call their lands after their own names.<br>12 Nevertheless man being in honour abideth not: he is like the beasts that perish.<br>13 This their way is their folly: yet their posterity approve their sayings. Selah.<br>14 Like sheep they are laid in the grave; death shall feed on them; and the upright shall have dominion over them in the morning; and their beauty shall consume in the grave from their dwelling.<br>15 But Elohim will redeem my soul from the power of the grave: for he shall receive me. Selah.<br>16 Be not thou afraid when one is made rich, when the glory of his house is increased;<br>17 For when he dieth he shall carry nothing away: his glory shall not descend after him.<br>18 Though while he lived he blessed his soul: and men will praise thee, when thou doest well to thyself.<br>19 He shall go to the generation of his fathers; they shall never see light.<br>20 Man that is in honour, and understandeth not, is like the beasts that perish."
     },
     {
+      "psalm": 67,
+      "title": "Psalm 67",
+      "date": "July 23rd, 2024",
+      "location": "Northern Missouri",
+      "time_of_day": "Afternoon",
+      "image": "/images/thumbs/Psalms-67-thumbnail.jpg",
+      "videoUrl": "https://www.youtube-nocookie.com/embed/iUTcs1VYjKw",
+      "audioUrl": "/audio/Psalm-67.mp3",
+      "length": "1:04",
+      "description": "1 Yahweh be merciful unto us, and bless us; and cause His face to shine upon us; Selah.<br>2 That Thy way may be known upon earth, Thy saving health among all nations.<br>3 Let the people praise Thee, O Elohim; let all the people praise Thee.<br>4 O let the nations be glad and sing for joy: for Thou shalt judge the people righteously, and govern the nations upon earth. Selah.<br>5 Let the people praise Thee, O Elohim; let all the people praise thee.<br>6 Then shall the earth yield her increase; and Elohim, even our own Elohim, shall bless us.<br>7 Elohim shall bless us; and all the ends of the earth shall fear Him."
+    },
+    {
       "psalm": 90,
       "title": "Psalm 90",
       "date": "Feb. 25th, 2024",
@@ -106,7 +118,7 @@
       "videoUrl": "https://www.youtube-nocookie.com/embed/IwuZWa_gtG4",
       "audioUrl": "/audio/Psalm-110.mp3",
       "length": "1:35",
-      "description": "1 Yahweh said unto my Sovereign, Sit Thou at My right hand, until I make Thine enemies Thy footstool.<br>2 Yahweh shall send the rod of Thy strength out of Zion: rule Thou in the midst of thine enemies.<br>3 Thy people shall be willing in the day of Thy power, in the beauties of holiness from the womb of the morning: Thou hast the dew of Thy youth.<br>4 Yahweh hath sworn, and will not repent, Thou art a priest for ever after the order of Melchizedek.<br>5 Yahweh at Thy right hand shall strike through kings in the day of His wrath.<br>6 He shall judge among the heathen, He shall fill the places with the dead bodies; He shall wound the heads over many countries.<br>7 He shall drink of the brook in the way: therefore shall He lift up the head."
+      "description": "We pray you are blessed and encouraged by this reading from Psalms 110, a Psalm of David.<br><br>1 Yahweh said unto my Sovereign, Sit Thou at My right hand, until I make Thine enemies Thy footstool.<br>2 Yahweh shall send the rod of Thy strength out of Zion: rule Thou in the midst of thine enemies.<br>3 Thy people shall be willing in the day of Thy power, in the beauties of holiness from the womb of the morning: Thou hast the dew of Thy youth.<br>4 Yahweh hath sworn, and will not repent, Thou art a priest for ever after the order of Melchizedek.<br>5 Yahweh at Thy right hand shall strike through kings in the day of His wrath.<br>6 He shall judge among the heathen, He shall fill the places with the dead bodies; He shall wound the heads over many countries.<br>7 He shall drink of the brook in the way: therefore shall He lift up the head."
     },
     {
       "psalm": 116,
@@ -1846,7 +1858,7 @@
     },
     {
       "psalm": 67,
-      "completed": false,
+      "completed": true,
       "time_of_day": "Afternoon",
       "location": "Hill",
       "weather": "sunny",
@@ -2938,6 +2950,11 @@
     }
   ],
   "progress_log": [
+    {
+      "title": "Psalm 67",
+      "date": "7/23/2024",
+      "notes": "<a class='underline' href='/readings/67/'>Psalm 67</a>, is now published."
+    },
     {
       "title": "Psalm 99",
       "date": "7/22/2024",
