@@ -85,6 +85,18 @@
       "description": "A Psalm reading set in the midst of cedars.<br><br>1 O sing unto Yahweh a new song: sing unto Yahweh, all the earth.<br>2 Sing unto Yahweh, bless his name; shew forth His salvation from day to day.<br>3 Declare His glory among the heathen, His wonders among all people.<br>4 For Yahweh is great, and greatly to be praised: He is to be feared above all mighty ones.<br>5 For all the mighty ones of the nations are idols: but Yahweh made the heavens.<br>6 Honor and majesty are before Him: strength and beauty are in his sanctuary.<br>7 Give unto Yahweh, O ye kindreds of the people, give unto Yahweh glory and strength.<br>8 Give unto Yahweh the glory due unto His name: bring an offering, and come into His courts.<br>9 O worship Yahweh in the beauty of holiness: fear before Him, all the earth.<br>10 Say among the heathen that Yahweh reigneth: the world also shall be established that it shall not be moved: He shall judge the people righteously.<br>11 Let the heavens rejoice, and let the earth be glad; let the sea roar, and the fullness thereof.<br>12 Let the field be joyful, and all that is therein: then shall all the trees of the wood rejoice<br>13 Before Yahweh: for He cometh, for He cometh to judge the earth: He shall judge the world with righteousness, and the people with His truth."
     },
     {
+      "psalm": 99,
+      "title": "Psalm 99",
+      "date": "July 22nd, 2024",
+      "location": "Northern Missouri",
+      "time_of_day": "Afternoon",
+      "image": "/images/thumbs/Psalms-99-thumbnail.jpg",
+      "videoUrl": "https://www.youtube-nocookie.com/embed/msVmrtIuu4E",
+      "audioUrl": "/audio/Psalm-99.mp3",
+      "length": "1:22",
+      "description": "1 Yahweh reigneth; let the people tremble: He sitteth between the cherubims; let the earth be moved.<br>2 Yahweh is great in Zion; and He is high above all the people.<br>3 Let them praise Thy great and terrible name; for it is holy.<br>4 The king's strength also loveth judgment; Thou dost establish equity, Thou executest judgment and righteousness in Jacob.<br>5 Exalt ye Yahweh our Elohim, and worship at His footstool; for He is holy.<br>6 Moses and Aaron among His priests, and Samuel among them that call upon His name; they called upon Yahweh, and He answered them.<br>7 He spake unto them in the cloudy pillar: they kept His testimonies, and the ordinance that He gave them.<br>8 Thou answeredst them, O Yahweh our Elohim: Thou wast an El that forgavest them, though Thou tookest vengeance of their inventions.<br>9 Exalt Yahweh our Elohim, and worship at His holy hill; for Yahweh our Elohim is holy."
+    },
+    {
       "psalm": 110,
       "title": "Psalm 110",
       "date": "Apr. 16th, 2024",
@@ -2250,7 +2262,7 @@
     },
     {
       "psalm": 99,
-      "completed": false,
+      "completed": true,
       "time_of_day": "Afternoon",
       "location": "Hill",
       "weather": "sunny",
@@ -2926,6 +2938,11 @@
     }
   ],
   "progress_log": [
+    {
+      "title": "Psalm 99",
+      "date": "7/22/2024",
+      "notes": "<a class='underline' href='/readings/99/'>Psalm 99</a>, a royal Psalm, is now published."
+    },
     {
       "title": "Psalm 149",
       "date": "5/21/2024",
