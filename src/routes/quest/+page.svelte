@@ -55,6 +55,10 @@
       <li><i>(Optional) With your permission, if the filming locations are fairly remote and the time of day for the reading warrants it, tent camping overnight may be the best option. e.g: for a Psalm reading that is planned for an early morning sunrise, it may be easier for us to camp at the filming location overnight.</i></li>
     </ul>
     <p class="text-2xl font-semibold tracking-tight mt-8">How to submit your potential location</p>
+    <p class="text-lg mt-2">
+      You can either <b>fill out the form below</b> or email us with your hello and pictures/videos of places that you think could possibly be used on your property at <a class="font-semibold underline hover:opacity-90 duration-300 ease-in-out" href="mailto:contact@psalms23project.com">contact@psalms23project.com</a>
+    </p>
+    <p class="text-lg mt-2">We look forward to hearing from you!</p>
     <iframe data-tally-src="https://tally.so/embed/mKLaeg?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="1270" frameborder="0" marginheight="0" marginwidth="0" title="Help us find locations to film Psalm readings in nature."></iframe><script>var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script>
   </div>
 </div>
