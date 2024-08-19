@@ -40,6 +40,8 @@
     </ul>
     <p class="text-xl font-semibold tracking-tight mt-4">Q: How long would you need to film?</p>
     <p class="text-lg mt-2">A: Including setup, <b>each Psalm reading takes between 1-3 hours to film</b>. The precise timing depends on the length of the Psalm and external factors like whether we are hindered by noise. We are flexible to adjust to your schedule. If that means only filming a single Psalm reading for an hour, that is alright.</p>
+    <p class="text-xl font-semibold tracking-tight mt-4">Q: What does filming a Psalm reading look like?</p>
+    <p class="text-lg mt-2">A: We mic-up, setup the tripod, and </p>
     <p class="text-xl font-semibold tracking-tight mt-4">Q: Are you able to compensate for your use of the property?</p>
     <p class="text-lg mt-2">A: <b>Unfortunately, since this is a low budget, not-for-a-profit ministry project, we cannot afford to pay for our use of your property</b>. That said, we will always treat you and your property with respect. If you'd like to help out or watch as we film the reading(s) you are welcome to.</p>
     <p class="text-xl font-semibold tracking-tight mt-4">Q: Will we sign a contract?</p>
@@ -53,10 +55,6 @@
       <li><i>(Optional) With your permission, if the filming locations are fairly remote and the time of day for the reading warrants it, tent camping overnight may be the best option. e.g: for a Psalm reading that is planned for an early morning sunrise, it may be easier for us to camp at the filming location overnight.</i></li>
     </ul>
     <p class="text-2xl font-semibold tracking-tight mt-8">How to submit your potential location</p>
-    <p class="text-lg mt-2">
-      Please email us with your hello and pictures/videos of places that you think could possibly be used on your property at <a class="font-semibold underline hover:opacity-90 duration-300 ease-in-out" href="mailto:contact@psalms23project.com">contact@psalms23project.com</a>
-    </p>
-    <p class="text-lg mt-2">Once you email us, we'll get back to as soon as possible.</p>
-    <p class="text-lg mt-2">We look forward to hearing from you!</p>
+    <iframe data-tally-src="https://tally.so/embed/mKLaeg?alignLeft=1&hideTitle=1&transparentBackground=1&dynamicHeight=1" loading="lazy" width="100%" height="1270" frameborder="0" marginheight="0" marginwidth="0" title="Help us find locations to film Psalm readings in nature."></iframe><script>var d=document,w="https://tally.so/widgets/embed.js",v=function(){"undefined"!=typeof Tally?Tally.loadEmbeds():d.querySelectorAll("iframe[data-tally-src]:not([src])").forEach((function(e){e.src=e.dataset.tallySrc}))};if("undefined"!=typeof Tally)v();else if(d.querySelector('script[src="'+w+'"]')==null){var s=d.createElement("script");s.src=w,s.onload=v,s.onerror=v,d.body.appendChild(s);}</script>
   </div>
 </div>
