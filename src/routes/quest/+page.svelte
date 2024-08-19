@@ -40,8 +40,8 @@
     </ul>
     <p class="text-xl font-semibold tracking-tight mt-4">Q: How long would you need to film?</p>
     <p class="text-lg mt-2">A: Including setup, <b>each Psalm reading takes between 1-3 hours to film</b>. The precise timing depends on the length of the Psalm and external factors like whether we are hindered by noise. We are flexible to adjust to your schedule. If that means only filming a single Psalm reading for an hour, that is alright.</p>
-    <p class="text-xl font-semibold tracking-tight mt-4">Q: What does filming a Psalm reading look like?</p>
-    <p class="text-lg mt-2">A: We mic-up, setup the tripod, and </p>
+    <!-- <p class="text-xl font-semibold tracking-tight mt-4">Q: What does filming a Psalm reading look like?</p>
+    <p class="text-lg mt-2">A: We mic-up, setup the tripod, and </p> -->
     <p class="text-xl font-semibold tracking-tight mt-4">Q: Are you able to compensate for your use of the property?</p>
     <p class="text-lg mt-2">A: <b>Unfortunately, since this is a low budget, not-for-a-profit ministry project, we cannot afford to pay for our use of your property</b>. That said, we will always treat you and your property with respect. If you'd like to help out or watch as we film the reading(s) you are welcome to.</p>
     <p class="text-xl font-semibold tracking-tight mt-4">Q: Will we sign a contract?</p>
