@@ -1896,7 +1896,7 @@
     },
     {
       "psalm": 69,
-      "completed": false,
+      "completed": true,
       "time_of_day": "Morning sunrise",
       "location": "Mountain/Mountain Top",
       "weather": "sunny",
@@ -2702,7 +2702,7 @@
     },
     {
       "psalm": 131,
-      "completed": false,
+      "completed": true,
       "time_of_day": "Midday",
       "location": "Mountain Top",
       "weather": "sunny",
