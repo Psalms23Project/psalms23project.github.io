@@ -142,7 +142,19 @@
       "videoUrl": "https://www.youtube-nocookie.com/embed/s8vmXgcJUXQ",
       "audioUrl": "/audio/Psalm-117.mp3",
       "length": "1:39",
-      "description": "Psalm 117, the shortest Psalm (and chapter) in the Bible, read in the forested hills of northern United States.<br><br>1 O praise Yahweh, all ye nations: praise him, all ye people. <br> 2 For his merciful kindness is great toward us: and the truth of Yahweh endureth for ever. Praise ye Yahweh."
+      "description": "Psalm 117, the shortest Psalm (and chapter) in the Bible, read in the forested hills of northern United States.<br><br>PSALM 117<br>1 O praise Yahweh, all ye nations: praise him, all ye people. <br> 2 For his merciful kindness is great toward us: and the truth of Yahweh endureth for ever. Praise ye Yahweh."
+    },
+    {
+      "psalm": 131,
+      "title": "Psalm 131",
+      "date": "Aug. 25th, 2024",
+      "location": "Central Colorado",
+      "time_of_day": "Midday",
+      "image": "/images/thumbs/Psalms-131-thumbnail.jpg",
+      "videoUrl": "https://www.youtube-nocookie.com/embed/wyuHg8lvu2I",
+      "audioUrl": "/audio/Psalm-117.mp3",
+      "length": "0:43",
+      "description": "PSALM 131<br>1 Yahweh, my heart is not haughty, nor mine eyes lofty: neither do I exercise myself in great matters, or in things too high for me.<br>2 Surely I have behaved and quieted myself, as a child that is weaned of his mother: my soul is even as a weaned child.<br>3 Let Israel hope in Yahweh from henceforth and for ever."
     },
     {
       "psalm": 149,
@@ -2950,6 +2962,11 @@
     }
   ],
   "progress_log": [
+    {
+      "title": "Psalm 131",
+      "date": "8/25/2024",
+      "notes": "<a class='underline' href='/readings/131/'>Psalm 131</a>, a Song of Ascents by David, is now published."
+    },
     {
       "title": "Psalm 67",
       "date": "7/23/2024",

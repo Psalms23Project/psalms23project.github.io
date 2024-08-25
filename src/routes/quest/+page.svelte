@@ -22,7 +22,7 @@
     <p class="text-2xl font-semibold tracking-tight mt-8">Location requirements / The ideal location</p>
     <p class="text-lg mt-2">The ideal location is private country property with suitable natural places to film a good distance away from a highway, busy road, train, or airport. Must be in the continental United States (the lower 48).</p> 
     <p class="text-lg mt-2">
-      We want to be dilligent to know whether a location is suitable ahead of time so we don't waste anyone's time. So, when submitting your location, please include pictures and videos of places on your property that you think could possibly be used. <b>If you are not sure if your location is quiet enough for what we need, you can still feel free to contact us. :)</b>
+      When submitting your location, please include pictures and/or videos of places on your property that you think could possibly be used. <b>If you are not sure if the location is quiet enough for what we need, you can still feel free to contact us. :)</b>
     </p>
     <p class="text-2xl font-semibold tracking-tight mt-8">Your questions answered</p>
     <p class="text-lg mt-2">Would you like to help us make the Psalms 23 Project possible by allowing us to film on your property? Or, do you know someone else that may have a location we could use? Here are some answers to questions you may have:</p>
