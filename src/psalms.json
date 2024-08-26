@@ -2767,7 +2767,7 @@
     },
     {
       "psalm": 136,
-      "completed": false,
+      "completed": true,
       "time_of_day": "Morning",
       "location": "Mountain",
       "weather": "sunny",
