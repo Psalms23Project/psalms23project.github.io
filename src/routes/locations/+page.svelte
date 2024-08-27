@@ -208,6 +208,15 @@
               {/each}
             </p>
           </div>
+          <hr class="border border-violet-200"/>
+          <div class="flex flex-row items-center justify-between py-1 px-2">
+            <p class="text-navyblue/80 text-sm">
+              VERSES
+            </p>
+            <p class="inline-flex items-center">
+              {psalm.verses}
+            </p>
+          </div>
           <p class="flex flex-row flex-wrap mt-3">
             {#each Object.values(psalm.tags) as tag}
               <span class="bg-violet-100 rounded-full py-1 px-3 m-1">{tag}</span>
