@@ -130,7 +130,7 @@
               <div class="flex flex-row items-center">
                 <img class="w-24 h-auto rounded-md" src={file.image} alt={file.title}/>
                 <div class="flex flex-col text-left ml-2">
-                  <p class="text-md font-medium" class:font-semibold={file.psalm == selectedPsalm}>{file.title}</p>
+                  <p class="text-md font-medium" class:font-semibold={file.psalm == selectedPsalm}>{file.title.split("|")[0]}</p>
                   <small class="text-xs text-navyblue/70">{file.date}</small>
                 </div>
               </div>
@@ -161,7 +161,7 @@
           </button> -->
         </div>
       </div>
-      <div class="flex flex-row tracking-tight space-x-3">
+      <div class="flex flex-row tracking-tight space-x-3 mt-3">
         <p>{ data.date }</p><p>{ data.location }</p><p>{ data.time_of_day }</p>
       </div>
       <p class="text-base mt-5 max-w-prose">

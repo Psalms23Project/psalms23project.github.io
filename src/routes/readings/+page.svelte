@@ -24,7 +24,7 @@
         <img class="w-auto h-auto rounded-md" src={file.image} alt={file.title}/>
       </div>
       <div class="flex flex-col mt-2">
-        <p class="text-xl text-navyblue font-semibold">{file.title}</p>
+        <p class="text-lg text-navyblue font-semibold">{file.title}</p>
         <small class="text-xs text-navyblue/70">{file.date}</small>
       </div>
     </button>
