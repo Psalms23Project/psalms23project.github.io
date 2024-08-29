@@ -2886,7 +2886,7 @@
     },
     {
       "psalm": 134,
-      "completed": false,
+      "completed": true,
       "time_of_day": "Morning",
       "location": "Mountain",
       "weather": "sunny",
@@ -3124,6 +3124,11 @@
     }
   ],
   "progress_log": [
+    {
+      "title": "Psalm 136",
+      "date": "8/29/2024",
+      "notes": "<a class='underline' href='/readings/136/'>Psalm 136</a>, is now published."
+    },
     {
       "title": "Psalm 131",
       "date": "8/25/2024",
