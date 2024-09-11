@@ -56,7 +56,12 @@
       <li class="mt-4">
         <b>Share our Psalm reading videos.</b> Help us get out the word about this project by telling your family and friends and by sharing our videos.
       </li>
-      <li><b>Help us find locations.</b> We're in need of private, quiet locations where we can film Psalm readings. If you know of a place or would be willing to have us come film on your property, <a class="font-semibold underline hover:opacity-90 duration-300 ease-in-out" href="/quest/">click here</a> to learn more.</li>
+      <li>
+        <b>Subscribe and like our Psalm reading videos.</b> Like our videos and subscribe to our <a class="font-semibold underline hover:opacity-90 duration-300 ease-in-out" href="https://youtube.com/@ThePsalms23Project">YouTube channel</a> to help us get in front of more people.
+      </li>
+      <li>
+        <b>Help us find locations.</b> We're in need of private, quiet locations where we can film Psalm readings. If you know of a place or would be willing to have us come film on your property, <a class="font-semibold underline hover:opacity-90 duration-300 ease-in-out" href="/quest/">click here</a> to learn more.
+      </li>
     </ol>
     <hr class="mt-8"/>
     <p class="text-lg mt-8">
