@@ -16,7 +16,7 @@
         <h1 class="text-5xl lg:text-6xl font-serif font-medium text-white mt-5">
           Psalm 84
         </h1>
-        <p class="font-secondary italic text-white/90 text-xl mt-2 max-w-sm leading-6">
+        <p class="font-secondary italic text-white/90 text-xl mt-2 max-w-md leading-6">
           "A day in Thy courts is better than a thousand"
         </p>
         <div class="flex mt-10">
