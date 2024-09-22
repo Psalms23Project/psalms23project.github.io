@@ -59,5 +59,5 @@
       </div>
     </div>
   </div>
-  <small class="text-navyblue/80 mx-auto mt-14">&copy; 2023-2024, The Psalms 23 Project. Website by <a class="text-navyblue/80 hover:bg-violet-100 rounded-md px-0.5 duration-300" href="https://noahrahm.com">Noah Rahm.</a> Website source code is <a class="text-navyblue/80 hover:bg-violet-100 rounded-md px-0.5 duration-300" href="https://github.com/Psalms23Project/psalms23project.github.io">open source.</a></small>
+  <small class="text-navyblue/80 mx-auto mt-14">&copy; 2023-2024, The Psalms 23 Project.</small>
 </footer>

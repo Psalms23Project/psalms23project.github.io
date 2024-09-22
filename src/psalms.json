@@ -74,8 +74,8 @@
     },
     {
       "psalm": 69,
-      "title": "Psalm 69",
-      "date": "(Upcoming)",
+      "title": "Psalm 69 | \"They hated me without a cause\"",
+      "date": "Sep.  25th, 2024",
       "location": "Central Colorado",
       "time_of_day": "Morning",
       "image": "/images/thumbs/Psalms-69-thumbnail.jpg",
@@ -3172,6 +3172,11 @@
     }
   ],
   "progress_log": [
+    {
+      "title": "Psalm 69",
+      "date": "9/25/2024",
+      "notes": "<a class='underline' href='/readings/69/'>Psalm 69</a> is now published."
+    },
     {
       "title": "Psalm 84",
       "date": "9/17/2024",
