@@ -21,7 +21,7 @@
     <button on:click={() => goto('/readings/' + file.psalm)} class="flex flex-col items-start text-left mb-4">
       <div class="relative">
         <p class="absolute top-0 text-xs text-white bg-black/60 px-2 py-1 mt-2 mx-2 rounded-md">{file.length}</p>
-        <img class="w-auto h-auto rounded-md" src={file.image} alt={file.title}/>
+        <img class="w-auto h-auto rounded-md" src={file.image} alt={file.title} loading="lazy"/>
       </div>
       <div class="flex flex-col mt-2">
         <p class="text-lg text-navyblue font-semibold">{file.title}</p>
