@@ -116,13 +116,18 @@
       <div class="w-full min-w-72 sm:min-w-80 max-w-full md:max-w-80 ml-0 md:ml-2 mt-4 md:mt-0 bg-violet-100 rounded-lg" style="height: 33rem">
         <div class="relative text-navybluedark py-3 px-2 h-full">
           <p class="text-base mx-2 font-semibold tracking-tighter text-navyblue/90 uppercase">Psalm Readings</p>
-          <div class="flex flex-row text-sm mt-4">
-            <button class="px-3 py-1 rounded-lg" on:click={() => setTab('videos')} class:bg-violet-200={selectedTab =='videos'}>
-              Videos
-            </button>
-            <button class="px-3 py-1 rounded-lg" on:click={() => setTab('audio')} class:bg-violet-200={selectedTab =='audio'}>
-              Audio
-            </button>
+          <div class="flex flex-row justify-between text-sm mt-4">
+            <div class="flex flex-row">
+              <button class="px-3 py-1 rounded-lg" on:click={() => setTab('videos')} class:bg-violet-200={selectedTab =='videos'}>
+                Videos
+              </button>
+              <button class="px-3 py-1 rounded-lg" on:click={() => setTab('audio')} class:bg-violet-200={selectedTab =='audio'}>
+                Audio
+              </button>
+            </div>
+            <a class="px-3 py-1 rounded-lg bg-violet-200 flex items-center" class:hidden={selectedTab == 'videos'} href="https://drive.google.com/file/d/1-ahBulAJLW4ol0BczwYr7vT1EhkvotvS/view?usp=sharing" target="_blank" title="Download zip of audio files">
+              <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><path d="M240,136v64a16,16,0,0,1-16,16H32a16,16,0,0,1-16-16V136a16,16,0,0,1,16-16H72a8,8,0,0,1,0,16H32v64H224V136H184a8,8,0,0,1,0-16h40A16,16,0,0,1,240,136Zm-117.66-2.34a8,8,0,0,0,11.32,0l48-48a8,8,0,0,0-11.32-11.32L136,108.69V24a8,8,0,0,0-16,0v84.69L85.66,74.34A8,8,0,0,0,74.34,85.66ZM200,168a12,12,0,1,0-12,12A12,12,0,0,0,200,168Z"></path></svg>
+            </a>
           </div>
           <div class="flex flex-col mt-3 pr-2 overflow-y-auto" style="height: 26rem">
             {#each Object.values(json.psalms_media) as file}
