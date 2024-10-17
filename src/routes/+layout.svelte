@@ -8,7 +8,7 @@
   $: if($navigating) (menuOpen = false);
 </script>
 <div class="bg-navyblue text-white text-center py-2 px-3">
-  <p>Do you or someone you know have a suitable location in the USA for us to film Psalm reading videos? <a class="underline" href="/quest/">Share your location</a></p>
+  <p>Help us find locations to film future Psalm reading videos: <a class="underline" href="/quest/">Share Your Location</a></p>
 </div>
 <nav class="relative max-w-7xl mx-auto py-3">
   <div class="flex flex-col md:flex-row justify-between items-center px-4">
