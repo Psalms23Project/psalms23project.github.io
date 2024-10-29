@@ -10,17 +10,17 @@
 <div class="mx-3">
   <!-- Latest video -->
   <div class="flex flex-col bg-featured-psalm bg-cover bg-center rounded-2xl max-w-7xl mx-auto">
-    <div class="flex flex-col px-8 md:px-24 py-36 rounded-2xl bg-gradient-to-r from-black/20 to-transparent">
+    <div class="flex flex-col px-8 md:px-24 py-36 rounded-2xl bg-gradient-to-r from-black/40 to-transparent">
       <p class="text-white text-sm uppercase">Latest Video</p>
       <div class="mt-20">
         <h1 class="text-5xl lg:text-6xl font-serif font-medium text-white mt-5">
-          Psalm 107
+          Psalm 42
         </h1>
         <p class="font-secondary italic text-white/90 text-xl mt-2 max-w-md leading-6">
-          "O give thanks unto Yahweh, for He is good"
+          "As the hart panteth after the water brooks"
         </p>
         <div class="flex mt-10">
-          <a href="/readings/107/" class=" text-navybluedark font-semibold rounded-lg px-5 py-3 bg-white hover:bg-white/80 duration-300">
+          <a href="/readings/42/" class=" text-navybluedark font-semibold rounded-lg px-5 py-3 bg-white hover:bg-white/80 duration-300">
             Watch Video
           </a>
         </div>
