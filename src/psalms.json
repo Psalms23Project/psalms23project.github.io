@@ -1824,7 +1824,7 @@
     },
     {
       "psalm": 53,
-      "completed": false,
+      "completed": true,
       "time_of_day": "Afternoon",
       "location": "Mountain/Mountain Top",
       "weather": "sunny",
