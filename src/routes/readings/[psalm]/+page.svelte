@@ -1,27 +1,28 @@
 <script>
+// @ts-nocheck
   import json from '../../../psalms.json';
   import EmbedPlayer from "../../../components/EmbedPlayer.svelte";
   import AudioPlayer from "../../../components/AudioPlayer.svelte";
 
   import { goto } from "$app/navigation";
-  import { page } from '$app/stores';
+  import { page } from '$app/state';
 
   let defaultPsalm = 30;
 
   /**
    * @param {string} selectedTab
    */
-   let selectedTab = 'videos';
+   let selectedTab = $state('videos');
 
   /**
      * @param {number} selectedPsalm
      */
-  let selectedPsalm = defaultPsalm;
+  let selectedPsalm = $state(defaultPsalm);
 
   /**
      * @type {{ psalm: number; title: string; date: string; location: string; time_of_day: string; image: string; videoUrl: string; audioUrl: string; length: string; description: string; } | undefined}
      */
-  let data = {
+  let data = $state({
     psalm: defaultPsalm,
     title: "",
     date: "",
@@ -32,12 +33,12 @@
     audioUrl: "",
     length: "",
     description: ""
-  };
+  });
 
   /**
      * @type {AudioPlayer}
      */
-  let audioPlayer;
+  let audioPlayer = $state();
 
   /**
      * @param {string} tab
@@ -76,7 +77,7 @@
   }
 
   function init() {
-    selectedPsalm = Number($page.params.psalm);
+    selectedPsalm = Number(page.params.psalm);
     updatePage();
   }
 
@@ -91,7 +92,7 @@
 
 {#if data == undefined}
   <div class="flex mx-auto my-20">
-    <p class="text-2xl mx-auto">Ooops..Invalid url. Click <button class="underline" on:click={() => location.replace('/readings')}>here</button> to find the readings</p>
+    <p class="text-2xl mx-auto">Ooops..Invalid url. Click <button class="underline" onclick={() => location.replace('/readings')}>here</button> to find the readings</p>
   </div>
 {:else}
   <div class="max-w-7xl flex flex-col mx-auto px-4 mt-2 mb-10">
@@ -118,20 +119,20 @@
           <p class="text-base mx-2 font-semibold tracking-tighter text-navyblue/90 uppercase">Psalm Readings</p>
           <div class="flex flex-row justify-between text-sm mt-4">
             <div class="flex flex-row">
-              <button class="px-3 py-1 rounded-lg" on:click={() => setTab('videos')} class:bg-violet-200={selectedTab =='videos'}>
+              <button class="px-3 py-1 rounded-lg" onclick={() => setTab('videos')} class:bg-violet-200={selectedTab =='videos'}>
                 Videos
               </button>
-              <button class="px-3 py-1 rounded-lg" on:click={() => setTab('audio')} class:bg-violet-200={selectedTab =='audio'}>
+              <button class="px-3 py-1 rounded-lg" onclick={() => setTab('audio')} class:bg-violet-200={selectedTab =='audio'}>
                 Audio
               </button>
             </div>
-            <a class="px-3 py-1 rounded-lg bg-violet-200 flex items-center" class:hidden={selectedTab == 'videos'} href="https://drive.google.com/file/d/1-ahBulAJLW4ol0BczwYr7vT1EhkvotvS/view?usp=sharing" target="_blank" title="Download zip of audio files (Last updated 10/2024)">
+            <a class="px-3 py-1 rounded-lg bg-violet-200 flex items-center" class:hidden={selectedTab == 'videos'} href="https://drive.google.com/file/d/1-ahBulAJLW4ol0BczwYr7vT1EhkvotvS/view?usp=sharing" target="_blank" title="Download zip of audio files (Last updated 10/2024)" aria-label="Download audio files">
               <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256"><path d="M240,136v64a16,16,0,0,1-16,16H32a16,16,0,0,1-16-16V136a16,16,0,0,1,16-16H72a8,8,0,0,1,0,16H32v64H224V136H184a8,8,0,0,1,0-16h40A16,16,0,0,1,240,136Zm-117.66-2.34a8,8,0,0,0,11.32,0l48-48a8,8,0,0,0-11.32-11.32L136,108.69V24a8,8,0,0,0-16,0v84.69L85.66,74.34A8,8,0,0,0,74.34,85.66ZM200,168a12,12,0,1,0-12,12A12,12,0,0,0,200,168Z"></path></svg>
             </a>
           </div>
           <div class="flex flex-col mt-3 pr-2 overflow-y-auto" style="height: 26rem">
             {#each Object.values(json.psalms_media) as file}
-            <button on:click={() => setCurrentMedia(file.psalm)} class="flex flex-row items-center justify-between px-3 py-2 rounded-lg" class:bg-violet-200={file.psalm == selectedPsalm}>
+            <button onclick={() => setCurrentMedia(file.psalm)} class="flex flex-row items-center justify-between px-3 py-2 rounded-lg" class:bg-violet-200={file.psalm == selectedPsalm}>
               <div class="flex flex-row items-center">
                 <img class="w-24 h-auto rounded-md" src={file.image} alt={file.title}/>
                 <div class="flex flex-col text-left ml-2">
@@ -170,7 +171,7 @@
         <p>{ data.date }</p><p>{ data.location }</p><p>{ data.time_of_day }</p>
       </div>
       <p class="text-base mt-5 max-w-prose">
-        {@html data.description }
+        {@html data.description}
       </p>
     </div>
   </div>

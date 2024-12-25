@@ -1,13 +1,12 @@
 <script>
   /**
-     * @type {string}
-     */
-   export let src;
+   * @typedef {Object} Props
+   * @property {string} src
+   * @property {string} title
+   */
 
-   /**
-     * @type {string}
-     */
-  export let title;
+  /** @type {Props} */
+  let { src, title } = $props();
 </script>
 
 <div class="youtube-video-container">

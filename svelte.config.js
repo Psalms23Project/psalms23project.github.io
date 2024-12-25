@@ -1,4 +1,4 @@
-import preprocess from "svelte-preprocess";
+import { sveltePreprocess } from 'svelte-preprocess';
 import adapter from "@sveltejs/adapter-static";
 
 import json from './src/psalms.json' with { type: 'json' };
@@ -30,7 +30,7 @@ const config = {
   },
 
   preprocess: [
-    preprocess({
+    sveltePreprocess({
       postcss: true,
     }),
   ],

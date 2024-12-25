@@ -3,9 +3,17 @@
   import { navigating } from '$app/stores';
   import Hamburger from "../components/Hamburger.svelte";
 
-  export let menuOpen = false;
-  //$: $page.url && (menuOpen = false)
-  $: if($navigating) (menuOpen = false);
+  /**
+   * @typedef {Object} Props
+   * @property {boolean} [menuOpen]
+   * @property {import('svelte').Snippet} [children]
+   */
+
+  /** @type {Props} */
+  let { menuOpen = $bindable(false), children } = $props();
+  $effect(() => {
+    if($navigating) (menuOpen = false);
+  });
 </script>
 <div class="bg-navyblue text-white text-center py-2 px-3">
   <p>Help us find locations to film future Psalm reading videos: <a class="underline" href="/quest/">Share Your Location</a></p>
@@ -36,7 +44,7 @@
     </div>
   </div>
 </nav>
-<slot />
+{@render children?.()}
 <footer class="flex flex-col text-center pt-16 pb-8 px-8 bg-slate-100 mt-5">
   <div class="w-full max-w-6xl mx-auto">
     <div class="w-full flex flex-col md:flex-row items-center justify-between">

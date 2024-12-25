@@ -1,7 +1,7 @@
 <script>
   import json from '../../psalms.json';
 
-  let filteredPsalms = json.psalms_locations;
+  let filteredPsalms = $state(json.psalms_locations);
 
   /**
      * @param {string} location
@@ -159,9 +159,9 @@
           <p class=" text-white font-semibold uppercase">{location}</p>
           <ul class="mt-2 text-white">
             {#each getUniqueTimeOfDay(location) as time_of_day}
-            <!-- svelte-ignore a11y-click-events-have-key-events -->
-            <!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
-            <li class="cursor-pointer" on:click={() => filterPsalms(location, time_of_day)}>
+            <!-- svelte-ignore a11y_click_events_have_key_events -->
+            <!-- svelte-ignore a11y_no_noninteractive_element_interactions -->
+            <li class="cursor-pointer" onclick={() => filterPsalms(location, time_of_day)}>
               {time_of_day}
             </li>
             {/each}
