@@ -1,7 +1,7 @@
 import preprocess from "svelte-preprocess";
 import adapter from "@sveltejs/adapter-static";
 
-import json from './src/psalms.json' assert { type: 'json' };
+import json from './src/psalms.json' with { type: 'json' };
 
 const dev = process.argv.includes('dev');
 
