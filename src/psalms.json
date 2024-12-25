@@ -157,6 +157,18 @@
       "description": "We pray you are blessed and encouraged by this reading from Psalms 96, set in the midst of cedar trees.<br><br>1 O sing unto Yahweh a new song: sing unto Yahweh, all the earth.<br>2 Sing unto Yahweh, bless his name; shew forth His salvation from day to day.<br>3 Declare His glory among the heathen, His wonders among all people.<br>4 For Yahweh is great, and greatly to be praised: He is to be feared above all mighty ones.<br>5 For all the mighty ones of the nations are idols: but Yahweh made the heavens.<br>6 Honor and majesty are before Him: strength and beauty are in his sanctuary.<br>7 Give unto Yahweh, O ye kindreds of the people, give unto Yahweh glory and strength.<br>8 Give unto Yahweh the glory due unto His name: bring an offering, and come into His courts.<br>9 O worship Yahweh in the beauty of holiness: fear before Him, all the earth.<br>10 Say among the heathen that Yahweh reigneth: the world also shall be established that it shall not be moved: He shall judge the people righteously.<br>11 Let the heavens rejoice, and let the earth be glad; let the sea roar, and the fullness thereof.<br>12 Let the field be joyful, and all that is therein: then shall all the trees of the wood rejoice<br>13 Before Yahweh: for He cometh, for He cometh to judge the earth: He shall judge the world with righteousness, and the people with His truth."
     },
     {
+      "psalm": 97,
+      "title": "Psalm 97 | \"Yahweh is King\"",
+      "date": "Dec. 29th, 2024",
+      "location": "Central Minnesota",
+      "time_of_day": "Afternoon",
+      "image": "/images/thumbs/Psalms-97-thumbnail.jpg",
+      "videoUrl": "https://www.youtube-nocookie.com/embed/xor3juLhISg",
+      "audioUrl": "/audio/Psalm-97.mp3",
+      "length": "1:56",
+      "description": "1 Yahweh reigneth; let the earth rejoice; let the multitude of isles be glad thereof.<br>2 Clouds and darkness are round about Him: righteousness and judgment are the habitation of His throne.<br>3 A fire goeth before Him, and burneth up His enemies round about.<br>4 His lightnings enlightened the world: the earth saw, and trembled.<br>5 The hills melted like wax at the presence of Yahweh, at the presence of Yahweh of the whole earth.<br>6 The heavens declare His righteousness, and all the people see His glory.<br>7 Confounded be all they that serve graven images, that boast themselves of idols: worship Him, all ye mighty ones.<br>8 Zion heard, and was glad; and the daughters of Judah rejoiced because of Thy judgments, O Yahweh.<br>9 For Thou, Yahweh, art high above all the earth: Thou art exalted far above all mighty ones.<br>10 Ye that love Yahweh, hate evil: He preserveth the souls of His saints; He delivereth them out of the hand of the wicked.<br>11 Light is sown for the righteous, and gladness for the upright in heart.<br>12 Rejoice in Yahweh, ye righteous; and give thanks at the remembrance of His holiness."
+    },
+    {
       "psalm": 99,
       "title": "Psalm 99 | A royal psalm to Yahweh our King",
       "date": "July 22nd, 2024",
@@ -2464,7 +2476,7 @@
     },
     {
       "psalm": 97,
-      "completed": false,
+      "completed": true,
       "time_of_day": "Afternoon",
       "location": "Mountain Top",
       "weather": "cloudy",
@@ -3220,6 +3232,11 @@
     }
   ],
   "progress_log": [
+    {
+      "title": "Psalm 97",
+      "date": "12/29/2024",
+      "notes": "<a class='underline' href='/readings/97/'>Psalm 97</a> is now published."
+    },
     {
       "title": "Psalm 78",
       "date": "11/27/2024",
