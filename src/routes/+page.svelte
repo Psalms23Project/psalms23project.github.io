@@ -14,13 +14,13 @@
       <p class="text-white text-sm uppercase">Latest Video</p>
       <div class="mt-20">
         <h1 class="text-5xl lg:text-6xl font-serif font-medium text-white mt-5">
-          Psalm 78
+          Psalm 97
         </h1>
         <p class="font-secondary italic text-white/90 text-xl mt-2 max-w-md leading-6">
-          "Give ear, O my people"
+          "Yahweh is King"
         </p>
         <div class="flex mt-10">
-          <a href="/readings/78/" class=" text-navybluedark font-semibold rounded-lg px-5 py-3 bg-white hover:bg-white/80 duration-300">
+          <a href="/readings/97/" class=" text-navybluedark font-semibold rounded-lg px-5 py-3 bg-white hover:bg-white/80 duration-300">
             Watch Video
           </a>
         </div>
