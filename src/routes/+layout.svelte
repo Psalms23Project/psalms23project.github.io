@@ -67,5 +67,5 @@
       </div>
     </div>
   </div>
-  <small class="text-navyblue/80 mx-auto mt-14">&copy; 2023-2024, The Psalms 23 Project.</small>
+  <small class="text-navyblue/80 mx-auto mt-14">&copy; 2023-2025, The Psalms 23 Project team.</small>
 </footer>
