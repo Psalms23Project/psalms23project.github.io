@@ -21,9 +21,6 @@
     <p class="text-2xl font-semibold tracking-tight mt-8">Location requirements / The ideal location</p>
     <p class="text-lg mt-2">The ideal location is private country property with suitable natural places to film a good distance away from a highway, busy road, train, or airport. Must be in the continental United States (the lower 48) or Alaska.</p> 
     <p class="text-lg mt-2">When submitting your location, please include pictures and/or videos of places on your property that you think could possibly be used. </p>
-    <p class="text-lg mt-2">We're looking for locations on private land since the permitting process to film on state, national, and public lands is often tedious, long, and sometimes expensive. For some areas this is due to the fact that the permitting laws were created when filming always meant a movie production with a huge crew of people. So, even though we're extremely small and not doing anything much more complicated than someone might do with their cellphone and a tripod, our filming is subject to many of the same processes and rules as a large production.</p>
-    <p class="text-lg mt-2">We are aware of the preposed EXPLORE act which passed Congress earlier this year that would, among other things, modernize and ease the permitting process for smaller projects like ours. However, it still needs to pass the Senate and the POTUS to become law. And then it may only affect national parks and may take time for the states to follow suit, if at all. </p>
-    <p class="text-lg mt-2">We are very thankful that Yahweh has provided us with some beautiful locations across different states that we were able to use to film the videos we've completed so far.</p>
     <p class="text-2xl font-semibold tracking-tight mt-8">Your questions answered</p>
     <p class="text-lg mt-2">Would you like to help us make the Psalms 23 Project possible by allowing us to film on your property? Or, do you know someone else that may have a location we could use? Here are some answers to questions you may have:</p>
     <p class="text-xl font-semibold tracking-tight mt-4">Q: What locations are you in need of?</p>
@@ -40,8 +37,6 @@
     </ul>
     <p class="text-xl font-semibold tracking-tight mt-4">Q: How long would you need to film?</p>
     <p class="text-lg mt-2">A: Including setup, <b>each Psalm reading takes between 1-3 hours to film</b>. The precise timing depends on the length of the Psalm and external factors like whether we are hindered by noise. We are flexible to adjust to your schedule. If that means only filming a single Psalm reading for an hour, that is alright.</p>
-    <!-- <p class="text-xl font-semibold tracking-tight mt-4">Q: What does filming a Psalm reading look like?</p>
-    <p class="text-lg mt-2">A: We mic-up, setup the tripod, and </p> -->
     <p class="text-xl font-semibold tracking-tight mt-4">Q: Are you able to compensate for your use of the property?</p>
     <p class="text-lg mt-2">A: <b>Unfortunately, since this is a low budget, not-for-a-profit ministry project, we cannot afford to pay for our use of your property</b>. That said, we will always treat you and your property with respect. If you'd like to help out or watch as we film the reading(s) you are welcome to.</p>
     <p class="text-xl font-semibold tracking-tight mt-4">Q: Will we sign a contract?</p>
