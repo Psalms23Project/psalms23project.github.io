@@ -181,6 +181,18 @@
       "description": "We pray you are blessed and encouraged by this reading from Psalms 99, a royal Psalm praising Yahweh as the King.<br><br>1 Yahweh reigneth; let the people tremble: He sitteth between the cherubims; let the earth be moved.<br>2 Yahweh is great in Zion; and He is high above all the people.<br>3 Let them praise Thy great and terrible name; for it is holy.<br>4 The king's strength also loveth judgment; Thou dost establish equity, Thou executest judgment and righteousness in Jacob.<br>5 Exalt ye Yahweh our Elohim, and worship at His footstool; for He is holy.<br>6 Moses and Aaron among His priests, and Samuel among them that call upon His name; they called upon Yahweh, and He answered them.<br>7 He spake unto them in the cloudy pillar: they kept His testimonies, and the ordinance that He gave them.<br>8 Thou answeredst them, O Yahweh our Elohim: Thou wast an El that forgavest them, though Thou tookest vengeance of their inventions.<br>9 Exalt Yahweh our Elohim, and worship at His holy hill; for Yahweh our Elohim is holy."
     },
     {
+      "psalm": 105,  
+      "title": "Psalm 105 | Thanksgiving to Yahweh for His faithfulness",
+      "date": "Mar. 16th, 2025",
+      "location": "Central Minnesota",
+      "time_of_day": "Afternoon",
+      "image": "/images/thumbs/Psalms-105-thumbnail.jpg",
+      "videoUrl": "https://www.youtube-nocookie.com/embed/k07IWhLJbLs",
+      "audioUrl": "/audio/Psalm-105.mp3",
+      "length": "5:50",
+      "description": "1 O give thanks unto Yahweh; call upon His name: make known His deeds among the people.<br>2 Sing unto Him, sing psalms unto Him: talk ye of all His wondrous works.<br>3 Glory ye in His holy name: let the heart of them rejoice that seek Yahweh.<br>4 Seek Yahweh, and His strength: seek His face evermore.<br>5 Remember His marvellous works that He hath done; His wonders, and the judgments of His mouth;<br>6 O ye seed of Abraham His servant, ye children of Jacob His chosen.<br>7 He is Yahweh our Elohim: His judgments are in all the earth.<br>8 He hath remembered His covenant for ever, the word which He commanded to a thousand generations.<br>9 Which covenant He made with Abraham, and His oath unto Isaac;<br>10 And confirmed the same unto Jacob for a law, and to Israel for an everlasting covenant:<br>11 Saying, Unto thee will I give the land of Canaan, the lot of your inheritance:<br>12 When they were but a few men in number; yea, very few, and strangers in it.<br>13 When they went from one nation to another, from one kingdom to another people;<br>14 He suffered no man to do them wrong: yea, He reproved kings for their sakes;<br>15 Saying, Touch not mine anointed, and do my prophets no harm.<br>16 Moreover He called for a famine upon the land: He brake the whole staff of bread.<br>17 He sent a man before them, even Joseph, who was sold for a servant:<br>18 Whose feet they hurt with fetters: he was laid in iron:<br>19 Until the time that his word came: the word of Yahweh tried him.<br>20 The king sent and loosed him; even the ruler of the people, and let him go free.<br>21 He made him master of his house, and ruler of all his substance:<br>22 To bind his princes at his pleasure; and teach his senators wisdom.<br>23 Israel also came into Egypt; and Jacob sojourned in the land of Ham.<br>24 And He increased His people greatly; and made them stronger than their enemies.<br>25 He turned their heart to hate His people, to deal subtilly with his servants.<br>26 He sent Moses His servant; and Aaron whom He had chosen.<br>27 They shewed His signs among them, and wonders in the land of Ham.<br>28 He sent darkness, and made it dark; and they rebelled not against His word.<br>29 He turned their waters into blood, and slew their fish.<br>30 Their land brought forth frogs in abundance, in the chambers of their kings.<br>31 He spake, and there came divers sorts of flies, and lice in all their coasts.<br>32 He gave them hail for rain, and flaming fire in their land.<br>33 He smote their vines also and their fig trees; and brake the trees of their coasts.<br>34 He spake, and the locusts came, and caterpillers, and that without number,<br>35 And did eat up all the herbs in their land, and devoured the fruit of their ground.<br>36 He smote also all the firstborn in their land, the chief of all their strength.<br>37 He brought them forth also with silver and gold: and there was not one feeble person among their tribes.<br>38 Egypt was glad when they departed: for the fear of them fell upon them.<br>39 He spread a cloud for a covering; and fire to give light in the night.<br>40 The people asked, and He brought quails, and satisfied them with the bread of heaven.<br>41 He opened the rock, and the waters gushed out; they ran in the dry places like a river.<br>42 For He remembered His holy promise, and Abraham His servant.<br>43 And He brought forth His people with joy, and His chosen with gladness:<br>44 And gave them the lands of the heathen: and they inherited the labour of the people;<br>45 That they might observe His statutes, and keep His laws. Praise ye Yahweh."
+    },
+    {
       "psalm": 107,
       "title": "Psalm 107 | \"O give thanks unto Yahweh, for He is good\"",
       "date": "Oct. 8th, 2024",
@@ -2588,7 +2600,7 @@
     },
     {
       "psalm": 105,
-      "completed": false,
+      "completed": true,
       "time_of_day": "Morning",
       "location": "Mountain",
       "weather": "sunny",
@@ -3232,6 +3244,11 @@
     }
   ],
   "progress_log": [
+    {
+      "title": "Psalm 105",
+      "date": "3/16/2025",
+      "notes": "<a class='underline' href='/readings/105/'>Psalm 105</a> is now published."
+    },
     {
       "title": "Psalm 97",
       "date": "12/29/2024",
