@@ -289,6 +289,18 @@
       "description": "Psalm 136 is a \"great praise\" psalm, filled with thanksgiving for Yahweh's mercy and what He has done. Each verse ends with the well-known refrain \"For His mercy endureth forever.\"<br><br>Although this psalm talks specifically about how Yahweh led Israel to victory against their enemies and gave them the land of inheritance, we should not feel that these lines of thanksgiving are far off from us today. Just as He \"overthrew Pharaoh\" for Israel and \"gave their land for an heritage\", Yahweh has delivered us from the enemy and given us a greater heritage to look forward to through His Son, Yahushua the Messiah.<br><br>It is so amazing to me how if you stop to ponder, you see that each Psalm ultimately does point back to the Messiah, either in a prophetic or symbolic sense (or both!).<br><br>We pray you are blessed and encouraged by this reading from Psalms 136.<br><br>1 O give thanks unto Yahweh; for He is good: for His mercy endureth for ever.<br>2 O give thanks unto Elohim of mighty ones: for His mercy endureth for ever.<br>3 O give thanks to the Sovereign of sovereigns: for His mercy endureth for ever.<br>4 To Him who alone doeth great wonders: for His mercy endureth for ever.<br>5 To Him that by wisdom made the heavens: for His mercy endureth for ever.<br>6 To Him that stretched out the earth above the waters: for His mercy endureth for ever.<br>7 To Him that made great lights: for His mercy endureth for ever:<br>8 The sun to rule by day: for His mercy endureth for ever:<br>9 The moon and stars to rule by night: for His mercy endureth for ever.<br>10 To Him that smote Egypt in their firstborn: for His mercy endureth for ever:<br>11 And brought out Israel from among them: for His mercy endureth for ever:<br>12 With a strong hand, and with a stretched out arm: for His mercy endureth for ever.<br>13 To Him which divided the Red sea into parts: for His mercy endureth for ever:<br>14 And made Israel to pass through the midst of it: for His mercy endureth for ever:<br>15 But overthrew Pharaoh and His host in the Red sea: for His mercy endureth for ever.<br>16 To Him which led His people through the wilderness: for His mercy endureth for ever.<br>17 To Him which smote great kings: for His mercy endureth for ever:<br>18 And slew famous kings: for His mercy endureth for ever:<br>19 Sihon king of the Amorites: for His mercy endureth for ever:<br>20 And Og the king of Bashan: for His mercy endureth for ever:<br>21 And gave their land for an heritage: for His mercy endureth for ever:<br>22 Even an heritage unto Israel His servant: for His mercy endureth for ever.<br>23 Who remembered us in our low estate: for His mercy endureth for ever:<br>24 And hath redeemed us from our enemies: for His mercy endureth for ever.<br>25 Who giveth food to all flesh: for His mercy endureth for ever.<br>26 O give thanks unto the Elohim of heaven: for His mercy endureth for ever."
     },
     {
+      "psalm": 144,
+      "title": "Psalm 144 | \"What is man, that Thou takest knowledge of him!\"",
+      "date": "May. 14th, 2025",
+      "location": "Central Minnesota",
+      "time_of_day": "Morning",
+      "image": "/images/thumbs/Psalms-144-thumbnail.jpg",
+      "videoUrl": "https://www.youtube-nocookie.com/embed/",
+      "audioUrl": "/audio/Psalm-144.mp3",
+      "length": "2:33",
+      "description": "1 Blessed be Yahweh my strength which teacheth my hands to war, and my fingers to fight:<br>2 My goodness, and my fortress; my high tower, and my deliverer; my shield, and He in whom I trust; who subdueth my people under me.<br>3 Yahweh, what is man, that Thou takest knowledge of him! or the son of man, that Thou makest account of him!<br>4 Man is like to vanity: his days are as a shadow that passeth away.<br>5 Bow thy heavens, O Yahweh, and come down: touch the mountains, and they shall smoke.<br>6 Cast forth lightning, and scatter them: shoot out thine arrows, and destroy them.<br>7 Send Thine hand from above; rid me, and deliver me out of great waters, from the hand of strange children;<br>8 Whose mouth speaketh vanity, and their right hand is a right hand of falsehood.<br>9 I will sing a new song unto Thee, O Elohim: upon a psaltery and an instrument of ten strings will I sing praises unto Thee.<br>10 It is He that giveth salvation unto kings: who delivereth David His servant from the hurtful sword.<br>11 Rid me, and deliver me from the hand of strange children, whose mouth speaketh vanity, and their right hand is a right hand of falsehood:<br>12 That our sons may be as plants grown up in their youth; that our daughters may be as corner stones, polished after the similitude of a palace:<br>13 That our garners may be full, affording all manner of store: that our sheep may bring forth thousands and ten thousands in our streets:<br>14 That our oxen may be strong to labour; that there be no breaking in, nor going out; that there be no complaining in our streets.<br>15 Happy is that people, that is in such a case: yea, happy is that people, whose Elohim is Yahweh."
+    },
+    {
       "psalm": 149,
       "title": "Psalm 149 | Praise psalm",
       "date": "May 21st, 2024",
@@ -3146,7 +3158,7 @@
     },
     {
       "psalm": 144,
-      "completed": false,
+      "completed": true,
       "time_of_day": "Morning",
       "location": "Woods/Forest",
       "weather": "sunny",
@@ -3244,6 +3256,11 @@
     }
   ],
   "progress_log": [
+    {
+      "title": "Psalm 144",
+      "date": "5/14/2025",
+      "notes": "<a class='underline' href='/readings/144/'>Psalm 144</a> is now published."
+    },
     {
       "title": "Psalm 105",
       "date": "3/16/2025",
