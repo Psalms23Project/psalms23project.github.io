@@ -2598,7 +2598,7 @@
     },
     {
       "psalm": 104,
-      "completed": false,
+      "completed": true,
       "time_of_day": "Afternoon",
       "location": "Woods/Forest",
       "weather": "sunny",
