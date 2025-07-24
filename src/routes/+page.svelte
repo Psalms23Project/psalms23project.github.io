@@ -17,7 +17,7 @@
           Psalm 104
         </h1>
         <p class="font-secondary italic text-white/90 text-xl mt-2 max-w-md leading-6">
-          "I will sing unto Yahweh as long as I live?"
+          "I will sing unto Yahweh as long as I live"
         </p>
         <div class="flex mt-10">
           <a href="/readings/104/" class=" text-navybluedark font-semibold rounded-lg px-5 py-3 bg-white hover:bg-white/80 duration-300">
