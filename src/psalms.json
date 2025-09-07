@@ -1210,7 +1210,7 @@
     },
     {
       "psalm": 4,
-      "completed": false,
+      "completed": true,
       "time_of_day": "Evening",
       "location": "Meadow/Hill/Mountain",
       "weather": "rainy",
@@ -1294,7 +1294,7 @@
     },
     {
       "psalm": 10,
-      "completed": false,
+      "completed": true,
       "time_of_day": "Morning",
       "location": "Hill",
       "weather": "cloudy",
@@ -1350,7 +1350,7 @@
     },
     {
       "psalm": 14,
-      "completed": false,
+      "completed": true,
       "time_of_day": "Afternoon",
       "location": "Mountain/Mountain Top",
       "weather": "sunny",
@@ -1364,7 +1364,7 @@
     },
     {
       "psalm": 15,
-      "completed": false,
+      "completed": true,
       "time_of_day": "Midday",
       "location": "Hill",
       "weather": "sunny",
@@ -1462,7 +1462,7 @@
     },
     {
       "psalm": 22,
-      "completed": false,
+      "completed": true,
       "time_of_day": "Morning sunrise",
       "location": "Hill",
       "weather": "sunny",
@@ -1686,7 +1686,7 @@
     },
     {
       "psalm": 38,
-      "completed": false,
+      "completed": true,
       "time_of_day": "Morning",
       "location": "Hill",
       "weather": "sunny",
@@ -1756,7 +1756,7 @@
     },
     {
       "psalm": 43,
-      "completed": false,
+      "completed": true,
       "time_of_day": "Morning",
       "location": "Hill",
       "weather": "sunny",
@@ -1882,7 +1882,7 @@
     },
     {
       "psalm": 52,
-      "completed": false,
+      "completed": true,
       "time_of_day": "Morning",
       "location": "Woods/Forest",
       "weather": "sunny",
@@ -2736,7 +2736,7 @@
     },
     {
       "psalm": 113,
-      "completed": false,
+      "completed": true,
       "time_of_day": "Morning",
       "location": "Hill",
       "weather": "sunny",
@@ -2862,7 +2862,7 @@
     },
     {
       "psalm": 122,
-      "completed": false,
+      "completed": true,
       "time_of_day": "Midday",
       "location": "Hill",
       "weather": "sunny",
@@ -3142,7 +3142,7 @@
     },
     {
       "psalm": 142,
-      "completed": false,
+      "completed": true,
       "time_of_day": "Midday",
       "location": "Hill",
       "weather": "sunny",
