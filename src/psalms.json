@@ -1224,7 +1224,7 @@
     },
     {
       "psalm": 5,
-      "completed": false,
+      "completed": true,
       "time_of_day": "Morning sunrise",
       "location": "River",
       "weather": "sunny",
@@ -1966,7 +1966,7 @@
     },
     {
       "psalm": 58,
-      "completed": false,
+      "completed": true,
       "time_of_day": "Afternoon",
       "location": "Meadow",
       "weather": "sunny",
