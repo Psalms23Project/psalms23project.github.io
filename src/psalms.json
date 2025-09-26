@@ -1784,7 +1784,7 @@
     },
     {
       "psalm": 45,
-      "completed": false,
+      "completed": true,
       "time_of_day": "Morning",
       "location": "Ocean",
       "weather": "sunny",
@@ -2526,7 +2526,7 @@
     },
     {
       "psalm": 98,
-      "completed": false,
+      "completed": true,
       "time_of_day": "Afternoon",
       "location": "Ocean",
       "weather": "sunny",
@@ -3016,7 +3016,7 @@
     },
     {
       "psalm": 133,
-      "completed": false,
+      "completed": true,
       "time_of_day": "Afternoon",
       "location": "Ocean",
       "weather": "sunny",
@@ -3044,7 +3044,7 @@
     },
     {
       "psalm": 135,
-      "completed": false,
+      "completed": true,
       "time_of_day": "Morning",
       "location": "Ocean",
       "weather": "sunny",
@@ -3100,7 +3100,7 @@
     },
     {
       "psalm": 139,
-      "completed": false,
+      "completed": true,
       "time_of_day": "Evening",
       "location": "Ocean",
       "weather": "sunny",
