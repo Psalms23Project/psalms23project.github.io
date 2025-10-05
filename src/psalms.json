@@ -2106,7 +2106,7 @@
     },
     {
       "psalm": 68,
-      "completed": false,
+      "completed": true,
       "time_of_day": "Afternoon",
       "location": "Waterfall",
       "weather": "sunny",
@@ -2302,7 +2302,7 @@
     },
     {
       "psalm": 82,
-      "completed": false,
+      "completed": true,
       "time_of_day": "Afternoon",
       "location": "Waterfall",
       "weather": "sunny",
@@ -2806,7 +2806,7 @@
     },
     {
       "psalm": 118,
-      "completed": false,
+      "completed": true,
       "time_of_day": "Midday",
       "location": "Waterfall",
       "weather": "sunny",
