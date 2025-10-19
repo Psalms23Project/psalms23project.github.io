@@ -33,7 +33,7 @@
       </div>
     </div>
     <div class="hidden md:flex flex-row items-center">
-      <a class="py-2 duration-300 mr-3" href="mailto:contact@psalms23project.com" aria-label="Email">
+      <a class="py-2 duration-300 mr-3" href="mailto:emailthepsalms23project@gmail.com" aria-label="Email">
         <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="h-7 w-7 fill-navyblue" viewBox="0 0 256 256"><path d="M224,48H32a8,8,0,0,0-8,8V192a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A8,8,0,0,0,224,48Zm-96,85.15L52.57,64H203.43ZM98.71,128,40,181.81V74.19Zm11.84,10.85,12,11.05a8,8,0,0,0,10.82,0l12-11.05,58,53.15H52.57ZM157.29,128,216,74.18V181.82Z"></path></svg>
       </a>
       <a class="py-2 duration-300" href="https://youtube.com/@ThePsalms23Project" aria-label="YouTube channel">
@@ -56,7 +56,7 @@
         <a class="text-navyblue hover:bg-violet-200 px-4 md:px-5 py-2 rounded-full duration-300" href="/locations/">Locations</a>
       </ul>
       <div class="flex flex-row">
-        <a class="duration-300 mr-4" href="mailto:contact@psalms23project.com" aria-label="Email">
+        <a class="duration-300 mr-4" href="mailto:emailthepsalms23project@gmail.com" aria-label="Email">
           <svg xmlns="http://www.w3.org/2000/svg" fill="currentColor" class="h-7 w-7 fill-navyblue" viewBox="0 0 256 256"><path d="M224,48H32a8,8,0,0,0-8,8V192a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A8,8,0,0,0,224,48Zm-96,85.15L52.57,64H203.43ZM98.71,128,40,181.81V74.19Zm11.84,10.85,12,11.05a8,8,0,0,0,10.82,0l12-11.05,58,53.15H52.57ZM157.29,128,216,74.18V181.82Z"></path></svg>
         </a>
         <a class="duration-300" href="https://youtube.com/@ThePsalms23Project" aria-label="YouTube channel">
