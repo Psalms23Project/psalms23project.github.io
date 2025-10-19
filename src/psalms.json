@@ -2930,7 +2930,7 @@
     },
     {
       "psalm": 126,
-      "completed": false,
+      "completed": true,
       "time_of_day": "Afternoon",
       "location": "River",
       "weather": "sunny",
