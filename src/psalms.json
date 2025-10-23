@@ -1208,7 +1208,7 @@
     },
     {
       "psalm": 3,
-      "completed": false,
+      "completed": true,
       "time_of_day": "Evening/Afternoon",
       "location": "Meadow/Hill/Mountain",
       "weather": "rainy",
@@ -1278,7 +1278,7 @@
     },
     {
       "psalm": 8,
-      "completed": false,
+      "completed": true,
       "time_of_day": "Evening night with stars and moon",
       "location": "Hill",
       "weather": "sunny",
@@ -2034,7 +2034,7 @@
     },
     {
       "psalm": 62,
-      "completed": false,
+      "completed": true,
       "time_of_day": "Afternoon",
       "location": "Mountain/Mountain Top",
       "weather": "sunny",
@@ -3014,7 +3014,7 @@
     },
     {
       "psalm": 132,
-      "completed": false,
+      "completed": true,
       "time_of_day": "Evening",
       "location": "Hill",
       "weather": "sunny",
