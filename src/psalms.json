@@ -1,6 +1,18 @@
 {
   "psalms_media": [
     {
+      "psalm": 5,
+      "title": "Psalm 5 | A Prayer for Guidance",
+      "date": "Nov. 1st, 2025",
+      "location": "Northern Oregon",
+      "time_of_day": "Morning",
+      "image": "/images/thumbs/Psalms-5-thumbnail.jpg",
+      "videoUrl": "https://www.youtube-nocookie.com/embed/nrN0OA1TPgQ",
+      "audioUrl": "/audio/Psalm-5.mp3",
+      "length": "2:05",
+      "description": "<br>1 Give ear to my words, O Yahweh, consider my meditation.<br>2 Hearken unto the voice of my cry, my King, and my Elohim: for unto thee will I pray.<br>3 My voice shalt thou hear in the morning, O Yahweh; in the morning will I direct my prayer unto thee, and will look up.<br>4 For thou art not a Elohim that hath pleasure in wickedness: neither shall evil dwell with thee.<br>5 The foolish shall not stand in thy sight: thou hatest all workers of iniquity.<br>6 Thou shalt destroy them that speak leasing: Yahweh will abhor the bloody and deceitful man.<br>7 But as for me, I will come into thy house in the multitude of thy mercy: and in thy fear will I worship toward thy holy temple.<br>8 Lead me, O Yahweh, in thy righteousness because of mine enemies; make thy way straight before my face.<br>9 For there is no faithfulness in their mouth; their inward part is very wickedness; their throat is an open sepulchre; they flatter with their tongue.<br>10 Destroy thou them, O Elohim; let them fall by their own counsels; cast them out in the multitude of their transgressions; for they have rebelled against thee.<br>11 But let all those that put their trust in thee rejoice: let them ever shout for joy, because thou defendest them: let them also that love thy name be joyful in thee.<br>12 For thou, Yahweh, wilt bless the righteous; with favour wilt thou compass him as with a shield."
+    },
+    {
       "psalm": 13,
       "title": "Psalm 13 | The \"How long?\" Psalm",
       "date": "Feb. 11th, 2024",
@@ -3280,6 +3292,11 @@
     }
   ],
   "progress_log": [
+    {
+      "title": "Psalm 38",
+      "date": "11/1/2025",
+      "notes": "<a class='underline' href='/readings/5/'>Psalm 5</a>, filmed in Oregon, is now published."
+    },
     {
       "title": "Psalm 38",
       "date": "10/16/2025",
