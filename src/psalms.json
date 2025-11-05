@@ -38,7 +38,7 @@
     },
     {
       "psalm": 15,
-      "title": "Psalm 15 |",
+      "title": "Psalm 15 | \"Who shall abide in thy tabernacle?\"",
       "date": "Nov. 5th, 2025",
       "location": "Southwestern South Dakota",
       "time_of_day": "Morning",
@@ -3340,6 +3340,11 @@
     }
   ],
   "progress_log": [
+    {
+      "title": "Psalm 15",
+      "date": "11/5/2025",
+      "notes": "<a class='underline' href='/readings/15/'>Psalm 15</a> is now published."
+    },
     {
       "title": "Psalm 5",
       "date": "11/1/2025",
