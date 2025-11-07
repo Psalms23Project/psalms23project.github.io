@@ -1360,7 +1360,7 @@
     },
     {
       "psalm": 7,
-      "completed": false,
+      "completed": true,
       "time_of_day": "Morning",
       "location": "Woods/Forest",
       "weather": "sunny",
@@ -1738,7 +1738,7 @@
     },
     {
       "psalm": 34,
-      "completed": false,
+      "completed": true,
       "time_of_day": "Afternoon",
       "location": "Stream",
       "weather": "sunny",
@@ -2284,7 +2284,7 @@
     },
     {
       "psalm": 73,
-      "completed": false,
+      "completed": true,
       "time_of_day": "Morning",
       "location": "Stream",
       "weather": "sunny",
@@ -3236,7 +3236,7 @@
     },
     {
       "psalm": 141,
-      "completed": false,
+      "completed": true,
       "time_of_day": "Midday",
       "location": "Stream",
       "weather": "sunny",
