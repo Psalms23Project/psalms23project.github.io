@@ -14,13 +14,13 @@
       <p class="text-white text-sm uppercase">Latest Video</p>
       <div class="mt-20">
         <h1 class="text-5xl lg:text-6xl font-serif font-medium text-white mt-5">
-          Psalm 122
+          Psalm 16
         </h1>
         <p class="font-secondary italic text-white/90 text-xl mt-2 max-w-md leading-6">
-          "Pray for the peace of Jerusalem"
+          "Preserve me, O Elohim"
         </p>
         <div class="flex mt-10">
-          <a href="/readings/122/" class=" text-navybluedark font-semibold rounded-lg px-5 py-3 bg-white hover:bg-white/80 duration-300">
+          <a href="/readings/16/" class=" text-navybluedark font-semibold rounded-lg px-5 py-3 bg-white hover:bg-white/80 duration-300">
             Watch Video
           </a>
         </div>
