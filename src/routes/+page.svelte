@@ -14,13 +14,13 @@
       <p class="text-white text-sm uppercase">Latest Video</p>
       <div class="mt-20">
         <h1 class="text-5xl lg:text-6xl font-serif font-medium text-white mt-5">
-          Psalm 62
+          Psalm 106
         </h1>
         <p class="font-secondary italic text-white/90 text-xl mt-2 max-w-md leading-6">
-          "He is my defense; I shall not be moved"
+          "O give thanks unto Yahweh; for he is good"
         </p>
         <div class="flex mt-10">
-          <a href="/readings/62/" class=" text-navybluedark font-semibold rounded-lg px-5 py-3 bg-white hover:bg-white/80 duration-300">
+          <a href="/readings/106/" class=" text-navybluedark font-semibold rounded-lg px-5 py-3 bg-white hover:bg-white/80 duration-300">
             Watch Video
           </a>
         </div>
