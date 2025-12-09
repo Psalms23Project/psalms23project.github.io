@@ -2274,7 +2274,7 @@
     },
     {
       "psalm": 56,
-      "completed": false,
+      "completed": true,
       "time_of_day": "Evening night with stars and moon",
       "location": "Hill",
       "weather": "sunny",
@@ -2288,7 +2288,7 @@
     },
     {
       "psalm": 57,
-      "completed": false,
+      "completed": true,
       "time_of_day": "Afternoon",
       "location": "Meadow",
       "weather": "sunny",
@@ -2302,7 +2302,7 @@
     },
     {
       "psalm": 58,
-      "completed": true,
+      "completed": false,
       "time_of_day": "Afternoon",
       "location": "Meadow",
       "weather": "sunny",
