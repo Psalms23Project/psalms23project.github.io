@@ -1,5 +1,5 @@
 <script>
-  import "../app.postcss";
+  import "../app.css";
   import { navigating } from '$app/stores';
   import Hamburger from "../components/Hamburger.svelte";
 

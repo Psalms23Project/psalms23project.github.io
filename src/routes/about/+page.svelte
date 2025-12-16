@@ -8,8 +8,8 @@
 </svelte:head>
 
 <div class="max-w-7xl mx-auto px-4 mt-2 mb-10"> 
-  <div class="flex flex-col bg-about bg-cover bg-center rounded-2xl mx-auto">
-    <div class="flex flex-col px-8 md:px-24 py-36 rounded-2xl bg-gradient-to-r from-black/40 to-transparent">
+  <div class="flex flex-col bg-[url(/images/covers/psalm-49.jpg)] bg-cover bg-center rounded-2xl mx-auto">
+    <div class="flex flex-col px-8 md:px-24 py-36 rounded-2xl bg-linear-to-r from-black/40 to-transparent">
       <div class="mt-20 text-center">
         <h1 class="text-5xl lg:text-6xl font-serif font-medium text-white mt-5">
           About the Psalms 23 Project

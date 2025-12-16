@@ -22,7 +22,7 @@
     export let audio = null;
 
   export let paused = true;
-  export let duration = 0;
+  export let duration = 0.0;
   export let muted = false;
   export let volume = 1;
 
@@ -123,7 +123,7 @@
       max={duration}
       on:mousedown={() => seeking = true}
       on:click={seekAudio}
-      class="flex flex-grow mx-2">
+      class="flex grow mx-2">
     </progress>
     <div class="tracking-tighter text-sm text-navyblue mx-2 hidden sm:block">
       {formatSeconds(currentTime)}/{formatSeconds(duration)}

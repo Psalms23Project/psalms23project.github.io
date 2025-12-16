@@ -9,8 +9,8 @@
 
 <div class="mx-3">
   <!-- Latest video -->
-  <div class="flex flex-col bg-featured-psalm bg-cover bg-center rounded-2xl max-w-7xl mx-auto">
-    <div class="flex flex-col px-8 md:px-24 py-36 rounded-2xl bg-gradient-to-r from-black/40 to-transparent">
+  <div class="flex flex-col bg-[url(/images/covers/psalm-21.jpg)] bg-cover bg-center rounded-2xl max-w-7xl mx-auto">
+    <div class="flex flex-col px-8 md:px-24 py-36 rounded-2xl bg-linear-to-r from-black/40 to-transparent">
       <p class="text-white text-sm uppercase">Latest Video</p>
       <div class="mt-20">
         <h1 class="text-5xl lg:text-6xl font-serif font-medium text-white mt-5">
@@ -77,7 +77,7 @@
 
   <!-- Newsletter signup -->
   <div class="min-w-0 max-w-7xl mx-auto">
-    <div id="signup" class="flex flex-col text-center bg-birch-tree rounded-2xl">
+    <div id="signup" class="flex flex-col text-center bg-[url(/images/birch-tree.jpg)] rounded-2xl">
       <div class="flex flex-col bg-cover px-1 pt-32 pb-32 rounded-2xl bg-navybluedark/50">
         <h5 class="text-4xl md:text-5xl font-serif text-white mt-4 px-4 mx-auto">
           The Psalms 23 Project Newsletter

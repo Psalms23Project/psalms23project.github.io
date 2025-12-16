@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+@import 'tailwindcss';
+
+@theme {
+  --font-*: initial;
+  --font-sans: 'Figtree', sans-serif;
+  --font-serif: 'EB Garamond', 'Georgia', serif;
+  --font-secondary: 'iowan old style', 'iowan', 'iowan bt', 'palatino linotype', 'urw palladio l', 'P052', serif;
+
+  --color-navyblue: #273348;
+  --color-navybluedark: #1B2332;
+  --color-violet-100: #EEEEF7;
+  --color-violet-200: #E3E3F2;
+  --color-violet-300: #BCBCCD;
+}
+
+@layer base {
+  .youtube-video {
+    aspect-ratio: 16 / 9;
+    width: 100%;
+  }
+}
