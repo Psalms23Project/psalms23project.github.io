@@ -2292,7 +2292,7 @@
     },
     {
       "psalm": 47,
-      "completed": false,
+      "completed": true,
       "time_of_day": "Morning",
       "location": "River",
       "weather": "sunny",
@@ -3356,7 +3356,7 @@
     },
     {
       "psalm": 123,
-      "completed": false,
+      "completed": true,
       "time_of_day": "Morning",
       "location": "River",
       "weather": "sunny",
