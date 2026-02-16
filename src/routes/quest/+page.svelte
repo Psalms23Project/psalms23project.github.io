@@ -26,7 +26,7 @@
     <p class="text-xl font-semibold tracking-tight mt-4">Q: What locations are you in need of?</p>
     <p class="text-lg mt-2">A: See what Psalm readings and locations we're planning by <a class="font-semibold underline hover:opacity-90 duration-300 ease-in-out" href="/locations/">clicking here</a>.</p> 
     <p class="text-xl font-semibold tracking-tight mt-4">Q: What gear do you use?</p>
-    <p class="text-lg mt-2">A: <b>We are a very small production with minimal gear and a small footprint.</b> We <b>don't</b> use external flash, reflectors, stands, lights, or any heavy equipment. Our equipment is small and portable. Except for our regular-size, aluminum tripod, all of our gear that we need for filming can fit inside of a normal school backpack!
+    <p class="text-lg mt-2">A: <b>We are a very small production with minimal gear and a small footprint.</b> We <b>don't</b> use external flash, reflectors, stands, lights, or any heavy equipment. Our equipment is small and portable. Except for our regular-size, aluminum tripod, all of our gear that we need for filming can fit inside of a normal school backpack!</p>
     <p class="text-lg mt-2">For those who are interested, the following is the list of our gear: </p>
     <ul class="list-disc list-inside text-lg mt-2">
       <li>ZVE-10 camera + lens and necessary cables (a small camera)</li>
