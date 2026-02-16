@@ -1,7 +1,3 @@
-<script>
-
-</script>
-
 <svelte:head>
   <title>Our Quest for Quiet Locations | The Psalms 23 Project</title>
   <meta name="description" content="The Psalms 23 Project aims to create high-quality videos of Psalm readings on location, in nature with the peaceful atmosphere and sounds of creation." />
