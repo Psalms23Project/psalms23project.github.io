@@ -9,18 +9,18 @@
 
 <div class="mx-3">
   <!-- Latest video -->
-  <div class="flex flex-col bg-[url(/images/covers/psalm-21.jpg)] bg-cover bg-center rounded-2xl max-w-7xl mx-auto">
+  <div class="flex flex-col bg-[url(/images/covers/psalm-113.jpg)] bg-cover bg-center rounded-2xl max-w-7xl mx-auto">
     <div class="flex flex-col px-8 md:px-24 py-36 rounded-2xl bg-linear-to-r from-black/40 to-transparent">
       <p class="text-white text-sm uppercase">Latest Video</p>
       <div class="mt-20">
         <h1 class="text-5xl lg:text-6xl font-serif font-medium text-white mt-5">
-          Psalm 21
+          Psalm 113
         </h1>
         <p class="font-secondary italic text-white/90 text-xl mt-2 max-w-md leading-6">
-          "The king shall joy in thy strength"
+          A joyful song of praise
         </p>
         <div class="flex mt-10">
-          <a href="/readings/21/" class=" text-navybluedark font-semibold rounded-lg px-5 py-3 bg-white hover:bg-white/80 duration-300">
+          <a href="/readings/113/" class=" text-navybluedark font-semibold rounded-lg px-5 py-3 bg-white hover:bg-white/80 duration-300">
             Watch Video
           </a>
         </div>
