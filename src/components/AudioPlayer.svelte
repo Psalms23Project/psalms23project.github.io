@@ -58,6 +58,7 @@
      */
   function seekAudio(event) {
     if (!progressBar) return;
+    if (isNaN(duration)) return;
     audio.currentTime = seek(event, progressBar.getBoundingClientRect()) * duration;
   }
 
