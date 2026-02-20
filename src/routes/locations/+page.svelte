@@ -148,7 +148,7 @@
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-2 my-10">
       {#each getUniqueLocations() as location}
       <div class="bg-cover bg-center rounded-2xl" style="background-image: url('/images/stock/{getLocationBgImage(location)}')">
-        <div class="rounded-2xl bg-gradient-to-r from-black/40 to-transparent pt-40 px-6 pb-5 h-full">
+        <div class="rounded-2xl bg-linear-to-r from-black/40 to-transparent pt-40 px-6 pb-5 h-full">
           <ul class="inline-flex text-white">
             {#each getUniqueWeather(location) as weather}
             <li>

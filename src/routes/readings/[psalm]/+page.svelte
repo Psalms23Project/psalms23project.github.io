@@ -7,7 +7,7 @@
   import { goto } from "$app/navigation";
   import { page } from '$app/state';
 
-  let defaultPsalm = 30;
+  let defaultPsalm = 113;
 
   /**
    * @param {string} selectedTab
@@ -98,14 +98,14 @@
   <div class="max-w-7xl flex flex-col mx-auto px-4 mt-2 mb-10">
     <div class="flex flex-col md:flex-row">
       <!-- Video player -->
-      <figure class="w-full flex flex-grow" class:hidden={selectedTab == 'audio'}>
+      <figure class="w-full flex grow" class:hidden={selectedTab == 'audio'}>
         <EmbedPlayer 
           src={data.videoUrl}
           title={data.title}
         />
       </figure>
       <!-- Audio player -->
-      <figure class="w-full flex flex-grow" class:hidden={selectedTab == 'videos'}>
+      <figure class="w-full flex grow" class:hidden={selectedTab == 'videos'}>
         <AudioPlayer
           bind:this={audioPlayer}
           src={data.audioUrl}
