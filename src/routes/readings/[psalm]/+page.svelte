@@ -120,10 +120,10 @@
           <p class="text-base mx-2 font-semibold tracking-tighter text-navyblue/90 uppercase">Psalm Readings</p>
           <div class="flex flex-row justify-between text-sm mt-4">
             <div class="flex flex-row">
-              <button class="px-3 py-1 rounded-lg" onclick={() => setTab('videos')} class:bg-violet-200={selectedTab =='videos'}>
+              <button class="px-3 py-1 rounded-lg cursor-pointer" onclick={() => setTab('videos')} class:bg-violet-200={selectedTab =='videos'}>
                 Videos
               </button>
-              <button class="px-3 py-1 rounded-lg" onclick={() => setTab('audio')} class:bg-violet-200={selectedTab =='audio'}>
+              <button class="px-3 py-1 rounded-lg cursor-pointer" onclick={() => setTab('audio')} class:bg-violet-200={selectedTab =='audio'}>
                 Audio
               </button>
             </div>
@@ -133,7 +133,7 @@
           </div>
           <div class="flex flex-col mt-3 pr-2 overflow-y-auto" style="height: 26rem">
             {#each Object.values(json.psalms_media) as file, index (index)}
-            <button onclick={() => setCurrentMedia(file.psalm)} class="flex flex-row items-center justify-between px-3 py-2 rounded-lg" class:bg-violet-200={file.psalm == selectedPsalm}>
+            <button onclick={() => setCurrentMedia(file.psalm)} class="flex flex-row items-center justify-between px-3 py-2 rounded-lg cursor-pointer" class:bg-violet-200={file.psalm == selectedPsalm}>
               <div class="flex flex-row items-center">
                 <img class="w-24 h-auto rounded-md" src={file.image} alt={file.title}/>
                 <div class="flex flex-col text-left ml-2">
