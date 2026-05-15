@@ -1,3 +1,7 @@
+<script>
+  import { resolve } from '$app/paths';
+</script>
+
 <svelte:head>
   <title>Our Quest for Quiet Locations | The Psalms 23 Project</title>
   <meta name="description" content="The Psalms 23 Project aims to create high-quality videos of Psalm readings on location, in nature with the peaceful atmosphere and sounds of creation." />
@@ -20,7 +24,7 @@
     <p class="text-2xl font-semibold tracking-tight mt-8">Your questions answered</p>
     <p class="text-lg mt-2">Would you like to help us make the Psalms 23 Project possible by allowing us to film on your property? Or, do you know someone else that may have a location we could use? Here are some answers to questions you may have:</p>
     <p class="text-xl font-semibold tracking-tight mt-4">Q: What locations are you in need of?</p>
-    <p class="text-lg mt-2">A: See what Psalm readings and locations we're planning by <a class="font-semibold underline hover:opacity-90 duration-300 ease-in-out" href="/locations/">clicking here</a>.</p> 
+    <p class="text-lg mt-2">A: See what Psalm readings and locations we're planning by <a class="font-semibold underline hover:opacity-90 duration-300 ease-in-out" href={resolve("/locations/")}>clicking here</a>.</p> 
     <p class="text-xl font-semibold tracking-tight mt-4">Q: What gear do you use?</p>
     <p class="text-lg mt-2">A: <b>We are a very small production with minimal gear and a small footprint.</b> We <b>don't</b> use external flash, reflectors, stands, lights, or any heavy equipment. Our equipment is small and portable. Except for our regular-size, aluminum tripod, all of our gear that we need for filming can fit inside of a normal school backpack!</p>
     <p class="text-lg mt-2">For those who are interested, the following is the list of our gear: </p>
@@ -36,7 +40,7 @@
     <p class="text-xl font-semibold tracking-tight mt-4">Q: Are you able to compensate for your use of the property?</p>
     <p class="text-lg mt-2">A: <b>Unfortunately, since this is a low budget, not-for-a-profit ministry project, we cannot afford to pay for our use of your property</b>. That said, we will always treat you and your property with respect. If you'd like to help out or watch as we film the reading(s) you are welcome to.</p>
     <p class="text-xl font-semibold tracking-tight mt-4">Q: Will we sign a contract?</p>
-    <p class="text-lg mt-2">A: We certainly can if you would like. <b>Either way, we want to be completely upfront with you on what we expect from you and what you should expect from us. If you have any questions or concerns please let us know. Before filming on your property, we may ask you (the property owner) to sign the <a class="font-semibold underline hover:opacity-90 duration-300 ease-in-out" href="/files/location-release.pdf">Location Release form</a></b> to grant us the permissions in writing to 1) bring what we need on to your property to film 2) to film the Psalm reading(s) on your property, and 3) to display (or choose not to display) the final Psalm reading(s) that were filmed on your property in any form we choose.</p>
+    <p class="text-lg mt-2">A: We certainly can if you would like. <b>Either way, we want to be completely upfront with you on what we expect from you and what you should expect from us. If you have any questions or concerns please let us know. Before filming on your property, we may ask you (the property owner) to sign the <a class="font-semibold underline hover:opacity-90 duration-300 ease-in-out" href={resolve("/files/location-release.pdf")}>Location Release form</a></b> to grant us the permissions in writing to 1) bring what we need on to your property to film 2) to film the Psalm reading(s) on your property, and 3) to display (or choose not to display) the final Psalm reading(s) that were filmed on your property in any form we choose.</p>
     <p class="text-xl font-semibold tracking-tight mt-4">Q: Do you have insurance?</p>
     <p class="text-lg mt-2">A: Yes, our filming is insured under a general liability insurance policy with <a class="font-semibold underline hover:opacity-90 duration-300 ease-in-out" href="https://fullframeinsurance.com">Full Frame Insurance</a>. We haven't had any issues in the past, but we want to give you peace of mind should something go awry.</p>
     <p class="text-2xl font-semibold tracking-tight mt-8">How to submit your potential location</p>

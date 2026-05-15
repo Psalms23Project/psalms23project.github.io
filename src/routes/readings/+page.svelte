@@ -1,6 +1,7 @@
 <script>
   import json from '../../psalms.json';
 
+  import { resolve } from '$app/paths';
   import { goto } from "$app/navigation";
 </script>
 
@@ -17,8 +18,8 @@
     { json.psalms_media.length } Psalms completed of 150
   </h3>
   <div class="w-full grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-6 gap-x-4 mt-12">
-    {#each Object.values(json.psalms_media) as file}
-    <button onclick={() => goto('/readings/' + file.psalm)} class="flex flex-col items-start text-left mb-4">
+    {#each Object.values(json.psalms_media) as file, index (index)}
+    <button onclick={() => goto(resolve('/readings/' + file.psalm))} class="flex flex-col items-start text-left mb-4">
       <div class="relative">
         <p class="absolute top-0 text-xs text-white bg-black/60 px-2 py-1 mt-2 mx-2 rounded-md">{file.length}</p>
         <img class="w-auto h-auto rounded-md" src={file.image} alt={file.title} loading="lazy"/>

@@ -146,11 +146,11 @@
     </div>
 
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 lg:grid-cols-5 gap-2 my-10">
-      {#each getUniqueLocations() as location}
+      {#each getUniqueLocations() as location, index (index)}
       <div class="bg-cover bg-center rounded-2xl" style="background-image: url('/images/stock/{getLocationBgImage(location)}')">
         <div class="rounded-2xl bg-linear-to-r from-black/40 to-transparent pt-40 px-6 pb-5 h-full">
           <ul class="inline-flex text-white">
-            {#each getUniqueWeather(location) as weather}
+            {#each getUniqueWeather(location) as weather, index (index)}
             <li>
               <img class="w-4 h-4 mx-1" style="filter: invert(100%)" src="{getIconStr(weather)}" alt="{weather}" title="{weather}"/>
             </li>
@@ -158,7 +158,7 @@
           </ul>
           <p class=" text-white font-semibold uppercase">{location}</p>
           <ul class="mt-2 text-white">
-            {#each getUniqueTimeOfDay(location) as time_of_day}
+            {#each getUniqueTimeOfDay(location) as time_of_day, index (index)}
             <!-- svelte-ignore a11y_click_events_have_key_events -->
             <!-- svelte-ignore a11y_no_noninteractive_element_interactions -->
             <li class="cursor-pointer" onclick={() => filterPsalms(location, time_of_day)}>
@@ -172,7 +172,7 @@
     </div>
 
     <div id="psalms" class="grid grid-cols-1 md:grid-cols-2 gap-3 mt-5">
-      {#each filteredPsalms as psalm}
+      {#each filteredPsalms as psalm, index (index)}
         <div class="relative px-5 py-6 rounded-lg border border-violet-200" class:opacity-60={psalm.completed == true}>
           {#if psalm.completed == true}
           <span class="absolute top-6 right-5 font-semibold uppercase">Completed</span>
@@ -203,7 +203,7 @@
               CATEGORIES
             </p>
             <p class="items-center text-end">
-              {#each Object.values(psalm.categories) as category}
+              {#each Object.values(psalm.categories) as category, index (index)}
                 <span class="mx-1 text-end">{category}</span>
               {/each}
             </p>
@@ -218,7 +218,7 @@
             </p>
           </div>
           <p class="flex flex-row flex-wrap mt-3">
-            {#each Object.values(psalm.tags) as tag}
+            {#each Object.values(psalm.tags) as tag, index (index)}
               <span class="bg-violet-100 rounded-full py-1 px-3 m-1">{tag}</span>
             {/each}
           </p>
@@ -228,17 +228,17 @@
 
     <div class="flex flex-col border border-violet-200 px-6 py-4 rounded-md mt-28">
       <div class="flex flex-row flex-wrap">
-        {#each Object.values(json.psalms_location_table) as location}
+        {#each Object.values(json.psalms_location_table) as location, index (index)}
           <div class="w-full md:w-1/3 flex flex-col mt-3">
             <p class="font-semibold text-xl">{location.label}</p>
             <hr class="border-violet-200 border mt-1 mb-4 mr-4" />
-            {#each Object.values(location.items) as item}
+            {#each Object.values(location.items) as item, index (index)}
               <div class="flex flex-row items-center mt-2 bg-violet-100 rounded-md px-2 py-1 mr-4">
                 <img class="w-5 h-5 mr-2" src="{getIconStr(item.label)}" alt="time of day" title="{item.label}"/> <p class="text-lg capitalize font-medium mr-4">{item.label}</p>
               </div>
               <hr class="bg-violet-200 mt-1 mb-2 mr-4" />
               <ul class="mt-1 mb-2 list-none list-inside text-lg space-y-0">
-                {#each Object.values(item.psalms) as psalm}
+                {#each Object.values(item.psalms) as psalm, index (index)}
                   <li class="flex flex-row items-center"><img class="w-4 h-4 mr-2" src="{getIconStr(psalm.weather)}" alt="weather" title="{psalm.weather}"/>{psalm.chapter}</li>
                 {/each}
               </ul>

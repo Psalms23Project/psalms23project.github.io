@@ -1,5 +1,6 @@
 <script>
   import "../app.css";
+  import { resolve } from '$app/paths';
   import { navigating } from '$app/stores';
   import Hamburger from "../components/Hamburger.svelte";
 
@@ -21,15 +22,15 @@
 <nav class="relative max-w-7xl mx-auto py-3">
   <div class="flex flex-col md:flex-row justify-between items-center px-4">
     <div class="flex flex-row justify-between w-full md:w-auto">
-      <a class="mx-0 md:mx-auto" href="/"><img class="w-auto h-14" src="/logo.svg" alt="The Psalms 23 Project logo"/></a>
+      <a class="mx-0 md:mx-auto" href={resolve("/")}><img class="w-auto h-14" src="/logo.svg" alt="The Psalms 23 Project logo"/></a>
       <Hamburger bind:open={menuOpen} />
     </div>
     <div class="hidden md:flex text-lg md:text-base font-medium py-3.5 mx-auto md:mx-0" class:hidden={!menuOpen}>
       <div class="flex flex-col md:flex-row items-center space-y-5 sm:space-y-0 rounded-full">
-        <a class="text-navyblue/90 hover:bg-violet-200 px-4 md:px-5 py-2 rounded-full duration-300" href="/readings/">Readings</a>
-        <a class="text-navyblue/90 hover:bg-violet-200 px-4 md:px-5 py-2 rounded-full duration-300" href="/about/">About</a>
-        <a class="text-navyblue/90 hover:bg-violet-200 px-4 md:px-5 py-2 rounded-full duration-300" href="/#progress">Progress</a>
-        <a class="text-navyblue/90 hover:bg-violet-200 px-4 md:px-5 py-2 rounded-full duration-300" href="/locations/">Locations</a>
+        <a class="text-navyblue/90 hover:bg-violet-200 px-4 md:px-5 py-2 rounded-full duration-300" href={resolve("/readings/")}>Readings</a>
+        <a class="text-navyblue/90 hover:bg-violet-200 px-4 md:px-5 py-2 rounded-full duration-300" href={resolve("/about/")}>About</a>
+        <a class="text-navyblue/90 hover:bg-violet-200 px-4 md:px-5 py-2 rounded-full duration-300" href={resolve("/#progress")}>Progress</a>
+        <a class="text-navyblue/90 hover:bg-violet-200 px-4 md:px-5 py-2 rounded-full duration-300" href={resolve("/locations/")}>Locations</a>
       </div>
     </div>
     <div class="hidden md:flex flex-row items-center">
@@ -48,12 +49,12 @@
 <footer class="flex flex-col text-center pt-16 pb-8 px-8 bg-slate-100 mt-5">
   <div class="w-full max-w-6xl mx-auto">
     <div class="w-full flex flex-col md:flex-row items-center justify-between">
-      <a class="" href="/"><img class="w-auto h-14" src="/logo.svg" alt="The Psalms 23 Project logo"/></a>
+      <a class="" href={resolve("/")}><img class="w-auto h-14" src="/logo.svg" alt="The Psalms 23 Project logo"/></a>
       <ul class="flex flex-col md:flex-row space-y-3 md:space-y-0 my-8 md:my-0 text-lg">
-        <a class="text-navyblue hover:bg-violet-200 px-4 md:px-5 py-2 rounded-full duration-300" href="/readings/">Readings</a>
-        <a class="text-navyblue hover:bg-violet-200 px-4 md:px-5 py-2 rounded-full duration-300" href="/about/">About</a>
-        <a class="text-navyblue hover:bg-violet-200 px-4 md:px-5 py-2 rounded-full duration-300" href="/#progress">Progress</a>
-        <a class="text-navyblue hover:bg-violet-200 px-4 md:px-5 py-2 rounded-full duration-300" href="/locations/">Locations</a>
+        <a class="text-navyblue hover:bg-violet-200 px-4 md:px-5 py-2 rounded-full duration-300" href={resolve("/readings/")}>Readings</a>
+        <a class="text-navyblue hover:bg-violet-200 px-4 md:px-5 py-2 rounded-full duration-300" href={resolve("/about/")}>About</a>
+        <a class="text-navyblue hover:bg-violet-200 px-4 md:px-5 py-2 rounded-full duration-300" href={resolve("/#progress")}>Progress</a>
+        <a class="text-navyblue hover:bg-violet-200 px-4 md:px-5 py-2 rounded-full duration-300" href={resolve("/locations/")}>Locations</a>
       </ul>
       <div class="flex flex-row">
         <a class="duration-300 mr-4" href="mailto:emailthepsalms23project@gmail.com" aria-label="Email">

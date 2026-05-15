@@ -1,4 +1,5 @@
 <script>
+  import { resolve } from '$app/paths';
   import json from '../psalms.json';
 </script>
 
@@ -20,7 +21,7 @@
           "O clap your hands, all ye people"
         </p>
         <div class="flex mt-10">
-          <a href="/readings/47/" class=" text-navybluedark font-semibold rounded-lg px-5 py-3 bg-white hover:bg-white/80 duration-300">
+          <a href={resolve("/readings/47/")} class=" text-navybluedark font-semibold rounded-lg px-5 py-3 bg-white hover:bg-white/80 duration-300">
             Watch Video
           </a>
         </div>
@@ -39,7 +40,7 @@
       <div class="text-navyblue/90 text-xl mt-4 text-center">
         <p class="mt-3">The Book of Psalms is a collection of prayers and songs of praise written over centuries by authors including David, Moses, and the sons of Korah. Appropriately called Israel's prayer book, the book of Psalms is filled with words to express to our Heavenly Father. It contains words of praise, of thanksgiving, of awe, of cries for deliverance from enemies, and of comfort.</p>
         <p class="mt-3 mb-8">Our goal is to create readings of the Psalms in natural settings that fit each Psalm's overall theme.</p>
-        <a class="group text-base inline-flex items-center font-semibold hover:opacity-90 duration-300 ease-in-out" href="/about/">
+        <a class="group text-base inline-flex items-center font-semibold hover:opacity-90 duration-300 ease-in-out" href={resolve("/about/")}>
           LEARN MORE
           <svg class="w-4 h-4 fill-navyblue ml-2 group-hover:ml-3 duration-300" xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#000000" viewBox="0 0 256 256"><path d="M221.66,133.66l-72,72a8,8,0,0,1-11.32-11.32L196.69,136H40a8,8,0,0,1,0-16H196.69L138.34,61.66a8,8,0,0,1,11.32-11.32l72,72A8,8,0,0,1,221.66,133.66Z"></path></svg>
         </a>
@@ -55,7 +56,7 @@
     <div class="w-full md:w-2/3 lg:w-2/5 max-w-2xl text-navyblue">
       <h3 class="text-4xl md:text-5xl font-serif text-navyblue">Progress Log</h3>
       <ol class="flex flex-col-reverse mt-8 border-l-2 border-navyblue h-72 overflow-y-auto">
-        {#each Object.values(json.progress_log) as log}
+        {#each Object.values(json.progress_log) as log, index (index)}
         <li>
           <div class="flex-start flex items-center pt-3">
             <div class="-ml-[6px] mr-3 h-[10px] w-[10px] rounded-full bg-navyblue"></div>
@@ -66,6 +67,7 @@
           <div class="mb-6 ml-4 mt-2">
             <h4 class="mb-1.5 text-xl tracking-tight font-medium">{log.title}</h4>
             <p class="mb-3 tracking-tight">
+              <!-- eslint-disable-next-line svelte/no-at-html-tags -->
               {@html log.notes}
             </p>
           </div>

@@ -1,13 +1,14 @@
 <script>
-// @ts-nocheck
+  // @ts-nocheck
   import json from '../../../psalms.json';
   import EmbedPlayer from "../../../components/EmbedPlayer.svelte";
   import AudioPlayer from "../../../components/AudioPlayer.svelte";
 
+  import { resolve } from '$app/paths';
   import { goto } from "$app/navigation";
   import { page } from '$app/state';
 
-  let defaultPsalm = 113;
+  let defaultPsalm = 47;
 
   /**
    * @param {string} selectedTab
@@ -53,9 +54,9 @@
   /**
      * @param {number} index
      */
-  function setCurrentMedia(index, init=false) {
+  function setCurrentMedia(index) {
     selectedPsalm = index;
-    goto('/readings/' + selectedPsalm, {invalidateAll: true});
+    goto(resolve('/readings/' + selectedPsalm), {invalidateAll: true});
 
     updatePage();
   }
@@ -131,7 +132,7 @@
             </a>
           </div>
           <div class="flex flex-col mt-3 pr-2 overflow-y-auto" style="height: 26rem">
-            {#each Object.values(json.psalms_media) as file}
+            {#each Object.values(json.psalms_media) as file, index (index)}
             <button onclick={() => setCurrentMedia(file.psalm)} class="flex flex-row items-center justify-between px-3 py-2 rounded-lg" class:bg-violet-200={file.psalm == selectedPsalm}>
               <div class="flex flex-row items-center">
                 <img class="w-24 h-auto rounded-md" src={file.image} alt={file.title}/>
@@ -171,6 +172,7 @@
         <p>{ data.date }</p><p>{ data.location }</p><p>{ data.time_of_day }</p>
       </div>
       <p class="text-base mt-5 max-w-prose">
+        <!-- eslint-disable-next-line svelte/no-at-html-tags -->
         {@html data.description}
       </p>
     </div>
